@@ -53,6 +53,26 @@ They can be invoked as quick fixes or through the refactoring menu.
 
 ![Template Literal Example](https://p42.ai/image/vscode/template-literal.png)
 
+## Configuration
+
+P42 can be configured with a "p42.config.toml" file in the workspace root.
+
+Currently, individual refactorings can be enabled and disabled. By default, all refactorings are enabled.
+
+To disable a refactoring, add a section with "refactoring.$refactoring-id" and set enabled to false, for example:
+
+```
+[refactoring.optional-chaining]
+enabled = false
+```
+
+The refactoring ids are displayed as grayed-out text in parentheses in the hover messages.
+
+## FAQ
+
+- **Does P42 analyse my code in the P42 cloud?**
+  No. Your code remains on your computer and all P42 code analysis happens on your computer. No code or other data is transferred to a cloud service by the P42 extension.
+
 ## License
 
 ```
