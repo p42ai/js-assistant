@@ -1,20 +1,26 @@
-JavaScript Refactoring (P42) adds **16 automated refactorings for modernizing and simplifying your JavaScript and TypeScript** code. The refactorings can be run on editor suggestions or on all files in a folder.
+JavaScript Refactoring (P42) for VS Code adds **19 automated refactorings for modernizing and simplifying your JavaScript and TypeScript** code. The refactorings can be run on editor suggestions or as a codemod on all files in a folder.
 
 # Overview
 
+## Refactoring Menu
+
+The P42 refactorings are shown as additional items in the VS code refactoring context menu:
+
+![Refactoring Context Menu Example](https://p42.ai/image/vscode/refactoring-menu.png)
+
 ## Refactoring Suggestions in the Editor
 
-Refactor suggestions are indicated as blue information underlines in applicable code segments. They can be invoked as quick fixes or through the refactoring menu. See Refactorings below for details.
+Many P42 refactoring suggestions are also indicated as blue information underlines or hints in applicable code segments. They can be invoked as quick fixes. See Refactorings below for details.
 
 ![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/nullish-coalescing-operator.png)
 
-## Refactoring for Folders
+## Codemod: Bulk Refactoring for Folders
 
 For folders in the Explorer, there is a new "Refactor... [P42]" command for bulk refactorings. You can select a code modernization refactoring from a dialog. The selected refactoring is then applied to the files in the folder.
 
 ![Folder Refactoring](https://p42.ai/image/vscode/feature-bulk-refactor-menu.png)
 
-### Recommended Folder Refactoring Workflow
+### Recommended Codemod Workflow
 
 1. Get you workspace in a clean state, e.g. by committing or stashing current changes, or by switching to a clean branch.
 2. Run the P42 code refactoring on the folders you want to update.
@@ -43,6 +49,10 @@ For folders in the Explorer, there is a new "Refactor... [P42]" command for bulk
 ## Collapse object properties into shorthand notation
 
 ![Collapse Property into Shorthand Example](https://p42.ai/image/vscode/collapse-property-into-shorthand.png)
+
+## Expand shorthand property notation(ad-hoc)
+
+Available on shorthand properties (via the refactoring context menu).
 
 ## Convert check of first string character to 'String.startsWith()'
 
@@ -87,6 +97,16 @@ For folders in the Explorer, there is a new "Refactor... [P42]" command for bulk
 ## Convert string concatenation to template literals
 
 ![Template Literal Example](https://p42.ai/image/vscode/template-literal.png)
+
+## Flip if-else statement (ad-hoc)
+
+Invert the if-statement condition and change the order of the then and else blocks.
+Available inside if-else statements (via the refactoring context menu).
+
+## Flip ternary expression (ad-hoc)
+
+Invert the ternary condition and change the order of its first and second expression.
+Available inside ternary (conditional) expressions (via the refactoring context menu).
 
 # Configuration
 
