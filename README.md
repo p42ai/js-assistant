@@ -1,4 +1,29 @@
-JavaScript Refactoring (P42) for VS Code adds **19 automated refactorings for modernizing and simplifying your JavaScript and TypeScript** code. The refactorings can be run on editor suggestions or as a codemod on all files in a folder.
+JavaScript Refactoring (P42) for VS Code adds **20 automated refactorings for modernizing and simplifying your JavaScript and TypeScript** code:
+
+- Inline Const: Inline the value of a const declaration into its references and remove the declaration.
+- Shorten default value assignments with nullish coalescing operator
+- Combine nested if-statements into single if statement with '&&' condition
+- Combine nested single `if` inside `else` into `else if`
+- Convert default value assignments to parameter default values
+- Collapse object properties into shorthand notation
+- Expand shorthand property notation
+- Convert check of first string character to 'String.startsWith()'
+- Convert check of last string character to 'String.endsWith()'
+- Convert indexed for loop to for..of loop
+- Convert check for null and undefined into '== null' comparison
+- Combine return statements into a single return with a conditional expression
+- Split combined variable declaration into separate declarations
+- Convert to optional chain expressions
+- Convert '.apply()' call to use spread operator (...)
+- Convert 'var' variable declarations that can be block scoped to let and const
+- Convert functions to arrow functions
+- Convert string concatenation to template literals
+- Flip if-else statement
+- Flip ternary expression
+
+The refactorings are available in the refactoring context menu, as editor suggestions, and as folder bulk refactorings (see below).
+
+For updates on P42 JavaScript Refactoring, follow us on [Twitter](https://twitter.com/P42Software) or [LinkedIn](https://www.linkedin.com/company/p42-software).
 
 # Overview
 
@@ -30,6 +55,11 @@ For folders in the Explorer, there is a new "Refactor... [P42]" command for bulk
 
 # Refactorings
 
+## Inline Const
+
+Inline the value of a const declaration into its references and remove the declaration.
+Available inside const variable declarations (via the refactoring context menu).
+
 ## Shorten default value assignments with nullish coalescing operator
 
 ![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/nullish-coalescing-operator.png)
@@ -50,7 +80,7 @@ For folders in the Explorer, there is a new "Refactor... [P42]" command for bulk
 
 ![Collapse Property into Shorthand Example](https://p42.ai/image/vscode/collapse-property-into-shorthand.png)
 
-## Expand shorthand property notation(ad-hoc)
+## Expand shorthand property notation
 
 Available on shorthand properties (via the refactoring context menu).
 
@@ -98,12 +128,12 @@ Available on shorthand properties (via the refactoring context menu).
 
 ![Template Literal Example](https://p42.ai/image/vscode/template-literal.png)
 
-## Flip if-else statement (ad-hoc)
+## Flip if-else statement
 
 Invert the if-statement condition and change the order of the then and else blocks.
 Available inside if-else statements (via the refactoring context menu).
 
-## Flip ternary expression (ad-hoc)
+## Flip ternary expression
 
 Invert the ternary condition and change the order of its first and second expression.
 Available inside ternary (conditional) expressions (via the refactoring context menu).
