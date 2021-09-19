@@ -1,5 +1,7 @@
 The P42 JavaScript Assistant adds **32 automated refactorings and code actions for JavaScript and TypeScript**. It enhances the VS Code refactoring context menu, shows refactoring suggestions in your editor, and can modernize complete files and folders in a single operation.
 
+https://marketplace.visualstudio.com/items?itemName=p42ai.refactor
+
 # Actions
 
 ## Code Restructuring
