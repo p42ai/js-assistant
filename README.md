@@ -1,146 +1,95 @@
-JavaScript Refactoring (P42) for VS Code adds **20 automated refactorings for modernizing and simplifying your JavaScript and TypeScript** code:
+The P42 JavaScript Assistant adds **32 automated refactorings and code actions for JavaScript and TypeScript**. It enhances the VS Code refactoring context menu, shows refactoring suggestions in your editor, and can modernize complete files and folders in a single operation.
 
-- Inline Const: Inline the value of a const declaration into its references and remove the declaration.
-- Shorten default value assignments with nullish coalescing operator
-- Combine nested if-statements into single if statement with '&&' condition
-- Combine nested single `if` inside `else` into `else if`
-- Convert default value assignments to parameter default values
-- Collapse object properties into shorthand notation
-- Expand shorthand property notation
-- Convert check of first string character to 'String.startsWith()'
-- Convert check of last string character to 'String.endsWith()'
-- Convert indexed for loop to for..of loop
-- Convert check for null and undefined into '== null' comparison
-- Combine return statements into a single return with a conditional expression
-- Split combined variable declaration into separate declarations
-- Convert to optional chain expressions
-- Convert '.apply()' call to use spread operator (...)
-- Convert 'var' variable declarations that can be block scoped to let and const
-- Convert functions to arrow functions
-- Convert string concatenation to template literals
-- Flip if-else statement
-- Flip ternary expression
+# Actions
 
-The refactorings are available in the refactoring context menu, as editor suggestions, and as folder bulk refactorings (see below).
+## Code Restructuring
 
-For updates on P42 JavaScript Refactoring, follow us on [Twitter](https://twitter.com/P42Software) or [LinkedIn](https://www.linkedin.com/company/p42-software).
+- **Inline const**: Inline the value of a const declaration into its references and remove the declaration
+- **Extract const**: Extract (multiple) occurrences of an expression to a const in the enclosing block scope
+- **Extract substring to const**: Extract the selected part of a string literal into a const
+- **Inline return**: Inline returned variable that is assigned in if-else or switch statements into return statements.
+- **Push operator into assignment** for variable self-assignments
+- **Pull operator out of assignment**
+- **Convert for loop to for..of loop**
+- **Convert for loop to forEach loop**
+- **Convert if-else to guard clause** (unnest else)
+- **Surround statements with try...catch**
 
-# Overview
+## Conditionals
 
-## Refactoring Menu
+- **Invert condition**: Invert the condition of if-else statements and of conditional expressions (and flip the content)
+- **Flip operator**: Swap the argument order of a commutative binary operator (and update the operator when needed)
+- **Push down not operator** (!) into &&, ||, !=, !==, ==, ===, <, <=, >, >=
+- **Merge nested if-statements** into a single if statement with '&&' condition
+- **Merge nested single 'if'** inside 'else' into 'else if'
+- **Convert null and undefined check into '== null' comparison**
+- **Combine return statements** into a single return with a conditional expression
 
-The P42 refactorings are shown as additional items in the VS code refactoring context menu:
+## Code Modernization
+
+- **Add numeric separator** '\_' to decimal, hex, binary, octal and big int literals (ES2021)
+- **Shorten default value assignments with nullish coalescing operator** (ES2020)
+- **Convert to optional chain expressions** (ES2020)
+- **Convert Math.pow to exponentation operator \*\*** (ES2016)
+- **Convert var to let and const** (ES2015)
+- **Convert functions to arrow functions** (ES2015)
+- **Convert property assignments with functions to method declarations** (ES2015)
+- **Convert default value assignments to parameter default values** (ES2015)
+- **Convert string concatenation to template literals** (ES2015)
+- **Convert check of first string character to 'String.startsWith()'** (ES2015)
+- **Convert check of last string character to 'String.endsWith()'** (ES2015)
+- **Convert '.apply()' call to use spread operator** (...) (ES2015)
+
+## Syntax Transformations
+
+- **Split combined variable declaration into separate declarations**
+- **Collapse object properties into shorthand notation**
+- **Expand shorthand property notation**
+
+Visual Studio Code comes with many refactorings out-of-the-box. Most refactorings that are part of VS Code will not be re-implemented in P42, including:
+
+- Rename
+- Extract function
+- Extract method
+
+The P42 refactorings are available in the refactoring context menu, as editor suggestions, and as folder bulk refactorings (see below).
+
+# User Interface
+
+## Refactor Context Menu
+
+The P42 refactorings are shown as additional items in the VS Code "Refactor..." context menu:
 
 ![Refactoring Context Menu Example](https://p42.ai/image/vscode/refactoring-menu.png)
 
-## Refactoring Suggestions in the Editor
+## Keyboard Shortcuts
+
+- Inline const: `CTRL + ALT + N`
+
+## Refactoring Hints
 
 Many P42 refactoring suggestions are also indicated as blue information underlines or hints in applicable code segments. They can be invoked as quick fixes. See Refactorings below for details.
 
-![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/nullish-coalescing-operator.png)
+![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/feature-suggestion.png)
 
-## Codemod: Bulk Refactoring for Folders
+## Modernize Files and Folders
 
-For folders in the Explorer, there is a new "Refactor... [P42]" command for bulk refactorings. You can select a code modernization refactoring from a dialog. The selected refactoring is then applied to the files in the folder.
+For files and folders in the Explorer, there is a new "Modernize... \[P42\]" command that modernizes files and folders in one go. You can select a modernization refactoring from a dialog. The selected modernization is then applied to the selected file or all files in the folder (and its subfolders).
 
-![Folder Refactoring](https://p42.ai/image/vscode/feature-bulk-refactor-menu.png)
+### Recommended Modernization Workflow
 
-### Recommended Codemod Workflow
-
-1. Get you workspace in a clean state, e.g. by committing or stashing current changes, or by switching to a clean branch.
+1. Get your workspace in a clean state, e.g. by committing or stashing your current changes or by switching to a clean branch.
 2. Run the P42 code refactoring on the folders you want to update.
-3. **Thoroughly review the individual changes in the diff viewer and revert / fix them as needed**. Refactorings need to cover many edge cases, so there is a chance that some changes may lose comments, break formatting, or affect the semantics. If you find bugs, please report them here: https://github.com/p42ai/refactor-vscode/issues
+3. **Thoroughly review the individual changes in the diff viewer and revert or fix them as needed**. Modernizations need to cover many edge cases, so there is a chance that some changes may lose comments, break formatting, or affect the semantics. If you find bugs, please report them here: https://github.com/p42ai/refactor-vscode/issues
 4. Run your test suites to ensure nothing broke unexpectedly.
 5. Commit the changes.
 
-# Refactorings
-
-## Inline Const
-
-Inline the value of a const declaration into its references and remove the declaration.
-Available inside const variable declarations (via the refactoring context menu).
-
-## Shorten default value assignments with nullish coalescing operator
-
-![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/nullish-coalescing-operator.png)
-
-## Combine nested if-statements into single if statement with '&&' condition
-
-![Nested If Example](https://p42.ai/image/vscode/nested-if.png)
-
-## Combine nested single `if` inside `else` into `else if`
-
-![Nested Else Example](https://p42.ai/image/vscode/nested-else.png)
-
-## Convert default value assignments to parameter default values
-
-![Default Parameter Example](https://p42.ai/image/vscode/default-parameter.png)
-
-## Collapse object properties into shorthand notation
-
-![Collapse Property into Shorthand Example](https://p42.ai/image/vscode/collapse-property-into-shorthand.png)
-
-## Expand shorthand property notation
-
-Available on shorthand properties (via the refactoring context menu).
-
-## Convert check of first string character to 'String.startsWith()'
-
-![String.startsWith() Example](https://p42.ai/image/vscode/string-starts-with.png)
-
-## Convert check of last string character to 'String.endsWith()'
-
-![String.endsWith() Example](https://p42.ai/image/vscode/ends-with.png)
-
-## Convert indexed for loop to for..of loop
-
-![For..of Loop Example](https://p42.ai/image/vscode/for-of-loop.png)
-
-## Convert check for null and undefined into '== null' comparison
-
-![== null Example](https://p42.ai/image/vscode/eq-eq-null.png)
-
-## Combine return statements into a single return with a conditional expression
-
-![Return Ternary Example](https://p42.ai/image/vscode/return-ternary.png)
-
-## Split combined variable declaration into separate declarations
-
-![Unchain Variable Declaration Example](https://p42.ai/image/vscode/unchain-variable-declaration.png)
-
-## Convert to optional chain expressions
-
-![Optional Chaining Example](https://p42.ai/image/vscode/optional-chaining.png)
-
-## Convert '.apply()' call to use spread operator (...)
-
-![Spread Operator Example](https://p42.ai/image/vscode/spread-syntax.png)
-
-## Convert 'var' variable declarations that can be block scoped to let and const
-
-![Block Scoped Variable Example](https://p42.ai/image/vscode/block-scoped-variable.png)
-
-## Convert functions to arrow functions
-
-![Arrow Function Example](https://p42.ai/image/vscode/arrow-function.png)
-
-## Convert string concatenation to template literals
-
-![Template Literal Example](https://p42.ai/image/vscode/template-literal.png)
-
-## Flip if-else statement
-
-Invert the if-statement condition and change the order of the then and else blocks.
-Available inside if-else statements (via the refactoring context menu).
-
-## Flip ternary expression
-
-Invert the ternary condition and change the order of its first and second expression.
-Available inside ternary (conditional) expressions (via the refactoring context menu).
+![Modernize... Command](https://p42.ai/image/vscode/feature-modernize-menu.png)
+![Modernize... Menu](https://p42.ai/image/vscode/feature-modernize-selector.png)
 
 # Configuration
 
-The `p42.toml` file in the workspace root contains the P42 configuration.
+The 'p42.toml' file in the workspace root contains the P42 configuration.
 
 Currently, individual refactorings can be enabled and disabled. By default, all refactorings are enabled.
 
@@ -156,7 +105,7 @@ The refactoring ids are displayed as grayed-out text in parentheses in the hover
 # FAQ
 
 - **Does P42 analyse my code in the P42 cloud?**
-  No. Your code remains on your computer and all P42 code analysis happens on your computer. No code or other data is transferred to a cloud service by the P42 extension.
+  No. When you use the P42 JavaScript Assistant for VS Code, your source code remains on your computer and all P42 code analysis happens on your computer. No code or other data is transferred to a cloud service by the P42 extension.
 
 - **How can I disable a refactoring / suggestions?**
   You can disable them by adding a section in the `p42.config.toml` configuration file. See Configuration above.
@@ -175,3 +124,7 @@ P42 Software UG (haftungsbeschränkt) is only liable for defects in accordance w
 # Open Source Libraries
 
 See [DISCLAIMER.txt](https://raw.githubusercontent.com/p42ai/refactor-vscode/main/DISCLAIMER.txt).
+
+# Feedback & Updates
+
+If you want to provide feedback, e.g. which refactorings or functions you'd like to see in P42, or if you'd like to receive updates, you can follow us on [Twitter @p42ai](https://twitter.com/p42ai) or [LinkedIn](https://www.linkedin.com/company/p42-software).
