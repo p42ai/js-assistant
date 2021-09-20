@@ -1,4 +1,6 @@
-The P42 JavaScript Assistant adds **32 automated refactorings and code actions for JavaScript and TypeScript**. It enhances the VS Code refactoring context menu, shows refactoring suggestions in your editor, and can modernize complete files and folders in a single operation.
+The P42 JavaScript Assistant adds **32 automated refactorings and code actions for JavaScript and TypeScript**.
+
+It enhances the VS Code refactoring context menu, shows refactoring suggestions in your editor, and can modernize complete files and folders in a single operation.
 
 https://marketplace.visualstudio.com/items?itemName=p42ai.refactor
 
@@ -95,14 +97,31 @@ The 'p42.toml' file in the workspace root contains the P42 configuration.
 
 Currently, individual refactorings can be enabled and disabled. By default, all refactorings are enabled.
 
+## Disabling Refactorings
+
 To disable a refactoring, add a section with "refactoring.$refactoring-id" and set enabled to false, for example:
 
-```
+```toml
 [refactoring.optional-chaining]
 enabled = false
 ```
 
 The refactoring ids are displayed as grayed-out text in parentheses in the hover messages.
+
+## Ignoring Statements
+
+You can add a comment `// p42:ignore-next-statement` in a separate line before a statement to prevent P42 (for VS Code and for GitHub) from analysing the next statement and anything contained in it.
+
+### Example
+
+```js
+if (example) {
+  // p42:ignore-next-statement
+  x = stringify(schema, { space: 2 }) + "\n";
+}
+```
+
+In the above snippet, P42 will not analyse the statement `x = stringify(schema, { space: 2 }) + "\n";`.
 
 # FAQ
 
