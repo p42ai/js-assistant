@@ -1,28 +1,62 @@
-The P42 JavaScript Assistant adds **[37 automated refactorings and code actions](https://p42.ai/documentation/code-action/) for JavaScript and TypeScript**.
+<br />
+<div align="center">
+  <a href="https://p42.ai">
+    <img 
+      src="https://p42.ai/image/vscode/robot_juggling_300.png" 
+      alt="JavaScript Assistant"
+      height="300" />
+  </a>
+  <h1 align="center" style="padding-top: 20px;">P42 JavaScript Assistant</h2>
+  
 
-It enhances the VS Code refactoring context menu and shows refactoring suggestions in your editor.
+  <p align="center">
+    Your helper for writing modern, clear, and concise code.
+    <br />
+    <br />
+    <img src="https://p42.ai/image/vscode/vscode-intro.gif" 
+         alt="Refactoring Example" 
+         style="border:1px solid #ddd;" />
+    <br />
+    <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/p42ai/refactor-vscode/issues">Request Feature</a>
+    ·
+    <a href="https://twitter.com/p42ai">Follow @p42ai</a>
+  </p>
+  
+</div>
 
-https://marketplace.visualstudio.com/items?itemName=p42ai.refactor
 
-# User Interface
+# Getting Started
 
-## Refactor Context Menu
+The P42 JavaScript Assistant adds **[37 automated refactorings and code actions](https://p42.ai/documentation/code-action/) for JavaScript and TypeScript**. 
 
-The P42 refactorings are shown in the following menus:
-* VS Code "Quick Fix..." context menu (default keyboard shortcuts on Mac: `CMD + .`, on Windows `CTRL + .`)
-* VS Code "Refactor..." context menu (default keyboard shortcut: `CTRL + SHIFT + R`):
-
-Example Refactoring Menu:
-
-![Refactoring Context Menu Example](https://p42.ai/image/vscode/refactoring-menu.png)
+It shows refactorings that are available at your current editor position in the VS Code quick fix
+and refactoring context menus. **Different refactorings are available depending on editor content,
+cursor position and selected text**. Some refactorings are indicated as hints.
 
 ## Keyboard Shortcuts
 
-- Inline const: `CTRL + ALT + N`
+- **Quick Fix** context menu
+  - Mac: `CMD + .` (Default VS Code shortcut)
+  - Windows `CTRL + .` (Default VS Code shortcut)
+- **Refactoring** context menu
+  - Mac: `CMD + SHIFT + R`
+  - Windows / Linux: `ALT + SHIFT + R`
+- **Inline** context menu
+  - Mac: `CMD + SHIFT + I`
+  - Windows / Linux: `ALT + SHIFT + I`
+- **Extract** context menu
+  - Mac: `CMD + SHIFT + X`
+  - Windows / Linux: `ALT + SHIFT + X`
+
+## Refactor Context Menu Example
+
+![Refactoring Context Menu Example](https://p42.ai/image/vscode/refactoring-menu.png)
 
 ## Refactoring Hints
 
-Many P42 refactoring suggestions are also indicated as blue information underlines or hints in applicable code segments. They can be invoked as quick fixes. See Refactorings below for details.
+Some P42 refactoring suggestions are also indicated as blue information underlines or hints in applicable code segments. They can be invoked as quick fixes. See Refactorings below for details.
 
 ![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/feature-suggestion.png)
 
