@@ -12,6 +12,8 @@
   <p align="center">
     Your helper for writing modern, clear, and concise code.
     <br />
+    <a href="https://marketplace.visualstudio.com/items?itemName=p42ai.refactor">https://marketplace.visualstudio.com/items?itemName=p42ai.refactor</a>
+    <br />
     <br />
     <img src="https://p42.ai/image/vscode/vscode-intro.gif" 
          alt="Refactoring Example" 
