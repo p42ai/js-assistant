@@ -12,12 +12,9 @@
   <p align="center">
     Your helper for writing modern, clear, and concise code.
     <br />
-    <a href="https://marketplace.visualstudio.com/items?itemName=p42ai.refactor">https://marketplace.visualstudio.com/items?itemName=p42ai.refactor</a>
-    <br />
     <br />
     <img src="https://p42.ai/image/vscode/vscode-intro.gif" 
-         alt="Refactoring Example" 
-         style="border:1px solid #ddd;" />
+         alt="Refactoring Example" />
     <br />
     <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
     ·
@@ -31,26 +28,32 @@
 
 # Getting Started
 
-The P42 JavaScript Assistant adds **[37 automated refactorings and code actions](https://p42.ai/documentation/code-action/) for JavaScript and TypeScript**. 
+P42 adds **[44 automated refactorings and code actions](https://p42.ai/documentation/code-action/) for JavaScript and TypeScript**. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. 
 
-It shows refactorings that are available at your current editor position in the VS Code quick fix
-and refactoring context menus. **Different refactorings are available depending on editor content,
-cursor position and selected text**. Some refactorings are indicated as hints.
+You can find available actions in the VS Code **quick fix and refactoring context menus** and in context menus for specific action types. In some situations, **refactoring hints with a blue squiggly underline** indicate beneficial actions that you can take. 
+
+To help you refactor with confidence, P42 evaluates the impact on the logical program behavior and often shows **refactoring safety information** in the context menu entry.
 
 ## Keyboard Shortcuts
 
 - **Quick Fix** context menu
-  - Mac: `CMD + .` (Default VS Code shortcut)
-  - Windows `CTRL + .` (Default VS Code shortcut)
+  - Mac: <kbd>CMD</kbd> + <kbd>.</kbd> (default VS Code shortcut)
+  - Windows <kbd>CTRL</kbd> + <kbd>.</kbd> (default VS Code shortcut)
 - **Refactoring** context menu
-  - Mac: `CMD + SHIFT + R`
-  - Windows / Linux: `ALT + SHIFT + R`
+  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kdb>
+  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>
 - **Inline** context menu
-  - Mac: `CMD + SHIFT + I`
-  - Windows / Linux: `ALT + SHIFT + I`
+  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
+  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
 - **Extract** context menu
-  - Mac: `CMD + SHIFT + X`
-  - Windows / Linux: `ALT + SHIFT + X`
+  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd>
+  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd>
+- **Convert** context menu
+  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>
+  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>
+- **Action** context menu
+  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
+  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>  
 
 ## Refactor Context Menu Example
 
@@ -129,7 +132,8 @@ You can add a `// p42:ignore-file` comment at the beginning of the file (before 
 - **How can I disable a refactoring / suggestions?**
   You can disable them by adding a section in the `p42.config.toml` configuration file. See Configuration above.
 
-# License
+# Legal
+* 
 
 ```
 This software is offered free of charge by
