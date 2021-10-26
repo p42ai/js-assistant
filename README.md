@@ -13,10 +13,6 @@
     Your helper for writing modern, clear, and concise code.
     <br />
     <br />
-    <img src="https://p42.ai/image/vscode/vscode-intro.gif" 
-         alt="Refactoring Example" 
-         height="300" />
-    <br />
     <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
     ·
     <a href="https://github.com/p42ai/refactor-vscode/issues">Request Feature</a>
