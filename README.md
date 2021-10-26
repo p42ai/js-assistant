@@ -129,22 +129,6 @@ You can add a `// p42:ignore-file` comment at the beginning of the file (before 
 - **How can I disable a refactoring / suggestions?**
   You can disable them by adding a section in the `p42.config.toml` configuration file. See Configuration above.
 
-# Legal
-* 
-
-```
-This software is offered free of charge by
-P42 Software UG (haftungsbeschränkt), Pappelallee 78/79, 10437 Berlin, Germany.
-
-The software may not be redistributed or sold without permission.
-
-P42 Software UG (haftungsbeschränkt) is only liable for defects in accordance with applicable law.
-```
-
-# Open Source Libraries
+# Used Open Source Libraries
 
 See [DISCLAIMER.txt](https://raw.githubusercontent.com/p42ai/refactor-vscode/main/DISCLAIMER.txt).
-
-# Feedback & Updates
-
-If you want to provide feedback, e.g., which refactorings or functions you'd like to see in P42, or if you'd like to receive updates, you can follow us on [Twitter @p42ai](https://twitter.com/p42ai) or [LinkedIn](https://www.linkedin.com/company/p42-software).
