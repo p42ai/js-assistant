@@ -14,7 +14,8 @@
     <br />
     <br />
     <img src="https://p42.ai/image/vscode/vscode-intro.gif" 
-         alt="Refactoring Example" />
+         alt="Refactoring Example" 
+         height="300" />
     <br />
     <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
     ·
