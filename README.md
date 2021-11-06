@@ -13,6 +13,9 @@
     Your helper for writing modern, clear, and concise code.
     <br />
     <br />
+    <img src="https://p42.ai/image/vscode/vscode-intro.gif" 
+         alt="Refactoring Example" />
+    <br />
     <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
     ·
     <a href="https://github.com/p42ai/refactor-vscode/issues">Request Feature</a>
@@ -25,11 +28,22 @@
 
 # Getting Started
 
-P42 adds **[44 automated refactorings and code actions](https://p42.ai/documentation/code-action/) for JavaScript and TypeScript**. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. 
+P42 adds **[48 automated refactorings, cleanups, and code actions](https://p42.ai/documentation/code-action/) for JavaScript and TypeScript** to VS Code. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. 
 
 You can find available actions in the VS Code **quick fix and refactoring context menus** and in context menus for specific action types. In some situations, **refactoring hints with a blue squiggly underline** indicate beneficial actions that you can take. 
 
-To help you refactor with confidence, P42 evaluates the impact on the logical program behavior and often shows **refactoring safety information** in the context menu entry.
+To help you refactor with confidence, P42 evaluates the impact on the logical program behavior and often shows **[refactoring safety information](#safety-evaluation)** in the context menu entry.
+
+## Quickfix Context Menu
+When P42 code actions are available, you will see a lightbulb in your editor. Clicking it will open the quickfix context menu. Alternatively, you can use a keyboard shortcut (see below).
+
+![Quickfix menu](https://p42.ai/image/vscode/feature-lightbulb-quickfix-menu.gif)
+
+## Refactoring Hints
+
+ P42 suggests some refactorings with blue squiggly underlines in your editor. You can invoke them as a quick fix.
+
+![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/feature-suggestion.png)
 
 ## Keyboard Shortcuts
 
@@ -52,17 +66,39 @@ To help you refactor with confidence, P42 evaluates the impact on the logical pr
   - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
   - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>  
 
-## Refactor Context Menu Example
+# Examples
 
-![Refactoring Context Menu Example](https://p42.ai/image/vscode/refactoring-menu.png)
+### Replace a nested conditional chain with guard clauses:
+![Example 1](https://p42.ai/image/vscode/vscode-example-1.gif)
 
-## Refactoring Hints
 
-Some P42 refactoring suggestions are also indicated as blue information underlines or hints in applicable code segments. They can be invoked as quick fixes. See Refactorings below for details.
+### Chain 11 refactorings to simplify a function without manual code changes:
+![Example 2](https://p42.ai/image/vscode/vscode-intro.gif)
 
-![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/feature-suggestion.png)
+# Safety Evaluation
 
-## Refactor Files and Folders in Bulk (P42+)
+The P42 JavaScript Assistant evaluates if refactorings can change the behavior of the code (within [limitations](#safety-evaluation-limitations)). The P42 context and quick-fix menu items often contain safety indicators:
+
+* **No indicator**: P42 has not evaluated the safety of the refactoring or code action. No indicator is the default for code actions such as [adding console.log statements](https://p42.ai/documentation/code-action/insert-console-log) that intentionally change your program.
+* **Safe** ✅: The refactoring will not change the behavior of your code.
+* **Information** ℹ️: There are circumstances under which the refactoring can impact the behavior of your code. The menu item will include short hints at what you need to check to proceed safely.
+* **Warning** ⚠️: Similar to information, but with a higher chance of introducing defects or potential defect severity.
+* **Error** ❌: The refactoring will change the runtime behavior of your code and is likely to introduce defects. You might still want to proceed, particularly if you are already aware of the defect you will introduce and how to fix it, but proceed with caution.
+
+## Safety Evaluation Limitations
+
+When you are using TypeScript, the safety evaluation **relies on the accuracy of your type annotations**. If your type annotations are not accurate, some refactorings deemed safe by P42 might lead to the introduction of defects.
+
+The safety evaluation **does not cover runtime performance**, which can be vital if you work on hotspot areas of your application. Refactorings might negatively impact the application performance in some cases.
+
+For code modernizations, the safety evaluation also **relies on the correct behavior of the standard JavaScript functions**. If there are defects in the polyfills that you are using (for polyfilled functions), or if they implement a different behavior than the ECMAScript specification, modernizing the code can introduce defects.
+
+The safety evaluation **analyzes single files without a larger type context**. Some indirect types that are resolved by TypeScript in your program might be considered as `any` or `unknown`. As a result, P42 might present warnings that are not relevant if you have the complete type information.
+
+## Safety Evaluation Example: Array.includes() Refactoring
+![Example Safety Evaluation: Array.includes() refactoring](https://p42.ai/image/vscode/safety-evaluation-example.gif)
+
+# Refactor Files and Folders in Bulk (P42+)
 
 For files and folders in the Explorer, there is a new "Refactor... \[P42+\]" command that refactors files and folders in one go. You can select a refactoring from a dialog. The selected refactoring is then applied to the selected file or all files in the folder (and its subfolders).
 
@@ -121,10 +157,10 @@ You can add a `// p42:ignore-file` comment at the beginning of the file (before 
   No. P42 supports `.js`, `.mjs`, `.cjs`, `.jsx`, `.ts`, and `.tsx` files that contain TypeScript or JavaScript code (with or without JSX).
 
 - **Does P42 support Flow type annotations?**
-  No. P42 supports TypeScript.
+  No. P42 supports plain JavaScript, JSX and TypeScript.
 
 - **Does P42 analyse my code in the P42 cloud?**
-  No. When you use the P42 JavaScript Assistant for VS Code, your source code remains on your computer and all P42 code analysis happens on your computer. No code or other data is transferred to a cloud service by the P42 extension.
+  No. When you use the P42 JavaScript Assistant for VS Code, your source code remains on your machine and all P42 code analysis happens on your machine. No code or other data is transferred to the P42 cloud service by the P42 JavaScript Assistent.
 
 - **How can I disable a refactoring / suggestions?**
   You can disable them by adding a section in the `p42.config.toml` configuration file. See Configuration above.
