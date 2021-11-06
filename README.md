@@ -62,15 +62,6 @@ When P42 code actions are available, you will see a lightbulb in your editor. Cl
   - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
   - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>  
 
-# Examples
-
-### Replace a nested conditional chain with guard clauses:
-![Example 1](https://p42.ai/image/vscode/vscode-example-1.gif)
-
-
-### Chain 11 refactorings to simplify a function without manual code changes:
-![Example 2](https://p42.ai/image/vscode/vscode-intro.gif)
-
 # Safety Evaluation
 
 The P42 JavaScript Assistant evaluates if refactorings can change the behavior of the code (within [limitations](#safety-evaluation-limitations)). The P42 context and quick-fix menu items often contain safety indicators:
