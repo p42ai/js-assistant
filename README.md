@@ -82,9 +82,6 @@ For code modernizations, the safety evaluation also **relies on the correct beha
 
 The safety evaluation **analyzes single files without a larger type context**. Some indirect types that are resolved by TypeScript in your program might be considered as `any` or `unknown`. As a result, P42 might present warnings that are not relevant if you have the complete type information.
 
-## Safety Evaluation Example: Array.includes() Refactoring
-![Example Safety Evaluation: Array.includes() refactoring](https://p42.ai/image/vscode/safety-evaluation-example.gif)
-
 # Refactor Files and Folders in Bulk (P42+)
 
 For files and folders in the Explorer, there is a new "Refactor... \[P42+\]" command that refactors files and folders in one go. You can select a refactoring from a dialog. The selected refactoring is then applied to the selected file or all files in the folder (and its subfolders).
