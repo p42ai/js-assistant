@@ -68,15 +68,6 @@ When P42 code actions are available, you will see a lightbulb in your editor. Cl
 
 P42 adds a sidebar panel to Visual Studio Code that shows the actions that are available for the current cursor position and selection.
 
-# Examples
-
-### [Replace a nested conditional chain with guard clauses](https://p42.ai/blog/2021-09-29/javascript-refactoring-in-action-replace-nested-if-else-with-guards):
-![Example 1](https://p42.ai/image/vscode/vscode-example-1.gif)
-
-
-### [Chain 12 refactorings to simplify a function without manual code changes](https://p42.ai/blog/2021-12-01/simplifying-a-javascript-function-with-12-automated-refactorings):
-![Example 2](https://p42.ai/image/vscode/vscode-intro.gif)
-
 # Documentation
 
 * [Code Actions](https://p42.ai/documentation/code-action)
