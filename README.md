@@ -21,12 +21,11 @@
   
 </div>
 
-
 # Get Started
 
-The P42 JavaScript Assistant adds **[55 automated refactorings and quick fixes](https://p42.ai/documentation/code-action/) for JavaScript, TypeScript and React** to VS Code. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. 
+The P42 JavaScript Assistant adds **[62 automated refactorings and quick fixes](https://p42.ai/documentation/code-action/) for JavaScript, TypeScript and React** to VS Code. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information.
 
-You can find available actions in the VS Code **quick fix and refactoring context menus** and in context menus for specific action types. In some situations, **refactoring hints with a blue squiggly underline** indicate beneficial actions that you can take. 
+You can find available actions in the VS Code **quick fix and refactoring context menus** and in context menus for specific action types. In some situations, **refactoring hints with a blue squiggly underline** indicate beneficial actions that you can take.
 
 To help you refactor with confidence, P42 evaluates the impact on the logical program behavior and often shows **[refactoring safety information](https://p42.ai/documentation/p42-for-vscode/safety-evaluation)** in the context menu entry.
 
@@ -62,19 +61,28 @@ When P42 code actions are available, you will see a lightbulb in your editor. Cl
   - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>
 - **Action** context menu
   - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
-  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>  
+  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
 
 ## Sidebar
 
-P42 adds a sidebar panel to Visual Studio Code that shows the actions that are available for the current cursor position and selection.
+P42 adds a sidebar panel to Visual Studio Code. It has three sections:
+
+- **Current Selection**: Contains actions that are available for the current editor cursor position and selection.
+- **Suggestions**: Contains all suggestions for the current editor.
+- **Authentication**: [P42 Pro and Business License](https://p42.ai/documentation/p42-for-vscode/p42-pro-and-business#license)
 
 # Documentation
 
-* [Code Actions](https://p42.ai/documentation/code-action)
-* [Safety Evaluation](https://p42.ai/documentation/p42-for-vscode/safety-evaluation)
-* [Mass Refactoring (Pro & Business)](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
-* [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
-* [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
+### **[Overview](https://p42.ai/documentation/p42-for-vscode/)**
+  * [Get Started](https://p42.ai/documentation/p42-for-vscode/get-started)
+  * [User Interface](https://p42.ai/documentation/p42-for-vscode/user-interface)
+  * [Examples](https://p42.ai/documentation/p42-for-vscode/examples)
+  * [Safety Evaluation](https://p42.ai/documentation/p42-for-vscode/safety-evaluation)
+  * [P42 Pro & Business](https://p42.ai/documentation/p42-for-vscode/p42-pro-and-business)
+  * [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
+  * [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
+
+### **[Code Actions](https://p42.ai/documentation/code-action)**
 
 # Used Open Source Libraries
 
