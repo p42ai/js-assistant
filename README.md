@@ -23,7 +23,7 @@
 
 # Get Started
 
-The P42 JavaScript Assistant adds **[62 automated refactorings and quick fixes](https://p42.ai/documentation/code-action/) for JavaScript, TypeScript and React** to VS Code. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information.
+The P42 JavaScript Assistant adds **[65 automated refactorings and quick fixes](https://p42.ai/documentation/code-action/) for JavaScript, TypeScript and React** to VS Code. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information.
 
 You can find available actions in the VS Code **quick fix and refactoring context menus** and in context menus for specific action types. In some situations, **refactoring hints with a blue squiggly underline** indicate beneficial actions that you can take.
 
