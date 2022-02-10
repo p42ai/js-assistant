@@ -21,69 +21,32 @@
   
 </div>
 
-# Get Started
+The P42 JavaScript Assistant adds **[66 automated refactorings and quick fixes](https://p42.ai/documentation/code-action) for JavaScript, TypeScript, and React** to Visual Studio Code.
+It analyzes the impact on the logical program behavior and provides [safety analysis feedback](https://p42.ai/documentation/p42-for-vscode/safety-analysis) so that you can refactor with confidence.
 
-The P42 JavaScript Assistant adds **[65 automated refactorings and quick fixes](https://p42.ai/documentation/code-action/) for JavaScript, TypeScript and React** to VS Code. The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information.
+The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. You can find them in the **quick fix and refactoring context menus**. [Learn more about the editor integration…](https://p42.ai//documentation/p42-for-vscode/editor-integration)
 
-You can find available actions in the VS Code **quick fix and refactoring context menus** and in context menus for specific action types. In some situations, **refactoring hints with a blue squiggly underline** indicate beneficial actions that you can take.
+In some situations, **[refactoring suggestions](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) with a blue squiggly underline** indicate beneficial actions that you can take. Such refactorings are also shown in a dedicated [refactoring suggestion sidebar](https://p42.ai//documentation/p42-for-vscode/suggestion-sidebar).
 
-To help you refactor with confidence, P42 evaluates the impact on the logical program behavior and often shows **[refactoring safety information](https://p42.ai/documentation/p42-for-vscode/safety-evaluation)** in the context menu entry.
-
-# User Interface
-
-## Quick Fix Context Menu
-When P42 code actions are available, you will see a lightbulb in your editor. Clicking it will open the quick fix context menu. Alternatively, you can use a keyboard shortcut (see below).
-
-![Quickfix menu](https://p42.ai/image/vscode/feature-lightbulb-quickfix-menu.gif)
-
-## Refactoring Hints
-
- P42 suggests some refactorings with blue squiggly underlines in your editor. You can invoke them as a quick fix.
-
-![Nullish Coalescing Operator Example](https://p42.ai/image/vscode/feature-suggestion.png)
-
-## Keyboard Shortcuts
-
-- **Quick Fix** context menu
-  - Mac: <kbd>CMD</kbd> + <kbd>.</kbd> (default VS Code shortcut)
-  - Windows <kbd>CTRL</kbd> + <kbd>.</kbd> (default VS Code shortcut)
-- **Refactoring** context menu
-  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kdb>
-  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>
-- **Inline** context menu
-  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
-  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
-- **Extract** context menu
-  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd>
-  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd>
-- **Convert** context menu
-  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>
-  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>
-- **Action** context menu
-  - Mac: <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
-  - Windows / Linux: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
-
-## Sidebar
-
-P42 adds a sidebar panel to Visual Studio Code. It has three sections:
-
-- **Current Selection**: Contains actions that are available for the current editor cursor position and selection.
-- **Suggestions**: Contains all suggestions for the current editor.
-- **Authentication**: [P42 Pro and Business License](https://p42.ai/documentation/p42-for-vscode/p42-pro-and-business#license)
+![P42 JavaScript Assistant Example](https://p42.ai/image/vscode/vscode-example-1.gif)
 
 # Documentation
 
 ### **[Overview](https://p42.ai/documentation/p42-for-vscode/)**
   * [Get Started](https://p42.ai/documentation/p42-for-vscode/get-started)
-  * [User Interface](https://p42.ai/documentation/p42-for-vscode/user-interface)
-  * [Examples](https://p42.ai/documentation/p42-for-vscode/examples)
-  * [Safety Evaluation](https://p42.ai/documentation/p42-for-vscode/safety-evaluation)
-  * [P42 Pro & Business](https://p42.ai/documentation/p42-for-vscode/p42-pro-and-business)
+  * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
+  * [Suggestion Sidebar](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar)
+  * [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
+  * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
   * [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
   * [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
 
 ### **[Code Actions](https://p42.ai/documentation/code-action)**
 
-# Used Open Source Libraries
+# Report Bugs and Suggest Features
+
+Please report any bugs or feature suggestions in the **[JavaScript Assistant issue tracker](https://github.com/p42ai/refactor-vscode/issues)**.
+
+# License & Used Open Source Libraries
 
 See [DISCLAIMER.txt](https://raw.githubusercontent.com/p42ai/refactor-vscode/main/DISCLAIMER.txt).
