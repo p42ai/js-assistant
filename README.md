@@ -32,6 +32,19 @@ The available actions depend on the cursor position, the selected text (if any),
 
 ### **[Code Actions](https://p42.ai/documentation/code-action)**
 
+# P42 Pro
+
+P42 is a freemium extension. The paid plans finance the continued development of the extension, including its free features.  Upgrade to [P42 Pro](https://p42.ai/plans/p42-pro) and get:
+
+  * [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
+  * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
+  * [Apply All Safe Suggestions](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar#apply-all-safe-suggestions)
+  * [6 Additional Refactorings and Actions](https://p42.ai/documentation/code-action)
+
+You can try [P42 Pro](https://p42.ai/plans/p42-pro) for free for 14 days.
+
+[How do I get a P42 license key?](https://p42.ai/documentation/p42-for-vscode/license)
+
 # Report Bugs and Suggest Features
 
 Please report any bugs or feature suggestions in the **[JavaScript Assistant issue tracker](https://github.com/p42ai/refactor-vscode/issues)**.
