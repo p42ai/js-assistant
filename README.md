@@ -13,11 +13,13 @@
 
 # Your helper for writing modern, clean and concise code
 
-The P42 JavaScript Assistant adds **[68 automated refactorings and code actions](https://p42.ai/documentation/code-action) for JavaScript, TypeScript, and React** to Visual Studio Code.
+The P42 JavaScript Assistant adds **[70 automated refactorings and code actions](https://p42.ai/documentation/code-action)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code.
 
-The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. You can find them in the **quick fix and refactoring context menus**. [Learn more about the editor integration…](https://p42.ai//documentation/p42-for-vscode/editor-integration)
+The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. You can find them in the **quick fix and refactoring context menus**. [Learn more…](https://p42.ai//documentation/p42-for-vscode/editor-integration)
 
 **Underlines with three dots** indicate [suggested refactorings](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) that you can perform. The dedicated [refactoring suggestion sidebar](https://p42.ai//documentation/p42-for-vscode/suggestion-sidebar) shows such beneficial refactorings for your whole file.
+
+To help you refactor with confidence, P42 evaluates the impact on the logical program behavior and often shows **[refactoring safety information](https://p42.ai/documentation/p42-for-vscode/safety-analysis)** in the context menu entry.
 
 ![P42 JavaScript Assistant Example](https://p42.ai/image/vscode/vscode-example-1.gif)
 
@@ -27,23 +29,12 @@ The available actions depend on the cursor position, the selected text (if any),
   * [Get Started](https://p42.ai/documentation/p42-for-vscode/get-started)
   * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
   * [Suggestion Sidebar](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar)
+  * [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
+  * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
   * [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
   * [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
 
 ### **[Code Actions](https://p42.ai/documentation/code-action)**
-
-# P42 Pro
-
-P42 is a freemium extension. The paid plans finance the continued development of the extension, including its free features.  Upgrade to [P42 Pro](https://p42.ai/plans/p42-pro) and get:
-
-  * [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
-  * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
-  * [Apply All Safe Suggestions](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar#apply-all-safe-suggestions)
-  * [6 Additional Refactorings and Actions](https://p42.ai/documentation/code-action)
-
-You can try [P42 Pro](https://p42.ai/plans/p42-pro) for free for 14 days.
-
-[How do I get a P42 license key?](https://p42.ai/documentation/p42-for-vscode/license)
 
 # Report Bugs and Suggest Features
 
