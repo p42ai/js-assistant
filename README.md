@@ -13,7 +13,7 @@
 
 # Your helper for writing modern, clean and concise code
 
-The P42 JavaScript Assistant adds **[70 automated refactorings and code actions](https://p42.ai/documentation/code-action)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code.
+The P42 JavaScript Assistant adds **[71 automated refactorings and code actions](https://p42.ai/documentation/code-action)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code.
 
 The available actions depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information. You can find them in the **quick fix and refactoring context menus**. [Learn more…](https://p42.ai//documentation/p42-for-vscode/editor-integration)
 
