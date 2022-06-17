@@ -3,7 +3,7 @@
 
 *[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
 
-The P42 JavaScript Assistant adds **[91 automated refactorings](https://p42.ai/documentation/code-action)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
+The P42 JavaScript Assistant adds **[91 automated refactorings](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
 
 You can find the actions in the **quick fix** and **refactoring context menus**. They depend on  the cursor position, the selected text (if any), the source code, the language type, and any available type information.
 **Underlining with three dots** suggests beneficial [refactorings](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) that you can perform. The [**P42 sidebar**](https://p42.ai//documentation/p42-for-vscode/suggestion-sidebar) shows you suggested refactorings for your whole file.
@@ -28,6 +28,20 @@ You can find the actions in the **quick fix** and **refactoring context menus**.
 * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
 * [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
 * [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
+
+
+# Keyboard Shortcuts
+See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration) / [Keyboard Shortcuts](https://p42.ai/documentation/p42-for-vscode/editor-integration#keyboard-shortcuts).
+
+| Context Menu | Mac Shortcut | Windows/Linux Shortcut |
+| ----------| ------------ | ------------ | 
+| Quick Fix | <kbd>CMD</kbd> + <kbd>.</kbd> | <kbd>CTRL</kbd> + <kbd>.</kbd> |
+| Refactor | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>R</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> |
+| Extract | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd>
+| Inline | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd>
+| Convert | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>C</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>C</kbd>
+| Move | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd>
+| Action | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd>
 
 # Code Assists by Category
 Code assists that belong to several categories appear more than once.
