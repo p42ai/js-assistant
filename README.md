@@ -1,6 +1,7 @@
+# Write modern, clean, and concise code
+
 The P42 JavaScript Assistant adds **[92 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
 
-# Write modern, clean, and concise code
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
 > *[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
