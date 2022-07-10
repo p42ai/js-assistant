@@ -1,12 +1,50 @@
-# Your helper for writing modern, clean and concise code
-*[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
+The P42 JavaScript Assistant adds **[92 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
 
-*[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
+# Write modern, clean, and concise code
+> *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
-The P42 JavaScript Assistant adds **[91 automated refactorings](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
+> *[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
+
+## Edit Code Faster
+Manually editing your code can be cumbersome and error-prone. With the JavaScript Assistant, you can **use fast, automated code assists and refactorings to modify your code on a structural level** and focus on what change you want to make, not on how to type it in.
+
+![Edit your code faster with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-edit-code-faster.gif)
+
+## Learn Modern JavaScript
+JavaScript and its ecosystem are rapidly progressing. The JavaScript Assistant shows **suggestions for using up-to-date JavaScript syntax and APIs** so you can write clean, modern code without worrying about the latest changes to the language.
+
+![Learn modern JavaScript with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-learn-modern-javascript.gif)
+
+## Refactor Safely
+Refactorings, especially those that are performed manually, can easily break existing functionality or introduce bugs. The **JavaScript Assistant automates refactoring steps and analyses the safety of potential refactorings**, so you can refactor with confidence and know what to consider to avoid unnecessary breakages.
+
+![Learn modern JavaScript with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-prevent-introducing-bugs.gif)
+
+# Documentation
 
 You can find the actions in the **quick fix** and **refactoring context menus**. They depend on  the cursor position, the selected text (if any), the source code, the language type, and any available type information.
-**Underlining with three dots** suggests beneficial [refactorings](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) that you can perform. The [**P42 sidebar**](https://p42.ai//documentation/p42-for-vscode/suggestion-sidebar) shows you suggested refactorings for your whole file.
+**Underlining with three dots** suggests beneficial [refactorings](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) that you can perform. The [**suggestion sidebar**](https://p42.ai//documentation/p42-for-vscode/suggestion-sidebar) shows you recommended refactorings for your whole file.
+
+## Keyboard Shortcuts
+See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration) / [Keyboard Shortcuts](https://p42.ai/documentation/p42-for-vscode/editor-integration#keyboard-shortcuts).
+
+| Context Menu | Mac Shortcut | Windows/Linux Shortcut |
+| ----------| ------------ | ------------ | 
+| Quick Fix | <kbd>CMD</kbd> + <kbd>.</kbd> | <kbd>CTRL</kbd> + <kbd>.</kbd> |
+| Refactor | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>R</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> |
+| Extract | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd>
+| Inline | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd>
+| Convert | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>C</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>C</kbd>
+| Move | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd>
+| Action | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd>
+
+## Learn more
+* [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
+* [Suggestion Sidebar](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar)
+* [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
+* [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
+* [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
+* [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
 
 <div align="center">
   <p align="center">
@@ -19,29 +57,6 @@ You can find the actions in the **quick fix** and **refactoring context menus**.
     <a href="https://twitter.com/p42ai">Follow @p42ai</a>
   </p>
 </div>
-
-# Documentation
-
-* [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
-* [Suggestion Sidebar](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar)
-* [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
-* [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
-* [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
-* [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
-
-
-# Keyboard Shortcuts
-See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration) / [Keyboard Shortcuts](https://p42.ai/documentation/p42-for-vscode/editor-integration#keyboard-shortcuts).
-
-| Context Menu | Mac Shortcut | Windows/Linux Shortcut |
-| ----------| ------------ | ------------ | 
-| Quick Fix | <kbd>CMD</kbd> + <kbd>.</kbd> | <kbd>CTRL</kbd> + <kbd>.</kbd> |
-| Refactor | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>R</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> |
-| Extract | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd>
-| Inline | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd>
-| Convert | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>C</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>C</kbd>
-| Move | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd>
-| Action | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd>
 
 # Code Assists by Category
 Code assists that belong to several categories appear more than once.
@@ -81,7 +96,7 @@ Branching statements such as if-else and switch are central elements in many pro
 * **[Convert conditional expression to if-else](https://p42.ai/documentation/code-assist/convert-conditional-expression-to-if-else)**: Convert a conditional expression to an if-else statement.
 * **[Convert if-else into conditional expression](https://p42.ai/documentation/code-assist/convert-if-else-to-conditional-expression)**: Convert an `if`-`else` return or assignment expression into a conditional expression.
 * **[Convert if-else to switch](https://p42.ai/documentation/code-assist/convert-if-else-to-switch)**: Convert if-else statement chain with equality comparisons to switch statement.
-* **[Introduce early return](https://p42.ai/documentation/code-assist/introduce-early-return) ([Pro](https://p42.ai/pricing))**: Change an if-statement into an early return statement.
+* **[Introduce early return / continue](https://p42.ai/documentation/code-assist/introduce-early-return) ([Pro](https://p42.ai/pricing))**: Change an if-statement into an early return or continue statement.
 * **[Merge nested if inside else into else-if](https://p42.ai/documentation/code-assist/merge-nested-else-if)**: Nested single `if` statements inside `else` blocks can be combined into `else if` statements.
 * **[Merge nested if-statements](https://p42.ai/documentation/code-assist/merge-nested-if)**: Combine two nested `if` statements without additional operations into a single `if`-statement, using `&&` to combine the conditions.
 * **[Move duplicated first statement out of if-else](https://p42.ai/documentation/code-assist/move-first-statement-out-of-if-else)**: Move a first statement that appears in both the if and the else block out of the if-else statement.
@@ -101,7 +116,7 @@ JavaScript has several ways of defining loops and many array methods that work o
 * **[Convert loop to .forEach](https://p42.ai/documentation/code-assist/convert-loop-to-for-each)**: Replace regular `for` loops with `.forEach()` loops.
 * **[Convert loop to for…of](https://p42.ai/documentation/code-assist/convert-loop-to-for-of)**: Replace regular `for` loops and `anArray.forEach` loops with `for…of` loops.
 * **[Convert loop to for](https://p42.ai/documentation/code-assist/convert-loop-to-for-with-index)**: Replace `for…of` with a regular `for` loop that has an index variable.
-* **[Convert loop to .map()](https://p42.ai/documentation/code-assist/convert-loop-to-map) ([Pro](https://p42.ai/pricing))**: Convert a loop with .push() into a .map() call.
+* **[Convert loop to .map()](https://p42.ai/documentation/code-assist/convert-loop-to-map) ([Pro](https://p42.ai/pricing))**: Convert a loop with `.push()` into a `.map()` call.
 
 ## Code Assists for Functions and Methods
 Functions and methods are essential building blocks of any non-trivial program. The following code actions make it easier to work with functions, methods, and their parameters:
@@ -129,6 +144,7 @@ Text manipulation has become more powerful with the introduction of template lit
 ## Code Assists for Variables
 
 * **[Convert let to const](https://p42.ai/documentation/code-assist/convert-let-to-const)**: Replace `let` declarations that have no re-assignment with `const` declarations.
+* **[Convert 'new Array(…)' to '[…]'](https://p42.ai/documentation/code-assist/convert-new-array-to-array-literal) ([Pro](https://p42.ai/pricing))**: Replace `new Array(…)` calls with `[…]`.
 * **[Convert to destructuring assignment](https://p42.ai/documentation/code-assist/convert-to-destructuring-assignment)**: Convert a variable declaration that accesses an object property to a destructuring assignment.
 * **[Extract variable](https://p42.ai/documentation/code-assist/extract-variable)**: Extract one or more occurrences of an expression into a `const` variable.
 * **[Flatten array rest/spread property](https://p42.ai/documentation/code-assist/flatten-array-rest-property) ([Pro](https://p42.ai/pricing))**: Merge a ...[] expression into the outer array literal or destructuring expression.
