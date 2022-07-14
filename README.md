@@ -1,6 +1,6 @@
 # Write modern, clean, and concise code
 
-The P42 JavaScript Assistant adds **[92 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
+The P42 JavaScript Assistant adds **[96 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
@@ -81,7 +81,7 @@ In React, components often contain JSX, a syntax extension for JavaScript. The J
 
 ## Code Assists for Logical Expressions
 Boolean logic can be challenging to read, especially as expressions get more complex. The JavaScript Assistant provides several refactorings that can help you simplify and tease apart logical expressions to make them easier to understand:
-* **[Convert string comparison chain to array.includes](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
+* **[Convert string comparison chain to array.includes()](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
 * **[Convert to optional chaining](https://p42.ai/documentation/code-assist/convert-to-optional-chaining)**: Replace various guard expressions with the optional chaining operator (`?.`).
 * **[Flip operator](https://p42.ai/documentation/code-assist/flip-operator)**: Swap the left and right operands and update the operator if necessary.
 * **[Invert condition](https://p42.ai/documentation/code-assist/invert-condition)**: Negate the condition of an if-statement or conditional expression and swap its content.
@@ -100,6 +100,7 @@ Branching statements such as if-else and switch are central elements in many pro
 * **[Introduce early return / continue](https://p42.ai/documentation/code-assist/introduce-early-return) ([Pro](https://p42.ai/pricing))**: Change an if-statement into an early return or continue statement.
 * **[Merge nested if inside else into else-if](https://p42.ai/documentation/code-assist/merge-nested-else-if)**: Nested single `if` statements inside `else` blocks can be combined into `else if` statements.
 * **[Merge nested if-statements](https://p42.ai/documentation/code-assist/merge-nested-if)**: Combine two nested `if` statements without additional operations into a single `if`-statement, using `&&` to combine the conditions.
+* **[Move destructured expression into separate statement](https://p42.ai/documentation/code-assist/move-destructured-expression-into-separate-statement) ([Pro](https://p42.ai/pricing))**: Move a destructured expression inside a variable declaration into a separate variable declaration.
 * **[Move duplicated first statement out of if-else](https://p42.ai/documentation/code-assist/move-first-statement-out-of-if-else)**: Move a first statement that appears in both the if and the else block out of the if-else statement.
 * **[Move duplicated last statement out of if-else](https://p42.ai/documentation/code-assist/move-last-statement-out-of-if-else)**: Move a last statement that appears in both the if and the else block out of the if-else statement.
 * **[Remove empty else block](https://p42.ai/documentation/code-assist/remove-empty-else-block)**: Remove an empty 'else' block from an 'if' statement.
@@ -112,8 +113,9 @@ Branching statements such as if-else and switch are central elements in many pro
 
 ## Code Assists for Arrays and Loops
 JavaScript has several ways of defining loops and many array methods that work on the whole array. The JavaScript Assistant provides several code actions for converting between different types of for loops and for converting to more idiomatic array methods such as array.includes().
+* **[Convert array.filter()[0] to array.find()](https://p42.ai/documentation/code-assist/convert-array-filter-to-find) ([Pro](https://p42.ai/pricing))**: Replace `anArray.filter(…)[0]` with `anArray.find(…)`.
 * **[Convert array.indexOf() into array.includes()](https://p42.ai/documentation/code-assist/convert-array-index-of-to-array-includes)**: Replace `array.indexOf()` checks with `array.includes()`.
-* **[Convert string comparison chain to array.includes](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
+* **[Convert string comparison chain to array.includes()](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
 * **[Convert loop to .forEach](https://p42.ai/documentation/code-assist/convert-loop-to-for-each)**: Replace regular `for` loops with `.forEach()` loops.
 * **[Convert loop to for…of](https://p42.ai/documentation/code-assist/convert-loop-to-for-of)**: Replace regular `for` loops and `anArray.forEach` loops with `for…of` loops.
 * **[Convert loop to for](https://p42.ai/documentation/code-assist/convert-loop-to-for-with-index)**: Replace `for…of` with a regular `for` loop that has an index variable.
@@ -125,14 +127,14 @@ Functions and methods are essential building blocks of any non-trivial program. 
 * **[Convert function to arrow function](https://p42.ai/documentation/code-assist/convert-function-to-arrow-function)**: Replace function expressions with arrow functions, a more concise syntax.
 * **[Convert function to object method](https://p42.ai/documentation/code-assist/convert-function-to-object-method)**: Convert property assignments with functions to method declarations.
 * **[Convert named function to function expression](https://p42.ai/documentation/code-assist/convert-named-function-to-function-expression)**: Converts a named function to a const declaration with a function expression.
-* **[Lift default into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
+* **[Move default value into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
 * **[Push parameter into IIFE/IIAF](https://p42.ai/documentation/code-assist/push-parameter-into-iife)**: Push a parameter of an immediately-invoked function expressions (IIFEs) or an immediately-invoked arrow functions (IIAFs) into the function body.
 * **[Remove {…} from arrow function](https://p42.ai/documentation/code-assist/remove-braces-from-arrow-function)**: Convert an arrow function block body into an expression body.
 * **[Remove IIFE/IIAF](https://p42.ai/documentation/code-assist/remove-iife)**: Remove immediately-invoked function expressions (IIFEs) and immediately-invoked arrow functions (IIAFs) without parameters.
 
 ## Code Assists for Strings and Template Literals
 Text manipulation has become more powerful with the introduction of template literals in JavaScript. The JavaScript Assistant offers several code actions to help you work with text, be it strings or template literals:
-* **[Convert string comparison chain to array.includes](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
+* **[Convert string comparison chain to array.includes()](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
 * **[Convert string to template literal](https://p42.ai/documentation/code-assist/convert-string-to-template-literal)**: Convert a string to a basic template literal without expressions.
 * **[Convert template literal to string](https://p42.ai/documentation/code-assist/convert-template-literal-to-string)**: Convert a simple template literal without expressions into a string.
 * **[Extract selected text into variable](https://p42.ai/documentation/code-assist/extract-substring-to-variable)**: Extract the selected text (including expressions from template literals) into a `const` variable.
@@ -150,13 +152,15 @@ Text manipulation has become more powerful with the introduction of template lit
 * **[Extract variable](https://p42.ai/documentation/code-assist/extract-variable)**: Extract one or more occurrences of an expression into a `const` variable.
 * **[Flatten array rest/spread property](https://p42.ai/documentation/code-assist/flatten-array-rest-property) ([Pro](https://p42.ai/pricing))**: Merge a ...[] expression into the outer array literal or destructuring expression.
 * **[Inline return](https://p42.ai/documentation/code-assist/inline-return)**: Convert a variable assignment to a `return` statement.
-* **[Lift default into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
+* **[Move default value into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
 * **[Merge into preceding destructuring assignment](https://p42.ai/documentation/code-assist/merge-into-preceding-destructuring-assignment)**: Combine an object destructuring assignment with its preceding sibling.
 * **[Merge variable declaration and initialization](https://p42.ai/documentation/code-assist/merge-variable-declaration-and-initialization)**: Convert the initial assignment of a variable into its declaration initializer.
+* **[Move const to top-level scope](https://p42.ai/documentation/code-assist/move-const-to-outer-scope) ([Pro](https://p42.ai/pricing))**: Move a constant to the top-level scope of the module.
 * **[Move field initialization into constructor](https://p42.ai/documentation/code-assist/move-field-initializer-into-constructor) ([Pro](https://p42.ai/pricing))**: Moves the assignment of the initial field value into the class constructor.
 * **[Move initialization into field declaration](https://p42.ai/documentation/code-assist/move-field-initializer-into-declaration) ([Pro](https://p42.ai/pricing))**: Moves the assignment of the initial field value into the field declaration.
 * **[Push variable declaration into initial value](https://p42.ai/documentation/code-assist/push-into-initial-value-declaration) ([Pro](https://p42.ai/pricing))**: Inlines a variable that is initialized with another variable into the declaration of that variable.
 * **[Push parameter into IIFE/IIAF](https://p42.ai/documentation/code-assist/push-parameter-into-iife)**: Push a parameter of an immediately-invoked function expressions (IIFEs) or an immediately-invoked arrow functions (IIAFs) into the function body.
+* **[Remove trailing array destructuring holes](https://p42.ai/documentation/code-assist/remove-trailing-array-destructuring-holes)**: Remove trailing array destructuring holes and empty array destructuring expressions.
 * **[Remove unused variable](https://p42.ai/documentation/code-assist/remove-unused-variable)**: Remove a variable that is not read or written.
 * **[Replace with existing variable](https://p42.ai/documentation/code-assist/replace-expression-with-existing-variable) ([Pro](https://p42.ai/pricing))**: Replace an expression with an existing variable.
 * **[Convert var to let or const](https://p42.ai/documentation/code-assist/replace-var-with-let-and-const)**: Replace `var` with block-scoped variables `let` and `const`.
@@ -187,7 +191,7 @@ The Javascript ecosystem is progressing rapidly. However, it is hard to keep cod
 * **[Collapse object property into shorthand](https://p42.ai/documentation/code-assist/collapse-property-into-shorthand)**: Shorten object properties when the property name is the same as the property value.
 * **[Convert .apply() to spread syntax](https://p42.ai/documentation/code-assist/convert-apply-to-spread-syntax)**: Replace `.apply()` calls with the spread operator `...`
 * **[Convert array.indexOf() into array.includes()](https://p42.ai/documentation/code-assist/convert-array-index-of-to-array-includes)**: Replace `array.indexOf()` checks with `array.includes()`.
-* **[Convert string comparison chain to array.includes](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
+* **[Convert string comparison chain to array.includes()](https://p42.ai/documentation/code-assist/convert-comparison-chain-to-array-includes)**: Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.
 * **[Convert function to arrow function](https://p42.ai/documentation/code-assist/convert-function-to-arrow-function)**: Replace function expressions with arrow functions, a more concise syntax.
 * **[Convert function to object method](https://p42.ai/documentation/code-assist/convert-function-to-object-method)**: Convert property assignments with functions to method declarations.
 * **[Convert loop to for…of](https://p42.ai/documentation/code-assist/convert-loop-to-for-of)**: Replace regular `for` loops and `anArray.forEach` loops with `for…of` loops.
@@ -195,7 +199,7 @@ The Javascript ecosystem is progressing rapidly. However, it is hard to keep cod
 * **[Convert string to template literal](https://p42.ai/documentation/code-assist/convert-string-to-template-literal)**: Convert a string to a basic template literal without expressions.
 * **[Convert to destructuring assignment](https://p42.ai/documentation/code-assist/convert-to-destructuring-assignment)**: Convert a variable declaration that accesses an object property to a destructuring assignment.
 * **[Convert to optional chaining](https://p42.ai/documentation/code-assist/convert-to-optional-chaining)**: Replace various guard expressions with the optional chaining operator (`?.`).
-* **[Lift default into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
+* **[Move default value into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
 * **[Convert var to let or const](https://p42.ai/documentation/code-assist/replace-var-with-let-and-const)**: Replace `var` with block-scoped variables `let` and `const`.
 * **[Replace void 0 with undefined](https://p42.ai/documentation/code-assist/replace-void-0-with-undefined)**: Replace `void 0` and other constant `void` expressions with `undefined`.
 * **[Use == null comparison](https://p42.ai/documentation/code-assist/use-eq-eq-null)**: Replace different nullish checks with `== null`.
@@ -222,6 +226,7 @@ Code cleanups remove unnecessary code. Such code can result from code churn, e.g
 * **[Remove empty if block](https://p42.ai/documentation/code-assist/remove-empty-if-block)**: Remove an empty 'if' block from an 'if' statement. Replaces it with the 'else' block when available.
 * **[Remove IIFE/IIAF](https://p42.ai/documentation/code-assist/remove-iife)**: Remove immediately-invoked function expressions (IIFEs) and immediately-invoked arrow functions (IIAFs) without parameters.
 * **[Remove redundant else if](https://p42.ai/documentation/code-assist/remove-redundant-else)**: Remove redundant else-if conditions and unreachable else statements.
+* **[Remove trailing array destructuring holes](https://p42.ai/documentation/code-assist/remove-trailing-array-destructuring-holes)**: Remove trailing array destructuring holes and empty array destructuring expressions.
 * **[Remove unnecessary conditional expression](https://p42.ai/documentation/code-assist/remove-unnecessary-conditional-expression)**: Replace a conditional expression with its condition or its result.
 * **[Remove unnecessary else](https://p42.ai/documentation/code-assist/remove-unnecessary-else)**: Lift the else content of an `if`-`else` with a return statement to the outer indentation level.
 * **[Remove unnecessary expression statement](https://p42.ai/documentation/code-assist/remove-unnecessary-expression-statement)**: Remove an expression statement that has no side-effects.
