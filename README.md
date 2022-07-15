@@ -1,6 +1,6 @@
 # Write modern, clean, and concise code
 
-The P42 JavaScript Assistant adds **[96 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, **React**, and **Vue** to Visual Studio Code. 
+The P42 JavaScript Assistant adds **[78 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
@@ -42,7 +42,6 @@ See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor 
 ## Learn more
 * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
 * [Suggestion Sidebar](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar)
-* [Mass Refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
 * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
 * [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
 * [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
@@ -58,6 +57,18 @@ See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor 
     <a href="https://twitter.com/p42ai">Follow @p42ai</a>
   </p>
 </div>
+
+# Premium Features
+Developing the JavaScript Assistant extension takes significant time and effort. 
+To make continued development sustainable,
+some premium features and refactorings are available only in the Pro and Business plans: 
+
+* [18 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
+* [Mass refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
+* [Apply all safe suggestions](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar#apply-all-safe-suggestions)
+* [Vue.js support](https://p42.ai/feature/vuejs)
+
+You can [try P42 Pro 14 days for free](https://p42.ai/pricing).
 
 # Code Assists by Category
 Code assists that belong to several categories appear more than once.
@@ -100,7 +111,6 @@ Branching statements such as if-else and switch are central elements in many pro
 * **[Introduce early return / continue](https://p42.ai/documentation/code-assist/introduce-early-return) ([Pro](https://p42.ai/pricing))**: Change an if-statement into an early return or continue statement.
 * **[Merge nested if inside else into else-if](https://p42.ai/documentation/code-assist/merge-nested-else-if)**: Nested single `if` statements inside `else` blocks can be combined into `else if` statements.
 * **[Merge nested if-statements](https://p42.ai/documentation/code-assist/merge-nested-if)**: Combine two nested `if` statements without additional operations into a single `if`-statement, using `&&` to combine the conditions.
-* **[Move destructured expression into separate statement](https://p42.ai/documentation/code-assist/move-destructured-expression-into-separate-statement) ([Pro](https://p42.ai/pricing))**: Move a destructured expression inside a variable declaration into a separate variable declaration.
 * **[Move duplicated first statement out of if-else](https://p42.ai/documentation/code-assist/move-first-statement-out-of-if-else)**: Move a first statement that appears in both the if and the else block out of the if-else statement.
 * **[Move duplicated last statement out of if-else](https://p42.ai/documentation/code-assist/move-last-statement-out-of-if-else)**: Move a last statement that appears in both the if and the else block out of the if-else statement.
 * **[Remove empty else block](https://p42.ai/documentation/code-assist/remove-empty-else-block)**: Remove an empty 'else' block from an 'if' statement.
@@ -156,6 +166,7 @@ Text manipulation has become more powerful with the introduction of template lit
 * **[Merge into preceding destructuring assignment](https://p42.ai/documentation/code-assist/merge-into-preceding-destructuring-assignment)**: Combine an object destructuring assignment with its preceding sibling.
 * **[Merge variable declaration and initialization](https://p42.ai/documentation/code-assist/merge-variable-declaration-and-initialization)**: Convert the initial assignment of a variable into its declaration initializer.
 * **[Move const to top-level scope](https://p42.ai/documentation/code-assist/move-const-to-outer-scope) ([Pro](https://p42.ai/pricing))**: Move a constant to the top-level scope of the module.
+* **[Move destructured expression into separate statement](https://p42.ai/documentation/code-assist/move-destructured-expression-into-separate-statement) ([Pro](https://p42.ai/pricing))**: Move a destructured expression inside a variable declaration into a separate variable declaration.
 * **[Move field initialization into constructor](https://p42.ai/documentation/code-assist/move-field-initializer-into-constructor) ([Pro](https://p42.ai/pricing))**: Moves the assignment of the initial field value into the class constructor.
 * **[Move initialization into field declaration](https://p42.ai/documentation/code-assist/move-field-initializer-into-declaration) ([Pro](https://p42.ai/pricing))**: Moves the assignment of the initial field value into the field declaration.
 * **[Push variable declaration into initial value](https://p42.ai/documentation/code-assist/push-into-initial-value-declaration) ([Pro](https://p42.ai/pricing))**: Inlines a variable that is initialized with another variable into the declaration of that variable.
