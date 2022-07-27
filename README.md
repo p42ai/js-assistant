@@ -1,6 +1,6 @@
 # Write modern, clean, and concise code
 
-The P42 JavaScript Assistant adds **[78 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
+The P42 JavaScript Assistant adds **[80 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
@@ -61,9 +61,9 @@ See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor 
 # Premium Features
 Developing the JavaScript Assistant extension takes significant time and effort. 
 To make continued development sustainable,
-some premium features and refactorings are available only in the Pro and Business plans: 
+some premium features and refactorings are only available in the Pro and Business plans: 
 
-* [18 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
+* [19 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
 * [Mass refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
 * [Apply all safe suggestions](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar#apply-all-safe-suggestions)
 * [Vue.js support](https://p42.ai/feature/vuejs)
@@ -156,6 +156,7 @@ Text manipulation has become more powerful with the introduction of template lit
 
 ## Code Assists for Variables
 
+* **[Convert destructuring to regular variable declaration](https://p42.ai/documentation/code-assist/convert-destructured-to-regular-declaration) ([Pro](https://p42.ai/pricing))**: Convert all variables that are declared via destructuring into separate regular variable declarations.
 * **[Convert let to const](https://p42.ai/documentation/code-assist/convert-let-to-const)**: Replace `let` declarations that have no re-assignment with `const` declarations.
 * **[Convert 'new Array(…)' to '[…]'](https://p42.ai/documentation/code-assist/convert-new-array-to-array-literal) ([Pro](https://p42.ai/pricing))**: Replace `new Array(…)` calls with `[…]`.
 * **[Convert to destructuring assignment](https://p42.ai/documentation/code-assist/convert-to-destructuring-assignment)**: Convert a variable declaration that accesses an object property to a destructuring assignment.
@@ -250,8 +251,10 @@ Code cleanups remove unnecessary code. Such code can result from code churn, e.g
 ## Other Code Assists
 
 * **[Insert console.log for variable](https://p42.ai/documentation/code-assist/insert-console-log)**: Insert a 'console.log' statement for a selected variable when possible.
+* **[Insert else statement](https://p42.ai/documentation/code-assist/insert-else)**: Add an else statement to an existing if statement
 * **[Select expression occurrences](https://p42.ai/documentation/code-assist/select-expression-occurrences) ([Pro](https://p42.ai/pricing))**: Start a multi-cursor selection on several occurrences of the same expression.
-* **[Surround with try…catch](https://p42.ai/documentation/code-assist/surround-with-try-catch)**: Surround a sequence of statements in a `try…catch` block.
+* **[Surround with if statement](https://p42.ai/documentation/code-assist/surround-with-if-statement)**: Surround a sequence of statements with an if-statement.
+* **[Surround with try…catch](https://p42.ai/documentation/code-assist/surround-with-try-catch)**: Surround a sequence of statements with a `try…catch` block.
 
 # Report Bugs and Suggest Features
 
