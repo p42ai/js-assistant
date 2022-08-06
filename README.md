@@ -1,6 +1,6 @@
 # Write modern, clean, and concise code
 
-The P42 JavaScript Assistant adds **[80 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
+The P42 JavaScript Assistant adds **[83 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
@@ -63,7 +63,7 @@ Developing the JavaScript Assistant extension takes significant time and effort.
 To make continued development sustainable,
 some premium features and refactorings are only available in the Pro and Business plans: 
 
-* [19 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
+* [21 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
 * [Mass refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
 * [Apply all safe suggestions](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar#apply-all-safe-suggestions)
 * [Vue.js support](https://p42.ai/feature/vuejs)
@@ -79,6 +79,7 @@ Visual Study Code already contains basic refactorings such as Rename and Extract
 * **[Extract variable](https://p42.ai/documentation/code-assist/extract-variable)**: Extract one or more occurrences of an expression into a `const` variable.
 * **[Inline return](https://p42.ai/documentation/code-assist/inline-return)**: Convert a variable assignment to a `return` statement.
 * **[Inline variable](https://p42.ai/documentation/code-assist/inline-variable)**: Inline a variable value into its references.
+* **[Move statement](https://p42.ai/documentation/code-assist/move-statement)**: Move a statement up or down.
 
 ## Code Assists for React
 In React, components often contain JSX, a syntax extension for JavaScript. The JavaScript Assistant provides code assists that make working with JSX and React easier:
@@ -86,6 +87,7 @@ In React, components often contain JSX, a syntax extension for JavaScript. The J
 * **[Collapse JSX tag](https://p42.ai/documentation/code-assist/collapse-jsx-element)**: Convert an empty JSX tag into a self-closing tag.
 * **[Expand JSX tag](https://p42.ai/documentation/code-assist/expand-self-closing-jsx-element)**: Expand a self-closing JSX tag.
 * **[Extract React function component](https://p42.ai/documentation/code-assist/extract-jsx-element)**: Extract JSX element or fragment into a React Function Component.
+* **[Move JSX attribute](https://p42.ai/documentation/code-assist/move-jsx-attribute) ([Pro](https://p42.ai/pricing))**: Move a JSX attribute up or down.
 * **[Remove {…} from JSX attribute](https://p42.ai/documentation/code-assist/remove-braces-from-jsx-attribute)**: Remove `{…}` from a JSX attribute expression value that contains a string literal.
 * **[Remove unnecessary JSX fragment](https://p42.ai/documentation/code-assist/remove-unnecessary-jsx-fragment)**: Replace JSX Fragments `<></>` that only contain a single child with that child.
 * **[Surround with <>...</>](https://p42.ai/documentation/code-assist/surround-with-jsx-fragment)**: Wrap JSX elements in a JSX fragment `<>...</>`.
@@ -112,6 +114,7 @@ Branching statements such as if-else and switch are central elements in many pro
 * **[Merge nested if inside else into else-if](https://p42.ai/documentation/code-assist/merge-nested-else-if)**: Nested single `if` statements inside `else` blocks can be combined into `else if` statements.
 * **[Merge nested if-statements](https://p42.ai/documentation/code-assist/merge-nested-if)**: Combine two nested `if` statements without additional operations into a single `if`-statement, using `&&` to combine the conditions.
 * **[Move duplicated first statement out of if-else](https://p42.ai/documentation/code-assist/move-first-statement-out-of-if-else)**: Move a first statement that appears in both the if and the else block out of the if-else statement.
+* **[Move if-else-if branches](https://p42.ai/documentation/code-assist/move-if-else-if-branches) ([Pro](https://p42.ai/pricing))**: Move an if-else branch up or down.
 * **[Move duplicated last statement out of if-else](https://p42.ai/documentation/code-assist/move-last-statement-out-of-if-else)**: Move a last statement that appears in both the if and the else block out of the if-else statement.
 * **[Remove empty else block](https://p42.ai/documentation/code-assist/remove-empty-else-block)**: Remove an empty 'else' block from an 'if' statement.
 * **[Remove empty if block](https://p42.ai/documentation/code-assist/remove-empty-if-block)**: Remove an empty 'if' block from an 'if' statement. Replaces it with the 'else' block when available.
