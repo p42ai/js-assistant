@@ -1,5 +1,4 @@
 # Write modern, clean, and concise code
-
 The P42 JavaScript Assistant adds **[85 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
@@ -34,8 +33,8 @@ The P42 JavaScript Assistant introduces several context menus for different refa
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut |
 | ----------| --- | ------------ | ------------ | 
 | **Extract** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd>
-| **Inline** | *context menu*| <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd>
-| **Convert** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>C</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>C</kbd>
+| **Inline** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd>
+| **Convert** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>V</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>V</kbd>
 | **Move** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd>
 | **Action** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd>
 
@@ -50,17 +49,16 @@ The inline action can also be executed directly:
 
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut |
 | ----------|---| ------------ | ------------ | 
-| **Inline** | *direct*| <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
-
+| **Inline** | *direct* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
 
 The JavaScript Assistants adds a system for easily moving semantic blocks around:
 
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut |
 | ----------| ---- | ------------ | ------------ | 
-| **Move up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd>
-| **Move down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd>
-| **Move left** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd>
-| **Move right** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd>
+| **Move Up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd>
+| **Move Down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd>
+| **Move Left** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd>
+| **Move Right** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd>
 
 The smart shrink and expand selection shortcuts have been remapped, because they are essential for creating semantic selections that provide the right context when triggering refactorings:
 
