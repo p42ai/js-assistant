@@ -30,13 +30,13 @@ See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor 
 
 The P42 JavaScript Assistant introduces several context menus for different refactoring kinds:
 
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut |
-| ----------| --- | ------------ | ------------ | 
-| **Extract** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd>
-| **Inline** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd>
-| **Convert** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>V</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>V</kbd>
-| **Move** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd>
-| **Action** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd>
+| Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
+| ----------| --- | ------------ | ------------ | --- |
+| **Extract** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd> | [3 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.extract)
+| **Inline** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd> | [4 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.inline)
+| **Convert** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>V</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>V</kbd> | [34 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.convert)
+| **Move** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd> | [17 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move)
+| **Action** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd> | [6 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/action)
 
 There are also several helpful default refactoring context menus that are provided by Visual Studio Code:
 
@@ -47,18 +47,18 @@ There are also several helpful default refactoring context menus that are provid
 
 The inline action can also be executed directly:
 
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut |
-| ----------|---| ------------ | ------------ | 
-| **Inline** | *direct* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>
+| Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
+| ----------| --- | ------------ | ------------ | --- |
+| **Inline** | *direct* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | [4 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.inline)
 
 The JavaScript Assistants adds a system for easily moving semantic blocks around:
 
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut |
-| ----------| ---- | ------------ | ------------ | 
-| **Move Up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd>
-| **Move Down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd>
-| **Move Left** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd>
-| **Move Right** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd>
+| Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
+| ----------| --- | ------------ | ------------ | --- |
+| **Move Up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.up)
+| **Move Down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.down)
+| **Move Left** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.left)
+| **Move Right** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.right)
 
 The smart shrink and expand selection shortcuts have been remapped, because they are essential for creating semantic selections that provide the right context when triggering refactorings:
 
@@ -216,6 +216,7 @@ Text manipulation has become more powerful with the introduction of template lit
 * **[Move destructuring array element](https://p42.ai/documentation/code-assist/move-destructured-array-element)**: Move an element inside an array destructuring expression up or down.
 * **[Move destructured expression into separate statement](https://p42.ai/documentation/code-assist/move-destructured-expression-into-separate-statement) ([Pro](https://p42.ai/pricing))**: Move a destructured expression inside a variable declaration into a separate variable declaration.
 * **[Move destructuring object property](https://p42.ai/documentation/code-assist/move-destructured-object-property)**: Move a property inside an object destructuring expression up or down.
+* **[Push variable declaration into initial value](https://p42.ai/documentation/code-assist/push-into-initial-value-declaration) ([Pro](https://p42.ai/pricing))**: Inlines a variable that is initialized with another variable into the declaration of that variable.
 * **[Remove trailing array destructuring holes](https://p42.ai/documentation/code-assist/remove-trailing-array-destructuring-holes)**: Remove trailing array destructuring holes and empty array destructuring expressions.
 
 ## Code Assists for Syntax Conversion
