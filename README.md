@@ -1,4 +1,5 @@
 # Write modern, clean, and concise code
+
 The P42 JavaScript Assistant adds **[85 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
@@ -60,12 +61,12 @@ The JavaScript Assistants adds a system for easily moving semantic blocks around
 | **Move Left** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.left)
 | **Move Right** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.right)
 
-The smart shrink and expand selection shortcuts have been remapped, because they are essential for creating semantic selections that provide the right context when triggering refactorings:
+The smart shrink and expand selection shortcuts are essential for creating semantic selections that provide the right context when triggering refactorings:
 
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut |
 | ----------| --- | ------------ | ------------ | 
-| **Smart Expand Selection** | *direct* | <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>ALT</kbd> + <kbd>UP</kbd>
-| **Smart Shrink Selection** | *direct* | <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>ALT</kbd> + <kbd>DOWN</kbd>
+| **Smart Expand Selection** | *direct* | <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd>
+| **Smart Shrink Selection** | *direct* | <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd>
 
 ## Learn more
 * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
