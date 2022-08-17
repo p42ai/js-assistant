@@ -1,5 +1,4 @@
 # Write modern, clean, and concise code
-
 The P42 JavaScript Assistant adds **[85 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
@@ -52,14 +51,13 @@ The inline action can also be executed directly:
 | ----------| --- | ------------ | ------------ | --- |
 | **Inline** | *direct* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | [4 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.inline)
 
-The JavaScript Assistants adds a system for easily moving semantic blocks around:
+You can move code elements with the following shortcuts:
 
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
 | ----------| --- | ------------ | ------------ | --- |
-| **Move Up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.up)
-| **Move Down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.down)
-| **Move Left** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.left)
-| **Move Right** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd> | [5 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.right)
+| **Move** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd> | [17 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move)
+| **Move Up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | [9 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.up)
+| **Move Down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | [9 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.down)
 
 The smart shrink and expand selection shortcuts are essential for creating semantic selections that provide the right context when triggering refactorings:
 
