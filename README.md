@@ -5,15 +5,16 @@ The P42 JavaScript Assistant adds **[89 automated refactorings and code assists]
 
 > *[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
 
-## Edit JavaScript Fast and Accurately
-Manually editing your JavaScript code is often cumbersome and error-prone. With the P42 JavaScript Assistant, you can **use fast, automated code assists and refactorings to modify your code on a structural level** and focus on what change you want to make, not on what to type.
+## Edit Code Effectively
+Manually editing JavaScript code is often cumbersome and error-prone. With the P42 JavaScript Assistant, you can **use fast, automated code assists and refactorings to modify your code accurately on a structural level** and focus on what change you want to make, not on what to type.
 
 ![Edit your code fast and accurately with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-edit-code-faster.gif)
 
 ## Learn Modern JavaScript On The Fly
-JavaScript and its ecosystem are rapidly progressing, and it is time-consuming to keep up with the latest changes. The P42 JavaScript Assistant shows **suggestions for using up-to-date JavaScript syntax and APIs** so you can write clean, modern code without spending time reading blog posts and watching tutorial videos.
+JavaScript and its ecosystem are rapidly progressing, and it is time-consuming to stay up-to-date. The P42 JavaScript Assistant shows **suggestions for using modern JavaScript syntax and APIs** so you can write clean code without spending time catching up on the latest JavaScript features.
 
 ![Learn modern JavaScript with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-learn-modern-javascript.gif)
+
 ## Refactor Safely
 Refactorings, especially those that are performed manually, can easily break existing functionality or introduce bugs. The **JavaScript Assistant automates refactoring steps and analyses the safety of potential refactorings**, so you can refactor with confidence and know what to consider to avoid unnecessary breakages.
 
