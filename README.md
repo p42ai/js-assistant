@@ -1,20 +1,19 @@
 # Write modern, clean, and concise code
-The P42 JavaScript Assistant adds **[85 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
+The P42 JavaScript Assistant adds **[89 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
 
 > *[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
 
-## Edit Code Faster
-Manually editing your code can be cumbersome and error-prone. With the JavaScript Assistant, you can **use fast, automated code assists and refactorings to modify your code on a structural level** and focus on what change you want to make, not on how to type it in.
+## Edit JavaScript Fast and Accurately
+Manually editing your JavaScript code is often cumbersome and error-prone. With the P42 JavaScript Assistant, you can **use fast, automated code assists and refactorings to modify your code on a structural level** and focus on what change you want to make, not on what to type.
 
-![Edit your code faster with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-edit-code-faster.gif)
+![Edit your code fast and accurately with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-edit-code-faster.gif)
 
-## Learn Modern JavaScript
-JavaScript and its ecosystem are rapidly progressing. The JavaScript Assistant shows **suggestions for using up-to-date JavaScript syntax and APIs** so you can write clean, modern code without worrying about the latest changes to the language.
+## Learn Modern JavaScript On The Fly
+JavaScript and its ecosystem are rapidly progressing, and it is time-consuming to keep up with the latest changes. The P42 JavaScript Assistant shows **suggestions for using up-to-date JavaScript syntax and APIs** so you can write clean, modern code without spending time reading blog posts and watching tutorial videos.
 
 ![Learn modern JavaScript with the P42 JavaScript Assistant.](https://p42.ai/image/landing/benefit-learn-modern-javascript.gif)
-
 ## Refactor Safely
 Refactorings, especially those that are performed manually, can easily break existing functionality or introduce bugs. The **JavaScript Assistant automates refactoring steps and analyses the safety of potential refactorings**, so you can refactor with confidence and know what to consider to avoid unnecessary breakages.
 
@@ -28,43 +27,19 @@ You can find the actions in the **quick fix** and **refactoring context menus**.
 ## Keyboard Shortcuts
 See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration) / [Keyboard Shortcuts](https://p42.ai/documentation/p42-for-vscode/editor-integration#keyboard-shortcuts).
 
-The P42 JavaScript Assistant introduces several context menus for different refactoring kinds:
-
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
-| ----------| --- | ------------ | ------------ | --- |
-| **Extract** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>X</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>X</kbd> | [3 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.extract)
-| **Inline** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>I</kbd> | [4 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.inline)
-| **Convert** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>V</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>V</kbd> | [34 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.convert)
-| **Move** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd> | [17 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move)
-| **Action** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>A</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>A</kbd> | [6 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/action)
-
-There are also several helpful default refactoring context menus that are provided by Visual Studio Code:
-
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut |
-| ----------| --- | ------------ | ------------ | 
-| **Quick Fix** | *context menu* | <kbd>CMD</kbd> + <kbd>.</kbd> | <kbd>CTRL</kbd> + <kbd>.</kbd> |
-| **Refactor** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>R</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> |
-
-The inline action can also be executed directly:
-
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
-| ----------| --- | ------------ | ------------ | --- |
-| **Inline** | *direct* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | [4 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.inline)
-
-You can move code elements with the following shortcuts:
-
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut | Code Assists |
-| ----------| --- | ------------ | ------------ | --- |
-| **Move** | *context menu* | <kbd>CTRL</kbd> + <kbd>CMD</kbd> + <kbd>M</kbd> | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>M</kbd> | [17 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move)
-| **Move Up** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>UP</kbd> | [9 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.up)
-| **Move Down** | *direct* | <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>DOWN</kbd> | [9 code assists](https://p42.ai/documentation/code-assist-list/keyboard-shortcut/refactor.move.down)
-
-The smart shrink and expand selection shortcuts are essential for creating semantic selections that provide the right context when triggering refactorings:
-
-| Action | Type | Mac Shortcut | Windows/Linux Shortcut |
-| ----------| --- | ------------ | ------------ | 
-| **Smart Expand Selection** | *direct* | <kbd>ALT</kbd> + <kbd>UP</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>RIGHT</kbd>
-| **Smart Shrink Selection** | *direct* | <kbd>ALT</kbd> + <kbd>DOWN</kbd> | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>LEFT</kbd>
+| ----------| --- | ------------ | ------------ |
+| **Quick Fix** | *context menu* | <kbd>⌘</kbd> + <kbd>.</kbd> | <kbd>Ctrl</kbd> + <kbd>.</kbd> |
+| **Refactor** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>R</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> |
+| **Extract** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> |
+| **Inline** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
+| **Inline** | *direct* | <kbd>⌃</kbd> + <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>⇧</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
+| **Convert** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>V</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd> |
+| **Toggle {}** | *direct* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>B</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> |
+| **Move** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>M</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> |
+| **Move Up** | *direct* | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↑</kbd> | <kbd>⇧</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> |
+| **Move Down** | *direct* | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↓</kbd> | <kbd>⇧</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd> |
+| **Action** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>A</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> |
 
 ## Learn more
 * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
@@ -121,6 +96,7 @@ Boolean logic can be challenging to read, especially as expressions get more com
 
 ## Code Assists for Branching Statements
 Branching statements such as if-else and switch are central elements in many programs. Restructuring them can increase the readability of your programs, often in combination with refactoring their conditions:
+* **[Add {…} to if-else and loops](https://p42.ai/documentation/code-assist/add-braces)**: Convert single statements into blocks.
 * **[Convert && to if statement](https://p42.ai/documentation/code-assist/convert-and-and-guard-to-if-statement)**: Convert `condition && aFunction();` and similar expression statements into if statements.
 * **[Convert conditional expression to if-else](https://p42.ai/documentation/code-assist/convert-conditional-expression-to-if-else)**: Convert a conditional expression to an if-else statement.
 * **[Convert if-else into conditional expression](https://p42.ai/documentation/code-assist/convert-if-else-to-conditional-expression)**: Convert an `if`-`else` return or assignment expression into a conditional expression.
@@ -131,7 +107,9 @@ Branching statements such as if-else and switch are central elements in many pro
 * **[Move duplicated first statement out of if-else](https://p42.ai/documentation/code-assist/move-first-statement-out-of-if-else)**: Move a first statement that appears in both the if and the else block out of the if-else statement.
 * **[Move if-else-if branches](https://p42.ai/documentation/code-assist/move-if-else-if-branches) ([Pro](https://p42.ai/pricing))**: Move an if-else branch up or down.
 * **[Move duplicated last statement out of if-else](https://p42.ai/documentation/code-assist/move-last-statement-out-of-if-else)**: Move a last statement that appears in both the if and the else block out of the if-else statement.
+* **[Move nested if](https://p42.ai/documentation/code-assist/move-nested-if)**: Push down if statements into nested if statements and pull nested if statements up.
 * **[Move switch case clause](https://p42.ai/documentation/code-assist/move-switch-case) ([Pro](https://p42.ai/pricing))**: Move a `case` clause in a `switch` statement up or down.
+* **[Remove {…} from if-else and loops](https://p42.ai/documentation/code-assist/remove-braces)**: Replace single statement blocks with their inner statement.
 * **[Remove empty else block](https://p42.ai/documentation/code-assist/remove-empty-else-block)**: Remove an empty 'else' block from an 'if' statement.
 * **[Remove empty if block](https://p42.ai/documentation/code-assist/remove-empty-if-block)**: Remove an empty 'if' block from an 'if' statement. Replaces it with the 'else' block when available.
 * **[Remove redundant else if](https://p42.ai/documentation/code-assist/remove-redundant-else)**: Remove redundant else-if conditions and unreachable else statements.
@@ -220,6 +198,7 @@ Text manipulation has become more powerful with the introduction of template lit
 
 ## Code Assists for Syntax Conversion
 It is often annoying to make small syntactical changes by editing text. Often more than one position needs to be edited, and the code is broken during the edit, leading to incorrect errors and auto-completions that get in the way. You can execute the following syntax conversions with code assists:
+* **[Add {…} to if-else and loops](https://p42.ai/documentation/code-assist/add-braces)**: Convert single statements into blocks.
 * **[Add {…} to arrow function](https://p42.ai/documentation/code-assist/add-braces-to-arrow-function)**: Convert arrow function expression body into a block body.
 * **[Add {…} to JSX attribute](https://p42.ai/documentation/code-assist/add-braces-to-jsx-attribute)**: Add `{…}` to JSX attribute string literal value.
 * **[Add numeric separator](https://p42.ai/documentation/code-assist/add-numeric-separator)**: Increase the readability of long numbers and uncommon number formats by adding underscore separators.
@@ -227,11 +206,13 @@ It is often annoying to make small syntactical changes by editing text. Often mo
 * **[Collapse object property into shorthand](https://p42.ai/documentation/code-assist/collapse-property-into-shorthand)**: Shorten object properties when the property name is the same as the property value.
 * **[Convert property access to dot notation](https://p42.ai/documentation/code-assist/convert-bracket-notation-property-access-to-dot-notation)**: Convert bracket notation property access `o['a']` into dot notation property access `o.a`.
 * **[Convert property access to bracket notation](https://p42.ai/documentation/code-assist/convert-dot-notation-property-access-to-bracket-notation)**: Convert dot notation property access `o.a` into bracket notation property access `o['a']`.
+* **[Convert to ++ / --](https://p42.ai/documentation/code-assist/convert-to-increment)**: Convert an assignment expression into a `++` or `--` expression.
 * **[Expand JSX tag](https://p42.ai/documentation/code-assist/expand-self-closing-jsx-element)**: Expand a self-closing JSX tag.
 * **[Expand shorthand property](https://p42.ai/documentation/code-assist/expand-shorthand-property)**: Expand a shorthand object property (e.g. `{ a }`) to a regular property (e.g. `{ a: a }`).
 * **[Merge variable declaration and initialization](https://p42.ai/documentation/code-assist/merge-variable-declaration-and-initialization)**: Convert the initial assignment of a variable into its declaration initializer.
 * **[Pull operator out of assignment](https://p42.ai/documentation/code-assist/pull-operator-out-of-assignment)**: Move an operator out of an assignment into a binary expression.
 * **[Push operator into assignment](https://p42.ai/documentation/code-assist/push-operator-into-assignment)**: Move an operator from a binary expression into an assignment operator, e.g., `+=`.
+* **[Remove {…} from if-else and loops](https://p42.ai/documentation/code-assist/remove-braces)**: Replace single statement blocks with their inner statement.
 * **[Remove {…} from arrow function](https://p42.ai/documentation/code-assist/remove-braces-from-arrow-function)**: Convert an arrow function block body into an expression body.
 * **[Remove {…} from JSX attribute](https://p42.ai/documentation/code-assist/remove-braces-from-jsx-attribute)**: Remove `{…}` from a JSX attribute expression value that contains a string literal.
 
@@ -292,6 +273,7 @@ With the introduction of various collection helpers and new syntax in ES6 and mo
 * **[Move if-else-if branches](https://p42.ai/documentation/code-assist/move-if-else-if-branches) ([Pro](https://p42.ai/pricing))**: Move an if-else branch up or down.
 * **[Move JSX attribute](https://p42.ai/documentation/code-assist/move-jsx-attribute) ([Pro](https://p42.ai/pricing))**: Move a JSX attribute up or down.
 * **[Move duplicated last statement out of if-else](https://p42.ai/documentation/code-assist/move-last-statement-out-of-if-else)**: Move a last statement that appears in both the if and the else block out of the if-else statement.
+* **[Move nested if](https://p42.ai/documentation/code-assist/move-nested-if)**: Push down if statements into nested if statements and pull nested if statements up.
 * **[Move object property](https://p42.ai/documentation/code-assist/move-object-property)**: Move an object property up or down.
 * **[Move statement](https://p42.ai/documentation/code-assist/move-statement)**: Move a statement up or down.
 * **[Move switch case clause](https://p42.ai/documentation/code-assist/move-switch-case) ([Pro](https://p42.ai/pricing))**: Move a `case` clause in a `switch` statement up or down.
