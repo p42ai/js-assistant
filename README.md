@@ -1,4 +1,5 @@
 # JavaScript Refactoring Assistant
+
 The P42 JavaScript Assistant adds **[89 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
 > *[@p42ai makes refactoring a ton of fun ❤️](https://twitter.com/johnny_reilly/status/1526264716770803719)*&nbsp;&nbsp;&nbsp;— [John Reilly](https://twitter.com/johnny_reilly)
@@ -29,18 +30,19 @@ You can find the actions in the **quick fix** and **refactoring context menus**.
 See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration) / [Keyboard Shortcuts](https://p42.ai/documentation/p42-for-vscode/editor-integration#keyboard-shortcuts).
 
 | Action | Type | Mac Shortcut | Windows/Linux Shortcut |
-| ----------| --- | ------------ | ------------ |
+| :-- | :-- | --: | --: |
 | **Quick Fix** | *context menu* | <kbd>⌘</kbd> + <kbd>.</kbd> | <kbd>Ctrl</kbd> + <kbd>.</kbd> |
-| **Refactor** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>R</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> |
-| **Extract** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> |
-| **Inline** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
-| **Inline** | *direct* | <kbd>⌃</kbd> + <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>⇧</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
-| **Convert** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>V</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd> |
-| **Toggle {}** | *direct* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>B</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> |
-| **Move** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>M</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> |
-| **Move Up** | *direct* | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↑</kbd> | <kbd>⇧</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> |
-| **Move Down** | *direct* | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↓</kbd> | <kbd>⇧</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd> |
-| **Action** | *context menu* | <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>A</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> |
+| **<ins>R</ins>efactor** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>R</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> |
+| **<ins>S</ins>ource Action** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>S</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> |
+| **E<ins>x</ins>tract** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> |
+| **<ins>I</ins>nline** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
+| **<ins>I</ins>nline** |  *direct* |  <kbd>⇧</kbd> + <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>⇧</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
+| **Con<ins>v</ins>ert** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>V</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd> |
+| **Toggle <ins>B</ins>races {}** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>B</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> |
+| **<ins>M</ins>ove** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>M</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> |
+| **Move Up** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↑</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd> |
+| **Move Down** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↓</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>J</kbd> |
+| **Other <ins>A</ins>ction** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>A</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> |
 
 ## Learn more
 * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
@@ -249,7 +251,7 @@ In React, components often contain JSX, a syntax extension for JavaScript. The J
 * **[Move JSX attribute](https://p42.ai/documentation/code-assist/move-jsx-attribute) ([Pro](https://p42.ai/pricing))**: Move a JSX attribute up or down.
 * **[Remove {…} from JSX attribute](https://p42.ai/documentation/code-assist/remove-braces-from-jsx-attribute)**: Remove `{…}` from a JSX attribute expression value that contains a string literal.
 * **[Remove unnecessary JSX fragment](https://p42.ai/documentation/code-assist/remove-unnecessary-jsx-fragment)**: Replace JSX Fragments `<></>` that only contain a single child with that child.
-* **[Surround with <>...</>](https://p42.ai/documentation/code-assist/surround-with-jsx-fragment)**: Wrap JSX elements in a JSX fragment `<>...</>`.
+* **[Surround with <>…</>](https://p42.ai/documentation/code-assist/surround-with-jsx-fragment)**: Wrap JSX elements in a JSX fragment `<>…</>`.
 
 ## Lodash Modernizations
 With the introduction of various collection helpers and new syntax in ES6 and more recent JavaScript versions, some Lodash functions have become somewhat redundant.
