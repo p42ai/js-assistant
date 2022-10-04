@@ -23,8 +23,8 @@ Refactorings, especially those that are performed manually, can easily break exi
 
 # Documentation
 
-You can find the actions in the **quick fix** and **refactoring context menus**. They depend on  the cursor position, the selected text (if any), the source code, the language type, and any available type information.
-**Underlining with three dots** suggests beneficial [refactorings](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) that you can perform. The [**suggestion sidebar**](https://p42.ai//documentation/p42-for-vscode/suggestion-sidebar) shows you recommended refactorings for your whole file.
+You can find the actions in the **quick fix** and **refactoring context menus**. They depend on the cursor position, the selected text (if any), the source code, the language type, and any available type information.
+**Underlining with three dots** suggests beneficial [refactorings](https://p42.ai///documentation/p42-for-vscode/editor-integration#refactoring-suggestions) that you can perform. The [**suggestion panel**](https://p42.ai//documentation/p42-for-vscode/side-bar#suggestion-panel) shows you recommended refactorings for your whole file.
 
 ## Keyboard Shortcuts
 See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration) / [Keyboard Shortcuts](https://p42.ai/documentation/p42-for-vscode/editor-integration#keyboard-shortcuts).
@@ -34,19 +34,16 @@ See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor 
 | **Quick Fix** | *context menu* | <kbd>⌘</kbd> + <kbd>.</kbd> | <kbd>Ctrl</kbd> + <kbd>.</kbd> |
 | **<ins>R</ins>efactor** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>R</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> |
 | **<ins>S</ins>ource Action** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>S</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> |
-| **E<ins>x</ins>tract** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> |
-| **<ins>I</ins>nline** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
-| **<ins>I</ins>nline** |  *direct* |  <kbd>⇧</kbd> + <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>⇧</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
-| **Con<ins>v</ins>ert** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>V</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd> |
+| **E<ins>x</ins>tract** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> |
+| **<ins>I</ins>nline** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> |
 | **Toggle <ins>B</ins>races {}** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>B</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> |
-| **<ins>M</ins>ove** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>M</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> |
 | **Move Up** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↑</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd> |
 | **Move Down** |  *direct* |  <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>↓</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>J</kbd> |
 | **Other <ins>A</ins>ction** |  *context menu* |  <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>A</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> |
 
 ## Learn more
 * [Editor Integration](https://p42.ai/documentation/p42-for-vscode/editor-integration)
-* [Suggestion Sidebar](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar)
+* [Side Bar](https://p42.ai/documentation/p42-for-vscode/side-bar)
 * [Safety Analysis](https://p42.ai/documentation/p42-for-vscode/safety-analysis)
 * [Configuration](https://p42.ai/documentation/p42-for-vscode/configuration)
 * [FAQ](https://p42.ai/documentation/p42-for-vscode/faq)
@@ -64,13 +61,13 @@ See also [Documentation](https://p42.ai/documentation/p42-for-vscode) / [Editor 
 </div>
 
 # Premium Features
-Developing the JavaScript Assistant extension takes significant time and effort. 
+Developing the JavaScript Assistant takes significant time and effort.
 To make continued development sustainable,
 some premium features and refactorings are only available in the Pro and Business plans: 
 
-* [24 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
+* [25 additional code assists](https://p42.ai/documentation/code-assist-list/pro)
 * [Mass refactoring](https://p42.ai/documentation/p42-for-vscode/mass-refactoring)
-* [Apply all safe suggestions](https://p42.ai/documentation/p42-for-vscode/suggestion-sidebar#apply-all-safe-suggestions)
+* [Apply all safe suggestions](https://p42.ai/documentation/p42-for-vscode/side-bar#apply-all-safe-suggestions)
 * [Vue.js support](https://p42.ai/feature/vuejs)
 
 You can [try P42 Pro 14 days for free](https://p42.ai/pricing).
@@ -104,6 +101,7 @@ Branching statements such as if-else and switch are central elements in many pro
 * **[Convert conditional expression to if-else](https://p42.ai/documentation/code-assist/convert-conditional-expression-to-if-else)**: Convert a conditional expression to an if-else statement.
 * **[Convert if-else into conditional expression](https://p42.ai/documentation/code-assist/convert-if-else-to-conditional-expression)**: Convert an `if`-`else` return or assignment expression into a conditional expression.
 * **[Convert if-else to switch](https://p42.ai/documentation/code-assist/convert-if-else-to-switch)**: Convert if-else statement chain with equality comparisons to switch statement.
+* **[Inline variable occurrence](https://p42.ai/documentation/code-assist/inline-variable-occurrence) ([Pro](https://p42.ai/pricing))**: Inline the value of a variable into one of its occurrences.
 * **[Introduce early return / continue](https://p42.ai/documentation/code-assist/introduce-early-return) ([Pro](https://p42.ai/pricing))**: Change an if-statement into an early return or continue statement.
 * **[Merge nested if inside else into else-if](https://p42.ai/documentation/code-assist/merge-nested-else-if)**: Nested single `if` statements inside `else` blocks can be combined into `else if` statements.
 * **[Merge nested if-statements](https://p42.ai/documentation/code-assist/merge-nested-if)**: Combine two nested `if` statements without additional operations into a single `if`-statement, using `&&` to combine the conditions.
@@ -173,7 +171,7 @@ Text manipulation has become more powerful with the introduction of template lit
 * **[Move default value into parameter](https://p42.ai/documentation/code-assist/lift-default-into-parameter)**: Replace default value assignment expressions with default parameter values.
 * **[Merge into preceding destructuring assignment](https://p42.ai/documentation/code-assist/merge-into-preceding-destructuring-assignment)**: Combine an object destructuring assignment with its preceding sibling.
 * **[Merge variable declaration and initialization](https://p42.ai/documentation/code-assist/merge-variable-declaration-and-initialization)**: Convert the initial assignment of a variable into its declaration initializer.
-* **[Move const to top-level scope](https://p42.ai/documentation/code-assist/move-const-to-outer-scope) ([Pro](https://p42.ai/pricing))**: Move a constant to the top-level scope of the module.
+* **[Move constant to top-level scope](https://p42.ai/documentation/code-assist/move-const-to-outer-scope) ([Pro](https://p42.ai/pricing))**: Move a constant to the top-level scope of the module.
 * **[Move destructured expression into separate statement](https://p42.ai/documentation/code-assist/move-destructured-expression-into-separate-statement) ([Pro](https://p42.ai/pricing))**: Move a destructured expression inside a variable declaration into a separate variable declaration.
 * **[Move field initialization into constructor](https://p42.ai/documentation/code-assist/move-field-initializer-into-constructor) ([Pro](https://p42.ai/pricing))**: Moves the assignment of the initial field value into the class constructor.
 * **[Move initialization into field declaration](https://p42.ai/documentation/code-assist/move-field-initializer-into-declaration) ([Pro](https://p42.ai/pricing))**: Moves the assignment of the initial field value into the field declaration.
@@ -266,7 +264,7 @@ With the introduction of various collection helpers and new syntax in ES6 and mo
 
 * **[Move array element](https://p42.ai/documentation/code-assist/move-array-element)**: Move an array element up or down.
 * **[Move class member](https://p42.ai/documentation/code-assist/move-class-member) ([Pro](https://p42.ai/pricing))**: Move a property, constructor, method, etc. up or down.
-* **[Move const to top-level scope](https://p42.ai/documentation/code-assist/move-const-to-outer-scope) ([Pro](https://p42.ai/pricing))**: Move a constant to the top-level scope of the module.
+* **[Move constant to top-level scope](https://p42.ai/documentation/code-assist/move-const-to-outer-scope) ([Pro](https://p42.ai/pricing))**: Move a constant to the top-level scope of the module.
 * **[Move destructuring array element](https://p42.ai/documentation/code-assist/move-destructured-array-element)**: Move an element inside an array destructuring expression up or down.
 * **[Move destructured expression into separate statement](https://p42.ai/documentation/code-assist/move-destructured-expression-into-separate-statement) ([Pro](https://p42.ai/pricing))**: Move a destructured expression inside a variable declaration into a separate variable declaration.
 * **[Move destructuring object property](https://p42.ai/documentation/code-assist/move-destructured-object-property)**: Move a property inside an object destructuring expression up or down.
