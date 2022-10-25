@@ -1,4 +1,4 @@
-# JavaScript Refactoring Assistant
+# P42 JS Assistant
 
 The P42 JavaScript Assistant adds **[91 automated refactorings and code assists](https://p42.ai/documentation/code-assist)** for **JavaScript**, **TypeScript**, and **React** to Visual Studio Code. 
 
