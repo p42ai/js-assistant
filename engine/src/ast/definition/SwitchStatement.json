@@ -1,0 +1,20 @@
+{
+  "name": "SwitchStatement",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "caseBlock",
+      "kind": "node",
+      "type": "CaseBlock",
+      "optional": false
+    }
+  ]
+}

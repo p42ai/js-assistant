@@ -1,0 +1,16 @@
+{
+  "name": "TypeLiteralNode",
+  "generate": {
+    "matcher": true
+  },
+  "syntaxKind": "TypeLiteral",
+  "properties": [
+    {
+      "name": "members",
+      "kind": "node-array",
+      "type": "TypeElement",
+      "optional": false,
+      "factoryUpdateRecast": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "TypeOfExpression",
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "../../../tsconfig.build.json",
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "typeRoots": [
+      "../../../node_modules/@types"
+    ],
+    "types": ["node", "jest"],
+    "rootDir": "./src",
+    "outDir": "./build",
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

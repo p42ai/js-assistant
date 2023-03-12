@@ -1,0 +1,25 @@
+{
+  "id": "simplify-switch",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.cleanup.simplify-switch"]
+  },
+  "documentation": {
+    "title": "Simplify switch statement",
+    "shortDescription": "Remove an unnecessary switch statement or replace it with its content.",
+    "categories": ["cleanup", "branching"],
+    "relatedCodeAssists": ["convert-switch-to-if-else"],
+    "references": [
+      {
+        "label": "Switch Statement (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch"
+      }
+    ]
+  }
+}

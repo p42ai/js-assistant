@@ -1,0 +1,19 @@
+{
+  "id": "invert-condition",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "title": "Invert condition",
+    "shortDescription": "Negate the condition of an if-statement or conditional expression and swap its content.",
+    "categories": ["logical-expression"],
+    "relatedCodeAssists": ["move-if-else-if-branches"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.invert-condition"]
+  }
+}

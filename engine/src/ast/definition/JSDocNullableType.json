@@ -1,0 +1,11 @@
+{
+  "name": "JSDocNullableType",
+  "properties": [
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

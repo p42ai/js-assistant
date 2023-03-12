@@ -1,0 +1,22 @@
+{
+  "id": "remove-unnecessary-else",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Lift the else content of an `if`-`else` with a return statement to the outer indentation level.",
+    "relatedCodeAssists": [
+      "introduce-early-return",
+      "convert-if-else-to-conditional-expression"
+    ],
+    "categories": ["cleanup", "branching"],
+    "title": "Remove unnecessary else"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.unnecessary-else"]
+  }
+}

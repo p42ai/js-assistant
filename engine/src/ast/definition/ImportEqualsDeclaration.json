@@ -1,0 +1,29 @@
+{
+  "name": "ImportEqualsDeclaration",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "isTypeOnly",
+      "kind": "value",
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    },
+    {
+      "name": "moduleReference",
+      "kind": "node",
+      "type": "ModuleReference",
+      "optional": false
+    }
+  ]
+}

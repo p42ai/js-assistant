@@ -1,0 +1,8 @@
+{
+  "name": "ThisTypeNode",
+  "syntaxKind": "ThisType",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": []
+}

@@ -1,0 +1,1 @@
+This refactoring replaces `void 0` and other constant `void` expressions without side-effects with `undefined` (unless `undefined` is declared as a local variable).

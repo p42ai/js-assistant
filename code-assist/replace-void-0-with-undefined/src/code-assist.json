@@ -1,0 +1,36 @@
+{
+  "id": "replace-void-0-with-undefined",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Replace `void 0` and other constant `void` expressions with `undefined`.",
+    "relatedCodeAssists": [],
+    "references": [
+      {
+        "label": "You don't need void 0 (P42 Blog)",
+        "href": "/blog/2022-05-10/you-dont-need-void-0"
+      },
+      {
+        "label": "Void (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void"
+      },
+      {
+        "label": "Undefined (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined"
+      }
+    ],
+    "categories": ["modernization", "cleanup"],
+    "title": "Replace void 0 with undefined"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.replace.void-0-with-undefined"]
+  }
+}

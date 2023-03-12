@@ -1,0 +1,31 @@
+{
+  "id": "convert-array-filter-to-find",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace `anArray.filter(…)[0]` with `anArray.find(…)`.",
+    "relatedCodeAssists": ["convert-array-index-of-to-array-includes"],
+    "references": [
+      {
+        "label": "Array.prototype.filter() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+      },
+      {
+        "label": "Array.prototype.find() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+      }
+    ],
+    "categories": ["collection"],
+    "title": "Convert array.filter()[0] to array.find()"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.array-filter-to-find"]
+  }
+}

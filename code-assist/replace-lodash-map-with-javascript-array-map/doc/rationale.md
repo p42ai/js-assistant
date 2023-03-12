@@ -1,0 +1,1 @@
+You can express many `_.map` calls with standard JavaScript. This refactoring reduces the dependency on Lodash.

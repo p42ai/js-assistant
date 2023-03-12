@@ -1,0 +1,35 @@
+{
+  "name": "ExportDeclaration",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "isTypeOnly",
+      "kind": "value",
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "exportClause",
+      "kind": "node",
+      "type": "NamedExportBindings",
+      "optional": true
+    },
+    {
+      "name": "moduleSpecifier",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    },
+    {
+      "name": "assertClause",
+      "kind": "node",
+      "type": "AssertClause",
+      "optional": true
+    }
+  ]
+}

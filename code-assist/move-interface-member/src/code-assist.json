@@ -1,0 +1,23 @@
+{
+  "id": "move-interface-member",
+  "platform": {
+    "languages": ["TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.interface-member",
+      "refactor.move.down.interface-member"
+    ]
+  },
+  "documentation": {
+    "title": "Move interface member",
+    "shortDescription": "Move a property, constructor or method definition up or down.",
+    "categories": ["move", "typescript"],
+    "relatedCodeAssists": [
+      "move-type-literal-member",
+      "move-class-member",
+      "move-statement"
+    ],
+    "references": []
+  }
+}

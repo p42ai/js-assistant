@@ -1,0 +1,12 @@
+{
+  "name": "AssertClause",
+  "properties": [
+    {
+      "name": "elements",
+      "kind": "node-array",
+      "type": "AssertEntry",
+      "optional": false,
+      "factoryUpdateRecast": true
+    }
+  ]
+}

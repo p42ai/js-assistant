@@ -1,0 +1,28 @@
+{
+  "id": "remove-trailing-array-destructuring-holes",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Remove trailing array destructuring holes and empty array destructuring expressions.",
+    "relatedCodeAssists": [
+      "move-destructured-expression-into-separate-statement",
+      "inline-variable"
+    ],
+    "references": [
+      {
+        "label": "Destructuring Assignment (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+      }
+    ],
+    "categories": ["cleanup", "destructuring", "variable"],
+    "title": "Remove trailing array destructuring holes"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.trailing-array-destructuring-holes"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "convert-function-to-arrow-function",
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace function expressions with arrow functions, a more concise syntax.",
+    "relatedCodeAssists": [
+      "convert-function-to-object-method",
+      "convert-named-function-to-function-expression"
+    ],
+    "references": [
+      {
+        "label": "Arrow Function Expressions (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+      },
+      {
+        "label": "Browser & Engine Compatibility (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#browser_compatibility"
+      }
+    ],
+    "categories": ["function", "modernization"],
+    "title": "Convert function to arrow function"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.function-to-arrow-function"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "EnumDeclaration",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    },
+    {
+      "name": "members",
+      "kind": "node-array",
+      "type": "EnumMember",
+      "optional": false
+    }
+  ]
+}

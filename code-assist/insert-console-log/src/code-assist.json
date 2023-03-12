@@ -1,0 +1,24 @@
+{
+  "id": "insert-console-log",
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "action.insert.console-log"
+    ]
+  },
+  "documentation": {
+    "shortDescription": "Insert a 'console.log' statement for a selected variable when possible.",
+    "relatedCodeAssists": [
+      "remove-console-log"
+    ],
+    "categories": [
+      "action"
+    ],
+    "title": "Insert console.log for variable"
+  },
+  "platform": {
+    "languages": [
+      "JAVASCRIPT",
+      "TYPESCRIPT"
+    ]
+  }
+}

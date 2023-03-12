@@ -1,0 +1,19 @@
+{
+  "id": "expand-shorthand-property",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.toggle.collapse-expand.shorthand-property"
+    ]
+  },
+  "documentation": {
+    "shortDescription": "Expand a shorthand object property (e.g. `{ a }`) to a regular property (e.g. `{ a: a }`).",
+    "relatedCodeAssists": ["collapse-property-into-shorthand"],
+    "categories": ["syntax-conversion"],
+    "title": "Expand shorthand property"
+  }
+}

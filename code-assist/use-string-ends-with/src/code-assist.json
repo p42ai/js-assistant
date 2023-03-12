@@ -1,0 +1,31 @@
+{
+  "id": "use-string-ends-with",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.use-string-ends-with"]
+  },
+  "documentation": {
+    "title": "Use string.endsWith()",
+    "shortDescription": "`string.endsWith()` checks if a string ends with another string.",
+    "relatedCodeAssists": ["use-string-starts-with"],
+    "references": [
+      {
+        "label": "String.prototype.endsWith() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith"
+      },
+      {
+        "label": "Browser Support (Can I use)",
+        "href": "https://caniuse.com/mdn-javascript_builtins_string_endswith"
+      }
+    ],
+    "categories": ["modernization", "string"]
+  }
+}

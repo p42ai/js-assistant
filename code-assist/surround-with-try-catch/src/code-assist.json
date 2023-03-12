@@ -1,0 +1,15 @@
+{
+  "id": "surround-with-try-catch",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.surround.with.try-catch"]
+  },
+  "documentation": {
+    "title": "Surround with try…catch",
+    "shortDescription": "Surround a sequence of statements with a `try…catch` block.",
+    "relatedCodeAssists": ["surround-with-if-statement"],
+    "categories": ["action"]
+  }
+}

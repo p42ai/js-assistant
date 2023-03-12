@@ -1,0 +1,34 @@
+{
+  "id": "replace-var-with-let-and-const",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "isModernization": true,
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.replace.var-with-let-and-const"]
+  },
+  "documentation": {
+    "title": "Convert var to let or const",
+    "shortDescription": "Replace `var` with block-scoped variables `let` and `const`.",
+    "relatedCodeAssists": [
+      "convert-let-to-const",
+      "split-variable-declaration"
+    ],
+    "references": [
+      {
+        "label": "Let (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+      },
+      {
+        "label": "Const (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+      }
+    ],
+    "categories": ["modernization", "variable"]
+  }
+}

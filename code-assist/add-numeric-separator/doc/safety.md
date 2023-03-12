@@ -1,0 +1,2 @@
+Numeric separators are an ES2021 feature. They are supported on all modern browsers and on Node 12.5+, but for older browsers and Node versions transpilation might be required 
+([compatibility](https://kangax.github.io/compat-table/es2016plus/#test-numeric_separators)).

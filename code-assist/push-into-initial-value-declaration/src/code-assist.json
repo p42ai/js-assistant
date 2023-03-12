@@ -1,0 +1,19 @@
+{
+  "id": "push-into-initial-value-declaration",
+  "documentation": {
+    "shortDescription": "Inlines a variable that is initialized with another variable into the declaration of that variable.",
+    "relatedCodeAssists": [
+      "convert-to-destructuring-assignment",
+      "merge-into-preceding-destructuring-assignment",
+      "inline-variable"
+    ],
+    "categories": ["destructuring", "variable"],
+    "title": "Push variable declaration into initial value"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.inline.push-into-initial-value-declaration"]
+  }
+}

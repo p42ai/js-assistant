@@ -1,0 +1,33 @@
+{
+  "id": "push-operator-into-assignment",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2021",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.push-operator-into-assignment"]
+  },
+  "documentation": {
+    "title": "Push operator into assignment",
+    "shortDescription": "Move an operator from a binary expression into an assignment operator, e.g., `+=`.",
+    "relatedCodeAssists": [
+      "pull-operator-out-of-assignment",
+      "convert-to-increment"
+    ],
+    "references": [
+      {
+        "label": "Short-Circuiting in JavaScript (P42 Blog)",
+        "href": "/blog/2021-11-25/short-circuiting-operators-and-assignments-in-javascript"
+      },
+      {
+        "label": "Browser & Engine Support (Compatibility Table)",
+        "href": "https://kangax.github.io/compat-table/es2016plus/#test-Logical_Assignment"
+      }
+    ],
+    "categories": ["syntax-conversion"]
+  }
+}

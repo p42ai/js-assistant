@@ -1,0 +1,15 @@
+{
+  "name": "TemplateHead",
+  "generate": {
+    "matcher": true,
+    "factory": "syntheticUpdate"
+  },
+  "properties": [
+    {
+      "name": "text",
+      "kind": "value",
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

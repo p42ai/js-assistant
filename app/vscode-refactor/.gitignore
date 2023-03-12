@@ -1,0 +1,16 @@
+dist
+*.vsix
+
+# include log package
+!**/src/**/log
+
+# generated code
+README.md
+package.json
+!*/**/package.json
+media/keyboard-shortcuts.md
+
+# test folders
+.vscode-test-web
+.vscode-test
+test-workspace

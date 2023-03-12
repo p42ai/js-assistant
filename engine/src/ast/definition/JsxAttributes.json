@@ -1,0 +1,14 @@
+{
+  "name": "JsxAttributes",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "properties",
+      "kind": "node-array",
+      "type": "JsxAttributeLike",
+      "optional": false
+    }
+  ]
+}

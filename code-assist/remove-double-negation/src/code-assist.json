@@ -1,0 +1,19 @@
+{
+  "id": "remove-double-negation",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Remove double negation (`!!`) expressions.",
+    "relatedCodeAssists": ["pull-up-negation", "push-down-negation"],
+    "categories": ["cleanup", "logical-expression"],
+    "title": "Remove double negation"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.double-negation"]
+  }
+}

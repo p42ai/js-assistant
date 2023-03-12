@@ -1,0 +1,16 @@
+{
+  "id": "insert-else",
+  "visualStudioCode": {
+    "codeActionKinds": ["action.insert.else"]
+  },
+  "documentation": {
+    "title": "Insert else statement",
+    "shortDescription": "Add an else statement to an existing if statement",
+    "relatedCodeAssists": ["surround-with-if-statement"],
+    "references": [],
+    "categories": ["action"]
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  }
+}

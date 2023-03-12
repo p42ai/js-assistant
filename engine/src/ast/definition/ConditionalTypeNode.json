@@ -1,0 +1,30 @@
+{
+  "name": "ConditionalTypeNode",
+  "syntaxKind": "ConditionalType",
+  "properties": [
+    {
+      "name": "checkType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    },
+    {
+      "name": "extendsType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    },
+    {
+      "name": "trueType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    },
+    {
+      "name": "falseType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

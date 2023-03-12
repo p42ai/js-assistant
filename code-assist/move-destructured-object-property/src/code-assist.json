@@ -1,0 +1,22 @@
+{
+  "id": "move-destructured-object-property",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.destructured-object-property",
+      "refactor.move.down.destructured-object-property"
+    ]
+  },
+  "documentation": {
+    "title": "Move destructuring object property",
+    "shortDescription": "Move a property inside an object destructuring expression up or down.",
+    "categories": ["destructuring", "move"],
+    "relatedCodeAssists": [
+      "move-object-property",
+      "move-destructured-array-element"
+    ],
+    "references": []
+  }
+}

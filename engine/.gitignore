@@ -1,0 +1,6 @@
+*/src/**/*.js
+*/test/**/*.js
+*/types/**/*.js
+
+# include log package
+!src/log

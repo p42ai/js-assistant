@@ -1,0 +1,16 @@
+{
+  "id": "select-expression-occurrences",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.select.expression-occurrences"]
+  },
+  "documentation": {
+    "title": "Select expression occurrences",
+    "shortDescription": "Start a multi-cursor selection on several occurrences of the same expression.",
+    "relatedCodeAssists": ["extract-variable"],
+    "references": [],
+    "categories": ["action"]
+  }
+}

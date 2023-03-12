@@ -1,0 +1,19 @@
+{
+  "id": "remove-unnecessary-expression-statement",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Remove an expression statement that has no side-effects.",
+    "categories": ["cleanup"],
+    "title": "Remove unnecessary expression statement"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.unnecessary-expression-statement"]
+  }
+}

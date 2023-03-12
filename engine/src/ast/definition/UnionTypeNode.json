@@ -1,0 +1,13 @@
+{
+  "name": "UnionTypeNode",
+  "syntaxKind": "UnionType",
+  "properties": [
+    {
+      "name": "types",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": false,
+      "factoryUpdateRecast": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PropertyAssignment",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "PropertyName",
+      "optional": false
+    },
+    {
+      "name": "initializer",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "LiteralTypeNode",
+  "syntaxKind": "LiteralType",
+  "properties": [
+    {
+      "name": "literal",
+      "kind": "node",
+      "type": [
+        "NullLiteral",
+        "BooleanLiteral",
+        "LiteralExpression",
+        "PrefixUnaryExpression"
+      ],
+      "optional": false
+    }
+  ]
+}

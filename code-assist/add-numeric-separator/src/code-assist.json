@@ -1,0 +1,34 @@
+{
+  "id": "add-numeric-separator",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2021",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Increase the readability of long numbers and uncommon number formats by adding underscore separators.",
+    "references": [
+      {
+        "label": "Numeric Separators (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#numeric_separators"
+      },
+      {
+        "label": "ES2021: Numeric Separators (2ality)",
+        "href": "https://2ality.com/2018/02/numeric-separators.html"
+      },
+      {
+        "label": "Browser & Node Support (Compatibility Table)",
+        "href": "https://kangax.github.io/compat-table/es2016plus/#test-numeric_separators"
+      }
+    ],
+    "categories": ["modernization", "syntax-conversion"],
+    "title": "Add numeric separator"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.add-numeric-separator"]
+  }
+}

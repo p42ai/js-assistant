@@ -1,0 +1,15 @@
+{
+  "name": "Block",
+  "generate": {
+    "matcher": true,
+    "factory": "custom"
+  },
+  "properties": [
+    {
+      "name": "statements",
+      "kind": "node-array",
+      "type": "Statement",
+      "optional": false
+    }
+  ]
+}

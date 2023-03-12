@@ -1,0 +1,23 @@
+{
+  "name": "TryStatement",
+  "properties": [
+    {
+      "name": "tryBlock",
+      "kind": "node",
+      "type": "Block",
+      "optional": false
+    },
+    {
+      "name": "catchClause",
+      "kind": "node",
+      "type": "CatchClause",
+      "optional": true
+    },
+    {
+      "name": "finallyBlock",
+      "kind": "node",
+      "type": "Block",
+      "optional": true
+    }
+  ]
+}

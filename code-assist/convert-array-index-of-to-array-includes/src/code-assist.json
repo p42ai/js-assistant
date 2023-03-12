@@ -1,0 +1,34 @@
+{
+  "id": "convert-array-index-of-to-array-includes",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2016",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace `array.indexOf()` checks with `array.includes()`.",
+    "relatedCodeAssists": [
+      "convert-comparison-chain-to-array-includes",
+      "convert-array-filter-to-find"
+    ],
+    "references": [
+      {
+        "label": "Array.prototype.includes() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes"
+      },
+      {
+        "label": "Array.prototype.indexOf() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf"
+      }
+    ],
+    "categories": ["collection", "modernization"],
+    "title": "Convert array.indexOf() into array.includes()"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.array-index-of-to-array-includes"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pull-up-negation",
+  "canBeSafe": true,
+  "documentation": {
+    "shortDescription": "Move the not-operator (`!`) out of a binary expression.",
+    "relatedCodeAssists": ["push-down-negation", "remove-double-negation"],
+    "categories": ["logical-expression"],
+    "title": "Pull up negation"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.pull-up-negation"]
+  }
+}

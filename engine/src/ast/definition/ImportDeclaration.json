@@ -1,0 +1,29 @@
+{
+  "name": "ImportDeclaration",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "importClause",
+      "kind": "node",
+      "type": "ImportClause",
+      "optional": true
+    },
+    {
+      "name": "moduleSpecifier",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "assertClause",
+      "kind": "node",
+      "type": "AssertClause",
+      "optional": true
+    }
+  ]
+}

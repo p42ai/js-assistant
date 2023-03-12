@@ -1,0 +1,22 @@
+{
+  "id": "move-object-property",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.object-property",
+      "refactor.move.down.object-property"
+    ]
+  },
+  "documentation": {
+    "title": "Move object property",
+    "shortDescription": "Move an object property up or down.",
+    "categories": ["collection", "move"],
+    "relatedCodeAssists": [
+      "move-array-element",
+      "move-destructured-object-property"
+    ],
+    "references": []
+  }
+}

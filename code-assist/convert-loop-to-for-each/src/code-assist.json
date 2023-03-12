@@ -1,0 +1,25 @@
+{
+  "id": "convert-loop-to-for-each",
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Replace regular `for` loops with `.forEach()` loops.",
+    "relatedCodeAssists": [
+      "convert-loop-to-for-of",
+      "convert-loop-to-for-with-index"
+    ],
+    "references": [
+      {
+        "label": "Array.forEach (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+      }
+    ],
+    "categories": ["collection"],
+    "title": "Convert loop to .forEach"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.loop-to-for-each"]
+  }
+}

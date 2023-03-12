@@ -1,0 +1,21 @@
+{
+  "id": "extract-substring-to-variable",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Extract the selected text (including expressions from template literals) into a `const` variable.",
+    "relatedCodeAssists": [
+      "extract-variable",
+      "inline-variable",
+      "inline-into-template"
+    ],
+    "categories": ["core", "string"],
+    "title": "Extract selected text into variable"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.extract.substring-to-variable"]
+  }
+}

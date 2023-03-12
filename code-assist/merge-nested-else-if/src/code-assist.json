@@ -1,0 +1,19 @@
+{
+  "id": "merge-nested-else-if",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.merge.nested-else-if"]
+  },
+  "documentation": {
+    "title": "Merge nested if inside else into else-if",
+    "shortDescription": "Nested single `if` statements inside `else` blocks can be combined into `else if` statements.",
+    "relatedCodeAssists": ["merge-nested-if"],
+    "categories": ["branching"]
+  }
+}

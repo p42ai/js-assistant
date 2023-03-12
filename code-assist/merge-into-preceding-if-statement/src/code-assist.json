@@ -1,0 +1,20 @@
+{
+  "id": "merge-into-preceding-if-statement",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "off"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.merge-into-preceding-if-statement"]
+  },
+  "documentation": {
+    "title": "Merge if-statement into preceding if-statement",
+    "shortDescription": "Merges two if-statements with the same body when possible.",
+    "categories": ["branching"],
+    "relatedCodeAssists": []
+  }
+}

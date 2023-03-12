@@ -1,0 +1,21 @@
+{
+  "name": "JsxExpression",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "dotDotDotToken",
+      "kind": "token",
+      "type": "DotDotDotToken",
+      "optional": true,
+      "modifiable": false
+    },
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

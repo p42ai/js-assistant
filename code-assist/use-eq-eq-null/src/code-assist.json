@@ -1,0 +1,28 @@
+{
+  "id": "use-eq-eq-null",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.use-eq-eq-null"]
+  },
+  "documentation": {
+    "title": "Use == null comparison",
+    "shortDescription": "Replace different nullish checks with `== null`.",
+    "references": [
+      {
+        "label": "Equality comparisons and sameness (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+      },
+      {
+        "label": "Equality table",
+        "href": "https://dorey.github.io/JavaScript-Equality-Table/"
+      }
+    ],
+    "categories": ["modernization", "logical-expression"]
+  }
+}

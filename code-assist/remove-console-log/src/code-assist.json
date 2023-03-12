@@ -1,0 +1,29 @@
+{
+  "id": "remove-console-log",
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Remove console.log statement.",
+    "relatedCodeAssists": [
+      "insert-console-log"
+    ],
+    "references": [],
+    "categories": [
+      "cleanup"
+    ],
+    "title": "Remove console.log"
+  },
+  "platform": {
+    "languages": [
+      "JAVASCRIPT",
+      "TYPESCRIPT"
+    ]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.remove.console-log"
+    ]
+  }
+}

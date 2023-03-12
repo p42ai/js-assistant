@@ -1,0 +1,34 @@
+{
+  "id": "replace-lodash-every-with-javascript-array-every",
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Replace Lodash `_.every` with `array.every`.",
+    "relatedCodeAssists": [
+      "replace-lodash-some-with-javascript-array-some",
+      "replace-lodash-filter-with-javascript-array-filter",
+      "replace-lodash-foreach",
+      "replace-lodash-map-with-javascript-array-map"
+    ],
+    "references": [
+      {
+        "label": "_.every (Lodash)",
+        "href": "https://lodash.com/docs/#every"
+      },
+      {
+        "label": "Array.every (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+      }
+    ],
+    "categories": ["library-lodash"],
+    "title": "Replace _.every with array.every"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.replace.lodash-every-with-javascript-array-every"
+    ]
+  }
+}

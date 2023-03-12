@@ -1,0 +1,12 @@
+{
+  "name": "TypeQueryNode",
+  "syntaxKind": "TypeQuery",
+  "properties": [
+    {
+      "name": "exprName",
+      "kind": "node",
+      "type": "EntityName",
+      "optional": false
+    }
+  ]
+}

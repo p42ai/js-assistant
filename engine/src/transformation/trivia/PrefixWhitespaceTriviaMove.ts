@@ -1,0 +1,27 @@
+import ts from "typescript";
+import { separateWhitespacePrefix } from "../../util/text/separateWhitespacePrefix";
+import { TriviaManager } from "./TriviaManager";
+import { TriviaUpdate } from "./TriviaUpdate";
+
+export class PrefixWhitespaceTriviaMove implements TriviaUpdate {
+  constructor(private readonly from: ts.Node, private readonly to: ts.Node) {}
+
+  addOverlays(triviaManager: TriviaManager) {
+    const fromTrivia = triviaManager.get(this.from);
+
+    if (fromTrivia == null) {
+      return;
+    }
+
+    const from = separateWhitespacePrefix(fromTrivia.prefix ?? "");
+
+    triviaManager.addOverlay(this.from, {
+      prefix: from.remainder,
+    });
+
+    triviaManager.addOverlay(this.to, {
+      prefix: from.prefix,
+      isNodeRegionStart: fromTrivia?.isNodeRegionStart,
+    });
+  }
+}

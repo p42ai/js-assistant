@@ -1,0 +1,38 @@
+{
+  "name": "InterfaceDeclaration",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    },
+    {
+      "name": "typeParameters",
+      "kind": "node-array",
+      "type": "TypeParameterDeclaration",
+      "optional": true
+    },
+    {
+      "name": "heritageClauses",
+      "kind": "node-array",
+      "type": "HeritageClause",
+      "optional": true
+    },
+    {
+      "name": "members",
+      "kind": "node-array",
+      "type": "TypeElement",
+      "optional": false
+    }
+  ]
+}

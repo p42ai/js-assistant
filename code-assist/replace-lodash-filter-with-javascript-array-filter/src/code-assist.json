@@ -1,0 +1,34 @@
+{
+  "id": "replace-lodash-filter-with-javascript-array-filter",
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Replace Lodash `_.filter` with `array.filter`.",
+    "relatedCodeAssists": [
+      "replace-lodash-every-with-javascript-array-every",
+      "replace-lodash-foreach",
+      "replace-lodash-map-with-javascript-array-map",
+      "replace-lodash-some-with-javascript-array-some"
+    ],
+    "references": [
+      {
+        "label": "_.filter (Lodash)",
+        "href": "https://lodash.com/docs/#filter"
+      },
+      {
+        "label": "Array.filter (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+      }
+    ],
+    "categories": ["library-lodash"],
+    "title": "Replace _.filter with array.filter"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.replace.lodash-filter-with-javascript-array-filter"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "convert-to-increment",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.convert.to-increment"]
+  },
+  "documentation": {
+    "title": "Convert to ++ / --",
+    "shortDescription": "Convert an assignment expression into a `++` or `--` expression.",
+    "categories": ["syntax-conversion"],
+    "relatedCodeAssists": ["push-operator-into-assignment"],
+    "references": []
+  }
+}

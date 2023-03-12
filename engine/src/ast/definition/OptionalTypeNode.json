@@ -1,0 +1,12 @@
+{
+  "name": "OptionalTypeNode",
+  "syntaxKind": "OptionalType",
+  "properties": [
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

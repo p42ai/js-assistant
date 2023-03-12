@@ -1,0 +1,29 @@
+{
+  "id": "collapse-property-into-shorthand",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.toggle.collapse-expand.shorthand-property"
+    ]
+  },
+  "documentation": {
+    "shortDescription": "Shorten object properties when the property name is the same as the property value.",
+    "relatedCodeAssists": ["expand-shorthand-property"],
+    "references": [
+      {
+        "label": "Browser Support (Can I use)",
+        "href": "https://caniuse.com/mdn-javascript_operators_object_initializer_shorthand_property_names"
+      }
+    ],
+    "categories": ["syntax-conversion", "modernization"],
+    "title": "Collapse object property into shorthand"
+  },
+  "isModernization": true
+}

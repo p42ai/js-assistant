@@ -1,0 +1,7 @@
+{
+  "name": "JSDocAllType",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": []
+}

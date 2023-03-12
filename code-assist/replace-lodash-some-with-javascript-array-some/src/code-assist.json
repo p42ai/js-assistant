@@ -1,0 +1,34 @@
+{
+  "id": "replace-lodash-some-with-javascript-array-some",
+  "isModernization": true,
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.replace.lodash-some-with-javascript-array-some"
+    ]
+  },
+  "documentation": {
+    "shortDescription": "Replace Lodash `_.some` with `array.some`.",
+    "relatedCodeAssists": [
+      "replace-lodash-every-with-javascript-array-every",
+      "replace-lodash-filter-with-javascript-array-filter",
+      "replace-lodash-foreach",
+      "replace-lodash-map-with-javascript-array-map"
+    ],
+    "references": [
+      {
+        "label": "_.some (Lodash)",
+        "href": "https://lodash.com/docs/#some"
+      },
+      {
+        "label": "Array.some (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
+      }
+    ],
+    "categories": ["library-lodash"],
+    "title": "Replace _.some with array.some"
+  }
+}

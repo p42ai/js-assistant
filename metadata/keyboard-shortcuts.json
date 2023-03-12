@@ -1,0 +1,85 @@
+[
+  {
+    "commandId": "editor.action.refactor",
+    "codeActionKindPrefix": "refactor",
+    "label": "<ins>R</ins>efactor",
+    "textLabel": "Refactor",
+    "type": "context menu",
+    "binding": {
+      "mac": "Ctrl+Cmd+r",
+      "win": "Ctrl+Alt+r"
+    }
+  },
+  {
+    "commandId": "editor.action.sourceAction",
+    "codeActionKindPrefix": "source",
+    "label": "<ins>S</ins>ource Action",
+    "textLabel": "Source Action",
+    "type": "context menu",
+    "binding": {
+      "mac": "Ctrl+Cmd+s",
+      "win": "Ctrl+Alt+s"
+    }
+  },
+  {
+    "commandId": "p42.codeActionMenu.action",
+    "codeActionKindPrefix": "action",
+    "label": "Other <ins>A</ins>ction",
+    "textLabel": "Other Action",
+    "type": "context menu",
+    "binding": {
+      "mac": "Ctrl+Cmd+a",
+      "win": "Ctrl+Alt+a"
+    }
+  },
+  {
+    "codeActionKindPrefix": "refactor.inline",
+    "label": "<ins>I</ins>nline",
+    "textLabel": "Inline",
+    "type": "direct",
+    "binding": {
+      "mac": "Ctrl+Cmd+i",
+      "win": "Ctrl+Alt+i"
+    }
+  },
+  {
+    "codeActionKindPrefix": "refactor.extract",
+    "label": "E<ins>x</ins>tract",
+    "textLabel": "Extract",
+    "type": "direct",
+    "binding": {
+      "mac": "Ctrl+Cmd+x",
+      "win": "Ctrl+Alt+x"
+    }
+  },
+  {
+    "codeActionKindPrefix": "refactor.rewrite.toggle.braces",
+    "label": "Toggle <ins>B</ins>races {}",
+    "textLabel": "Toggle Braces",
+    "type": "direct",
+    "binding": {
+      "mac": "Ctrl+Cmd+b",
+      "win": "Ctrl+Alt+b"
+    }
+  },
+  {
+    "codeActionKindPrefix": "refactor.move.up",
+    "label": "Move Up",
+    "textLabel": "Move Up",
+    "type": "direct",
+    "binding": {
+      "mac": "Ctrl+Alt+Up",
+      "win": "Ctrl+Alt+u"
+    }
+  },
+  {
+    "codeActionKindPrefix": "refactor.move.down",
+    "label": "Move Down",
+    "textLabel": "Move Down",
+    "type": "direct",
+    "binding": {
+      "mac": "Ctrl+Alt+Down",
+      "win": "Ctrl+Alt+j"
+    }
+  }
+]

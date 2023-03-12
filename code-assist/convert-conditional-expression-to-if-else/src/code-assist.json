@@ -1,0 +1,22 @@
+{
+  "id": "convert-conditional-expression-to-if-else",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Convert a conditional expression to an if-else statement.",
+    "relatedCodeAssists": [
+      "convert-if-else-to-conditional-expression",
+      "convert-and-and-guard-to-if-statement"
+    ],
+    "categories": ["branching"],
+    "title": "Convert conditional expression to if-else"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.conditional-expression-to-if-else"]
+  }
+}

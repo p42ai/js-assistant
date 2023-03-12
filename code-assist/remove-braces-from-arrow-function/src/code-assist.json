@@ -1,0 +1,27 @@
+{
+  "id": "remove-braces-from-arrow-function",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "off"
+  },
+  "visualStudioCode": {
+    "overlappingCodeAssist": "Add or remove braces in an arrow function",
+    "codeActionKinds": ["refactor.rewrite.toggle.braces.arrow-function"]
+  },
+  "documentation": {
+    "shortDescription": "Convert an arrow function block body into an expression body.",
+    "relatedCodeAssists": [
+      "add-braces-to-arrow-function",
+      "remove-braces",
+      "remove-braces-from-case",
+      "remove-braces-from-jsx-attribute"
+    ],
+    "categories": ["syntax-conversion", "function"],
+    "title": "Remove {…} from arrow function"
+  }
+}

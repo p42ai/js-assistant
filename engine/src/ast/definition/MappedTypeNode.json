@@ -1,0 +1,43 @@
+{
+  "name": "MappedTypeNode",
+  "syntaxKind": "MappedType",
+  "properties": [
+    {
+      "name": "readonlyToken",
+      "kind": "token",
+      "type": ["ReadonlyKeyword", "PlusToken", "MinusToken"],
+      "optional": true
+    },
+    {
+      "name": "typeParameter",
+      "kind": "node",
+      "type": "TypeParameterDeclaration",
+      "optional": false
+    },
+    {
+      "name": "nameType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "questionToken",
+      "kind": "token",
+      "type": ["QuestionToken", "PlusToken", "MinusToken"],
+      "optional": true
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "members",
+      "kind": "node-array",
+      "type": "TypeElement",
+      "optional": true,
+      "factoryUpdateRecast": true
+    }
+  ]
+}

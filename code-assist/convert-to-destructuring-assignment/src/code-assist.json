@@ -1,0 +1,32 @@
+{
+  "id": "convert-to-destructuring-assignment",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "off"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.to-destructuring-assignment"]
+  },
+  "documentation": {
+    "title": "Convert to destructuring assignment",
+    "shortDescription": "Convert a variable declaration that accesses an object property to a destructuring assignment.",
+    "relatedCodeAssists": [
+      "merge-into-preceding-destructuring-assignment",
+      "move-destructured-expression-into-separate-statement",
+      "push-into-initial-value-declaration"
+    ],
+    "references": [
+      {
+        "label": "Destructuring Assignment (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+      }
+    ],
+    "categories": ["destructuring", "modernization", "variable"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "add-braces-to-arrow-function",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "overlappingCodeAssist": "Add or remove braces in an arrow function",
+    "codeActionKinds": ["refactor.rewrite.toggle.braces.arrow-function"]
+  },
+  "documentation": {
+    "title": "Add {…} to arrow function",
+    "shortDescription": "Convert arrow function expression body into a block body.",
+    "relatedCodeAssists": [
+      "remove-braces-from-arrow-function",
+      "add-braces",
+      "add-braces-to-jsx-attribute",
+      "add-braces-to-case"
+    ],
+    "categories": ["syntax-conversion", "function"]
+  }
+}

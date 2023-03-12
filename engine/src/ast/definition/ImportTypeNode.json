@@ -1,0 +1,30 @@
+{
+  "name": "ImportTypeNode",
+  "syntaxKind": "ImportType",
+  "properties": [
+    {
+      "name": "argument",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    },
+    {
+      "name": "qualifier",
+      "kind": "node",
+      "type": "EntityName",
+      "optional": true
+    },
+    {
+      "name": "typeArguments",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "isTypeOf",
+      "kind": "value",
+      "type": "boolean",
+      "optional": true
+    }
+  ]
+}

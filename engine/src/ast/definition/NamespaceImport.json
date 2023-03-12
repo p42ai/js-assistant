@@ -1,0 +1,11 @@
+{
+  "name": "NamespaceImport",
+  "properties": [
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    }
+  ]
+}

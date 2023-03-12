@@ -1,0 +1,17 @@
+{
+  "id": "inline-variable-occurrence",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.inline.variable-occurrence"]
+  },
+  "documentation": {
+    "title": "Inline variable occurrence",
+    "shortDescription": "Inline the value of a variable into one of its occurrences.",
+    "categories": ["branching"],
+    "relatedCodeAssists": ["inline-variable"],
+    "references": []
+  }
+}

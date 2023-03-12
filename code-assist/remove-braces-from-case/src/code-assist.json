@@ -1,0 +1,21 @@
+{
+  "id": "remove-braces-from-case",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.braces.case"]
+  },
+  "documentation": {
+    "title": "Remove {…} from case",
+    "shortDescription": "Replace blocks with their content",
+    "categories": ["syntax-conversion"],
+    "relatedCodeAssists": [
+      "add-braces-to-case",
+      "remove-braces",
+      "remove-braces-from-arrow-function",
+      "remove-braces-from-jsx-attribute"
+    ],
+    "references": []
+  }
+}

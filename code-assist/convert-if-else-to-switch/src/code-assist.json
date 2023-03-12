@@ -1,0 +1,22 @@
+{
+  "id": "convert-if-else-to-switch",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.if-else-to-switch"]
+  },
+  "documentation": {
+    "title": "Convert if-else to switch",
+    "shortDescription": "Convert a series of if-else statements with equality comparisons into a switch statement.",
+    "categories": ["branching"],
+    "relatedCodeAssists": ["convert-switch-to-if-else"],
+    "references": [
+      {
+        "label": "Switch Statement (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch"
+      }
+    ]
+  }
+}

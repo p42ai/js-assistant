@@ -1,0 +1,1 @@
+The flip operator refactoring exchanges a binary expression's left and right operand. When necessary, it updates the operator, e.g., when changing from `a < b` to `b > a`.

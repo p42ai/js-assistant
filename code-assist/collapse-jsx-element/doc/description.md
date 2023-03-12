@@ -1,0 +1,2 @@
+### Why is this refactoring helpful?
+Unnecessary closing elements (with potential whitespace) are additional text that needs to be read and understood. Self-closing elements make the code more concise.

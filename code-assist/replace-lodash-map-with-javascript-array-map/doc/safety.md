@@ -1,0 +1,1 @@
+Setting `_.iteratee` affects how `_.map` behaves. This can lead to differences between `_.map` and the JavaScript `Array.map`.

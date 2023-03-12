@@ -1,0 +1,20 @@
+{
+  "name": "TemplateExpression",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "head",
+      "kind": "node",
+      "type": "TemplateHead",
+      "optional": false
+    },
+    {
+      "name": "templateSpans",
+      "kind": "node-array",
+      "type": "TemplateSpan",
+      "optional": false
+    }
+  ]
+}

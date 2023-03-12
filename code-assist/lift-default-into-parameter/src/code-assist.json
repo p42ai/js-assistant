@@ -1,0 +1,26 @@
+{
+  "id": "lift-default-into-parameter",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace default value assignment expressions with default parameter values.",
+    "references": [
+      {
+        "label": "Default Parameters (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters"
+      }
+    ],
+    "categories": ["modernization", "function", "variable"],
+    "title": "Move default value into parameter"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.move.lift-default-into-parameter"]
+  }
+}

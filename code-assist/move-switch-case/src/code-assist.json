@@ -1,0 +1,19 @@
+{
+  "id": "move-switch-case",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.switch-case",
+      "refactor.move.down.switch-case"
+    ]
+  },
+  "documentation": {
+    "title": "Move switch case clause",
+    "shortDescription": "Move a `case` clause in a `switch` statement up or down.",
+    "categories": ["branching", "move"],
+    "relatedCodeAssists": ["move-statement"],
+    "references": []
+  }
+}

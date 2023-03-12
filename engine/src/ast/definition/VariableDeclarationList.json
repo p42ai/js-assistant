@@ -1,0 +1,21 @@
+{
+  "name": "VariableDeclarationList",
+  "generate": {
+    "factory": "custom"
+  },
+  "properties": [
+    {
+      "name": "declarations",
+      "kind": "node-array",
+      "type": "VariableDeclaration",
+      "optional": false
+    },
+    {
+      "name": "flags",
+      "kind": "value",
+      "type": "ts.NodeFlags",
+      "optional": true,
+      "modifiable": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "root": "bundle",
+  "targets": {
+    "compile": {
+      "dependsOn": ["^compile"],
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "bundle",
+        "command": "tsc --build"
+      }
+    },
+    "test": {
+      "dependsOn": ["compile"],
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "bundle",
+        "command": "jest"
+      }
+    }
+  }
+}

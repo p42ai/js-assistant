@@ -1,0 +1,16 @@
+{
+  "id": "separate-condition-into-nested-if",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.move.separate-condition-into-nested-if"]
+  },
+  "documentation": {
+    "title": "Separate repeated condition into nested if-else",
+    "shortDescription": "Separate a repeated sub-condition that is fully covered into a nested if-else.",
+    "relatedCodeAssists": ["split-if"],
+    "categories": ["branching"]
+  }
+}

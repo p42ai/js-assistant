@@ -1,0 +1,35 @@
+{
+  "id": "replace-lodash-foreach",
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace Lodash `_.each` and `_.forEach` with `array.forEach`.",
+    "relatedCodeAssists": [
+      "replace-lodash-every-with-javascript-array-every",
+      "replace-lodash-filter-with-javascript-array-filter",
+      "replace-lodash-map-with-javascript-array-map",
+      "replace-lodash-some-with-javascript-array-some"
+    ],
+    "references": [
+      {
+        "label": "_.forEach (Lodash)",
+        "href": "https://lodash.com/docs/#forEach"
+      },
+      {
+        "label": "Array.forEach (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+      }
+    ],
+    "categories": ["library-lodash"],
+    "title": "Replace _.each and _.forEach with array.forEach"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.replace.lodash-foreach"]
+  }
+}

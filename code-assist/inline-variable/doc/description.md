@@ -1,0 +1,1 @@
+The variable can be a `const`, `let`, or `var` declaration. It must not be re-assigned.

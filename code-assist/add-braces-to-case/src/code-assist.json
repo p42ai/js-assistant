@@ -1,0 +1,20 @@
+{
+  "id": "add-braces-to-case",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.braces.case"]
+  },
+  "documentation": {
+    "title": "Add {…} to case",
+    "shortDescription": "Surround case statements in a block.",
+    "categories": ["syntax-conversion"],
+    "relatedCodeAssists": [
+      "add-braces",
+      "add-braces-to-arrow-function",
+      "add-braces-to-jsx-attribute"
+    ],
+    "references": []
+  }
+}

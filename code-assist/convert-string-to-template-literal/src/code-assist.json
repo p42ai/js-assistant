@@ -1,0 +1,28 @@
+{
+  "id": "convert-string-to-template-literal",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.string-template"]
+  },
+  "documentation": {
+    "shortDescription": "Convert a string to a basic template literal without expressions.",
+    "relatedCodeAssists": ["use-template-literal"],
+    "references": [
+      {
+        "label": "Template Literal (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+      },
+      {
+        "label": "Browser & Engine Compatibility (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#browser_compatibility"
+      }
+    ],
+    "categories": ["modernization", "string"],
+    "title": "Convert string to template literal"
+  },
+  "isModernization": true
+}

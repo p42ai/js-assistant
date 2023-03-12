@@ -1,0 +1,20 @@
+{
+  "name": "YieldExpression",
+  "generate": {
+    "factory": "custom"
+  },
+  "properties": [
+    {
+      "name": "asteriskToken",
+      "kind": "token",
+      "type": "AsteriskToken",
+      "optional": true
+    },
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

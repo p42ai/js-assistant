@@ -1,0 +1,30 @@
+{
+  "id": "remove-empty-else-block",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Remove an empty 'else' block from an 'if' statement.",
+    "relatedCodeAssists": [
+      "remove-empty-if-block"
+    ],
+    "categories": [
+      "cleanup",
+      "branching"
+    ],
+    "title": "Remove empty else block"
+  },
+  "platform": {
+    "languages": [
+      "JAVASCRIPT",
+      "TYPESCRIPT"
+    ]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.remove.empty-else-block"
+    ]
+  }
+}

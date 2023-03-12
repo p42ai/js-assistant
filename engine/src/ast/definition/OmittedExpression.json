@@ -1,0 +1,7 @@
+{
+  "name": "OmittedExpression",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": []
+}

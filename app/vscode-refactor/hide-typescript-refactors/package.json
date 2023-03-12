@@ -1,0 +1,14 @@
+{
+  "name": "@p42/hide-typescript-refactors",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./build",
+  "scripts": {
+    "clean": "rimraf build node_modules tsconfig.tsbuildinfo **/*.generated.ts",
+    "build": "tsc --build",
+    "watch": "mkdir -p build && tsc --build --watch",
+    "lint": "eslint -c ../../../.eslintrc --no-error-on-unmatched-pattern src",
+    "test": "jest"
+  },
+  "devDependencies": {}
+}

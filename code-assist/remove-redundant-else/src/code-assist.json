@@ -1,0 +1,19 @@
+{
+  "id": "remove-redundant-else",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Remove redundant else-if conditions and unreachable else statements.",
+    "categories": ["cleanup", "branching"],
+    "title": "Remove redundant else if"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.redundant-else"]
+  }
+}

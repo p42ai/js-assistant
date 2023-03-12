@@ -1,0 +1,24 @@
+{
+  "name": "NewExpression",
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "typeArguments",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "arguments",
+      "parameterName": "argumentsArray",
+      "kind": "node-array",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

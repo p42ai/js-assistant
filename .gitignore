@@ -1,0 +1,46 @@
+# IntelliJ
+.idea/gradle.xml
+.idea/shelf
+*.ipr
+*.iml
+*.iws
+
+# OSX
+.DS_Store
+
+# Node
+node_modules
+
+# Other
+build
+out
+venv
+
+# Logs
+log
+*.log
+
+# Typescript compilation
+tsconfig.tsbuildinfo
+
+# Generated Code
+*.generated.ts
+
+# Generated Refactoring Code
+/tsconfig.json
+
+app/web/next.config.js
+
+bundle/package.json
+
+augmentation/*/jest.config.js
+augmentation/*/package.json
+augmentation/*/tsconfig.json
+augmentation/*/test/*.spec.test.ts
+
+code-assist/*/jest.config.js
+code-assist/*/package.json
+code-assist/*/tsconfig.json
+code-assist/*/test/*.spec.test.ts
+
+lib-kotlin/scan-runner/script/export-code-assists.sh

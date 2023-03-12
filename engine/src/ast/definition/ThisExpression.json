@@ -1,0 +1,9 @@
+{
+  "name": "ThisExpression",
+  "factoryMethodName": "This",
+  "syntaxKind": "ThisKeyword",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": []
+}

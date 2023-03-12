@@ -1,0 +1,29 @@
+{
+  "name": "ElementAccessExpression",
+  "generate": {
+    "factory": "none"
+  },
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "questionDotToken",
+      "kind": "token",
+      "type": "QuestionDotToken",
+      "optional": true,
+      "modifiable": false,
+      "copyable": false,
+      "optionalChaining": true
+    },
+    {
+      "name": "argumentExpression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

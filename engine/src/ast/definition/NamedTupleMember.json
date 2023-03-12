@@ -1,0 +1,29 @@
+{
+  "name": "NamedTupleMember",
+  "properties": [
+    {
+      "name": "dotDotDotToken",
+      "kind": "token",
+      "type": "DotDotDotToken",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    },
+    {
+      "name": "questionToken",
+      "kind": "token",
+      "type": "QuestionToken",
+      "optional": true
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

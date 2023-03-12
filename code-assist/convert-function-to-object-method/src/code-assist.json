@@ -1,0 +1,27 @@
+{
+  "id": "convert-function-to-object-method",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Convert property assignments with functions to method declarations.",
+    "relatedCodeAssists": ["convert-function-to-arrow-function"],
+    "references": [
+      {
+        "label": "Method Definitions (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions"
+      }
+    ],
+    "categories": ["function", "modernization"],
+    "title": "Convert function to object method"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.function-to-object-method"]
+  }
+}

@@ -1,0 +1,3 @@
+The "select expression occurrences" code action finds additional occurrences of the currently selected expression (full text selection) and starts a multi-cursor selection on them. With the multi-cursor selection, you can edit all occurrences in parallel.
+
+The code action uses expression equality, not text equality. This means that only expressions that have the same variable bindings and `this` scope (when `this` is part of the expression) are considered as additional occurrences. 

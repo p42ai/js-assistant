@@ -1,0 +1,21 @@
+{
+  "id": "split-variable-declaration-and-initialization",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.split.variable-declaration-and-initialization"
+    ]
+  },
+  "documentation": {
+    "title": "Split variable declaration and initialization",
+    "shortDescription": "Separate the variable initialization from its declaration.",
+    "relatedCodeAssists": [
+      "merge-variable-declaration-and-initialization",
+      "split-variable-declaration"
+    ],
+    "categories": ["variable"]
+  }
+}

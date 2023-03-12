@@ -1,0 +1,30 @@
+{
+  "name": "ModuleDeclaration",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "ModuleName",
+      "optional": false
+    },
+    {
+      "name": "body",
+      "kind": "node",
+      "type": "ModuleBody",
+      "optional": true
+    },
+    {
+      "name": "flags",
+      "kind": "value",
+      "type": "ts.NodeFlags",
+      "optional": true,
+      "modifiable": false
+    }
+  ]
+}

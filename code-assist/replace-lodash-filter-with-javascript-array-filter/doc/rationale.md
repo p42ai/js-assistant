@@ -1,0 +1,1 @@
+You can express many `_.filter` calls with standard JavaScript. This refactoring reduces the dependency on Lodash.

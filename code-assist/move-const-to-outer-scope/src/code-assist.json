@@ -1,0 +1,21 @@
+{
+  "id": "move-const-to-outer-scope",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "off"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.move.const-to-outer-scope"]
+  },
+  "documentation": {
+    "title": "Move constant to top-level scope",
+    "shortDescription": "Move a constant to the top-level scope of the module.",
+    "relatedCodeAssists": [],
+    "references": [],
+    "categories": ["move", "variable"]
+  }
+}

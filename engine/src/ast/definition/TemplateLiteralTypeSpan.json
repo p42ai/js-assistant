@@ -1,0 +1,17 @@
+{
+  "name": "TemplateLiteralTypeSpan",
+  "properties": [
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    },
+    {
+      "name": "literal",
+      "kind": "node",
+      "type": ["TemplateMiddle", "TemplateTail"],
+      "optional": false
+    }
+  ]
+}

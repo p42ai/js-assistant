@@ -1,0 +1,21 @@
+{
+  "id": "extract-jsx-element",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.extract.jsx-element"]
+  },
+  "documentation": {
+    "title": "Extract React function component",
+    "shortDescription": "Extract JSX element or fragment into a React Function Component.",
+    "categories": ["library-react"],
+    "relatedCodeAssists": ["extract-variable", "surround-with-jsx-fragment"],
+    "references": [
+      {
+        "label": "React Components (React Documentation)",
+        "href": "https://reactjs.org/docs/components-and-props.html"
+      }
+    ]
+  }
+}

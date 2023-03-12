@@ -1,0 +1,23 @@
+{
+  "name": "ImportClause",
+  "properties": [
+    {
+      "name": "isTypeOnly",
+      "kind": "value",
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": true
+    },
+    {
+      "name": "namedBindings",
+      "kind": "node",
+      "type": "NamedImportBindings",
+      "optional": true
+    }
+  ]
+}

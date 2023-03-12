@@ -1,0 +1,7 @@
+{
+  "name": "JsxClosingFragment",
+  "generate": {
+    "factory": "custom"
+  },
+  "properties": []
+}

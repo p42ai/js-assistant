@@ -1,0 +1,17 @@
+{
+  "name": "VariableStatement",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "declarationList",
+      "kind": "node",
+      "type": "VariableDeclarationList",
+      "optional": false
+    }
+  ]
+}

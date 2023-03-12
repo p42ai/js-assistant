@@ -1,0 +1,19 @@
+{
+  "id": "move-variable-declaration",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.variable-declaration",
+      "refactor.move.down.variable-declaration"
+    ]
+  },
+  "documentation": {
+    "title": "Move variable declaration",
+    "shortDescription": "Move a variable declaration up or down.",
+    "categories": ["move", "variable"],
+    "relatedCodeAssists": [],
+    "references": []
+  }
+}

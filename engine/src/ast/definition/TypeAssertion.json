@@ -1,0 +1,18 @@
+{
+  "name": "TypeAssertion",
+  "syntaxKind": "TypeAssertionExpression",
+  "properties": [
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    },
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

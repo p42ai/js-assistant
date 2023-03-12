@@ -1,0 +1,26 @@
+{
+  "id": "convert-loop-to-map",
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Convert a loop with `.push()` into a `.map()` call.",
+    "relatedCodeAssists": ["convert-loop-to-for-each"],
+    "references": [
+      {
+        "label": "Array.map (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+      },
+      {
+        "label": "Array.flatMap (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"
+      }
+    ],
+    "categories": ["collection"],
+    "title": "Convert loop to .map()"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.loop-to-map"]
+  }
+}

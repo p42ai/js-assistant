@@ -1,0 +1,14 @@
+{
+  "name": "CaseBlock",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "clauses",
+      "kind": "node-array",
+      "type": "CaseOrDefaultClause",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "convert-template-literal-to-string",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.string-template"]
+  },
+  "documentation": {
+    "shortDescription": "Convert a simple template literal without expressions into a string.",
+    "relatedCodeAssists": [
+      "convert-string-to-template-literal",
+      "use-template-literal",
+      "inline-into-template",
+      "remove-unnecessary-template"
+    ],
+    "references": [
+      {
+        "label": "Template Literal (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+      }
+    ],
+    "categories": ["string"],
+    "title": "Convert template literal to string"
+  }
+}

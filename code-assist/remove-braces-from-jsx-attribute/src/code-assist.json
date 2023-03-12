@@ -1,0 +1,21 @@
+{
+  "id": "remove-braces-from-jsx-attribute",
+  "canBeSafe": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.braces.jsx-attribute"]
+  },
+  "documentation": {
+    "title": "Remove {…} from JSX attribute",
+    "shortDescription": "Remove `{…}` from a JSX attribute expression value that contains a string literal.",
+    "categories": ["syntax-conversion", "library-react"],
+    "relatedCodeAssists": [
+      "add-braces-to-jsx-attribute",
+      "remove-braces",
+      "remove-braces-from-case",
+      "remove-braces-from-arrow-function"
+    ]
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  }
+}

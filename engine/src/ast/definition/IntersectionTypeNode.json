@@ -1,0 +1,13 @@
+{
+  "name": "IntersectionTypeNode",
+  "syntaxKind": "IntersectionType",
+  "properties": [
+    {
+      "name": "types",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": false,
+      "factoryUpdateRecast": true
+    }
+  ]
+}

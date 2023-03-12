@@ -1,0 +1,25 @@
+{
+  "name": "IndexSignatureDeclaration",
+  "syntaxKind": "IndexSignature",
+  "factoryMethodName": "IndexSignature",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "parameters",
+      "kind": "node-array",
+      "type": "ParameterDeclaration",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

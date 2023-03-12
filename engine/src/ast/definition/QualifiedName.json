@@ -1,0 +1,17 @@
+{
+  "name": "QualifiedName",
+  "properties": [
+    {
+      "name": "left",
+      "kind": "node",
+      "type": "EntityName",
+      "optional": false
+    },
+    {
+      "name": "right",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ArrowFunction",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "typeParameters",
+      "kind": "node-array",
+      "type": "TypeParameterDeclaration",
+      "optional": true
+    },
+    {
+      "name": "parameters",
+      "kind": "node-array",
+      "type": "ParameterDeclaration",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "equalsGreaterThanToken",
+      "kind": "token",
+      "type": "EqualsGreaterThanToken",
+      "optional": true,
+      "optionalForUpdate": false
+    },
+    {
+      "name": "body",
+      "kind": "node",
+      "type": "ConciseBody",
+      "optional": false
+    }
+  ]
+}

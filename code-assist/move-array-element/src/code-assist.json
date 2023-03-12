@@ -1,0 +1,22 @@
+{
+  "id": "move-array-element",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.array-element",
+      "refactor.move.down.array-element"
+    ]
+  },
+  "documentation": {
+    "title": "Move array element",
+    "shortDescription": "Move an array element up or down.",
+    "categories": ["collection", "move"],
+    "relatedCodeAssists": [
+      "move-object-property",
+      "move-destructured-array-element"
+    ],
+    "references": []
+  }
+}

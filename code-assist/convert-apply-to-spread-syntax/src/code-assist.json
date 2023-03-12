@@ -1,0 +1,26 @@
+{
+  "id": "convert-apply-to-spread-syntax",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace `.apply()` calls with the spread operator `...`",
+    "references": [
+      {
+        "label": "Function.prototype.apply() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+      }
+    ],
+    "categories": ["modernization"],
+    "title": "Convert .apply() to spread syntax"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.apply-to-spread-syntax"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "TupleTypeNode",
+  "syntaxKind": "TupleType",
+  "properties": [
+    {
+      "name": "elements",
+      "kind": "node-array",
+      "type": ["TypeNode", "NamedTupleMember"],
+      "optional": false
+    }
+  ]
+}

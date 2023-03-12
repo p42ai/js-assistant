@@ -1,0 +1,1 @@
+You can express many `_.each` and `_.forEach` calls with standard JavaScript. This refactoring reduces the dependency on Lodash.

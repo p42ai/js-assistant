@@ -1,0 +1,1 @@
+Setting `_.iteratee` affects how `_.some` behaves. This can lead to differences between `_.some` and the JavaScript `Array.some`.

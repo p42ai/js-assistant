@@ -1,0 +1,22 @@
+{
+  "id": "convert-new-array-to-array-literal",
+  "canBeSafe": true,
+  "documentation": {
+    "shortDescription": "Replace `new Array(…)` calls with `[…]`.",
+    "relatedCodeAssists": [],
+    "references": [
+      {
+        "label": "Array() constructor (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array"
+      }
+    ],
+    "categories": ["variable"],
+    "title": "Convert 'new Array(…)' to '[…]'"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.new-array-to-array-literal"]
+  }
+}

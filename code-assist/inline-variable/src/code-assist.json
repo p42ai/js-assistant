@@ -1,0 +1,26 @@
+{
+  "id": "inline-variable",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.inline.return"]
+  },
+  "documentation": {
+    "title": "Inline variable",
+    "shortDescription": "Inline a variable value into its references.",
+    "relatedCodeAssists": [
+      "inline-variable-occurrence",
+      "extract-variable",
+      "extract-substring-to-variable",
+      "inline-return",
+      "inline-into-template",
+      "push-into-initial-value-declaration"
+    ],
+    "categories": ["core"]
+  }
+}

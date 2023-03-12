@@ -1,0 +1,28 @@
+{
+  "id": "add-braces",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.toggle.braces.if-then",
+      "refactor.rewrite.toggle.braces.if-else",
+      "refactor.rewrite.toggle.braces.while",
+      "refactor.rewrite.toggle.braces.for",
+      "refactor.rewrite.toggle.braces.do"
+    ]
+  },
+  "documentation": {
+    "title": "Add {…} to if-else and loops",
+    "shortDescription": "Convert single statements into blocks.",
+    "categories": ["syntax-conversion", "loops", "branching"],
+    "relatedCodeAssists": [
+      "remove-braces",
+      "add-braces-to-arrow-function",
+      "add-braces-to-jsx-attribute",
+      "add-braces-to-case"
+    ],
+    "references": []
+  }
+}

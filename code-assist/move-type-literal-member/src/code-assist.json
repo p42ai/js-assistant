@@ -1,0 +1,23 @@
+{
+  "id": "move-type-literal-member",
+  "platform": {
+    "languages": ["TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.type-literal-member",
+      "refactor.move.down.type-literal-member"
+    ]
+  },
+  "documentation": {
+    "title": "Move type member",
+    "shortDescription": "Move a type member up or down.",
+    "categories": ["move", "typescript"],
+    "relatedCodeAssists": [
+      "move-interface-member",
+      "move-class-member",
+      "move-statement"
+    ],
+    "references": []
+  }
+}

@@ -1,0 +1,1 @@
+Extracting a React component helps you modularize your code. The extracted component can be reused, documented, and tested separately. The original code becomes more concise and readable, especially if you choose a descriptive component name.

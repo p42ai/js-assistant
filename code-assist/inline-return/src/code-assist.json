@@ -1,0 +1,19 @@
+{
+  "id": "inline-return",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Convert a variable assignment to a `return` statement.",
+    "relatedCodeAssists": ["inline-variable"],
+    "categories": ["core", "variable"],
+    "title": "Replace assignment with return"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.replace-assignment-with-return"]
+  }
+}

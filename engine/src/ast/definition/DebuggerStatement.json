@@ -1,0 +1,7 @@
+{
+  "name": "DebuggerStatement",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": []
+}

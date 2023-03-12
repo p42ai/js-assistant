@@ -1,0 +1,1 @@
+Converting a sequence of string comparisons into an `array.includes` call makes it easy to add or remove elements and enables [extracting](/documentation/code-assist/extract-variable) the string array into a variable.

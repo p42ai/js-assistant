@@ -1,0 +1,10 @@
+excludedPathPatterns = [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "*.generated.*" # TODO should this match everywhere
+]
+
+[debug]
+performanceLoggingEnabled = false
+exposeErrors = true

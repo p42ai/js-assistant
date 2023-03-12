@@ -1,0 +1,11 @@
+{
+  "name": "NamedExports",
+  "properties": [
+    {
+      "name": "elements",
+      "kind": "node-array",
+      "type": "ExportSpecifier",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+When the operator is `<`, `<=`, `>` or `>=` the result for `NaN` and nullish values can change.

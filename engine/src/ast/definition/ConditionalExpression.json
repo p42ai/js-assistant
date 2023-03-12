@@ -1,0 +1,37 @@
+{
+  "name": "ConditionalExpression",
+  "properties": [
+    {
+      "name": "condition",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "questionToken",
+      "kind": "token",
+      "type": "QuestionToken",
+      "optional": true,
+      "optionalForUpdate": false
+    },
+    {
+      "name": "whenTrue",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "colonToken",
+      "kind": "token",
+      "type": "ColonToken",
+      "optional": true,
+      "optionalForUpdate": false
+    },
+    {
+      "name": "whenFalse",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

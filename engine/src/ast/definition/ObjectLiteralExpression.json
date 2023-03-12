@@ -1,0 +1,14 @@
+{
+  "name": "ObjectLiteralExpression",
+  "generate": {
+    "matcher": "true"
+  },
+  "properties": [
+    {
+      "name": "properties",
+      "kind": "node-array",
+      "type": "ObjectLiteralElementLike",
+      "optional": false
+    }
+  ]
+}

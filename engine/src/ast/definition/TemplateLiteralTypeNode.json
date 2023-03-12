@@ -1,0 +1,19 @@
+{
+  "name": "TemplateLiteralTypeNode",
+  "factoryMethodName": "TemplateLiteralType",
+  "syntaxKind": "TemplateLiteralType",
+  "properties": [
+    {
+      "name": "head",
+      "kind": "node",
+      "type": "TemplateHead",
+      "optional": false
+    },
+    {
+      "name": "templateSpans",
+      "kind": "node-array",
+      "type": "TemplateLiteralTypeSpan",
+      "optional": false
+    }
+  ]
+}

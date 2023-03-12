@@ -1,0 +1,16 @@
+{
+  "id": "surround-with-jsx-fragment",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.surround.with.jsx-fragment"]
+  },
+  "documentation": {
+    "title": "Surround with <>…</>",
+    "shortDescription": "Wrap JSX elements in a JSX fragment `<>…</>`.",
+    "relatedCodeAssists": ["remove-unnecessary-jsx-fragment"],
+    "categories": ["library-react"]
+  }
+}

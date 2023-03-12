@@ -1,0 +1,23 @@
+{
+  "name": "TaggedTemplateExpression",
+  "properties": [
+    {
+      "name": "tag",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "typeArguments",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "template",
+      "kind": "node",
+      "type": "TemplateLiteral",
+      "optional": false
+    }
+  ]
+}

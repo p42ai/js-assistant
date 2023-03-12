@@ -1,0 +1,24 @@
+{
+  "name": "TypePredicateNode",
+  "syntaxKind": "TypePredicate",
+  "properties": [
+    {
+      "name": "assertsModifier",
+      "kind": "token",
+      "type": "AssertsKeyword",
+      "optional": true
+    },
+    {
+      "name": "parameterName",
+      "kind": "node",
+      "type": ["Identifier", "ThisTypeNode"],
+      "optional": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    }
+  ]
+}

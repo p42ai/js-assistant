@@ -1,0 +1,36 @@
+{
+  "id": "use-template-literal",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.use-template-literal"]
+  },
+  "documentation": {
+    "title": "Merge string concatenation",
+    "shortDescription": "Merge string and template literal concatenation into a single template literal or string.",
+    "relatedCodeAssists": [
+      "convert-string-to-template-literal",
+      "convert-template-literal-to-string",
+      "inline-into-template",
+      "remove-unnecessary-template"
+    ],
+    "references": [
+      {
+        "label": "Template Literal (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+      },
+      {
+        "label": "Browser & Engine Compatibility (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#browser_compatibility"
+      }
+    ],
+    "categories": ["modernization", "string"]
+  }
+}

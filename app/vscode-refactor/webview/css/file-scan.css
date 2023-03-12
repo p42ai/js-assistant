@@ -1,0 +1,20 @@
+body {
+  padding: var(--container-padding);
+}
+
+.suggestion-count {
+  font-size: 120%;
+  margin-bottom: 4px;
+}
+
+.information-element.collapsed {
+  background-color: var(--vscode-editor-background);
+}
+
+.information-element.collapsed:hover {
+  background-color: var(--vscode-editor-lineHighlightBackground);
+}
+
+.information-element.expanded {
+  background-color: var(--vscode-editor-lineHighlightBackground);
+}

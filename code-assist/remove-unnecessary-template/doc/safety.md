@@ -1,0 +1,1 @@
+Removing template expressions that only contain a single expression and no prefix or suffix is safe when that expression is a string. When the expression is of a type other than string, a type change occurs that can change the code's behavior.

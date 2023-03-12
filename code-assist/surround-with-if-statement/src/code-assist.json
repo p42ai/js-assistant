@@ -1,0 +1,15 @@
+{
+  "id": "surround-with-if-statement",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.surround.with.if-statement"]
+  },
+  "documentation": {
+    "title": "Surround with if statement",
+    "shortDescription": "Surround a sequence of statements with an if-statement.",
+    "relatedCodeAssists": ["surround-with-try-catch", "insert-else"],
+    "categories": ["action"]
+  }
+}

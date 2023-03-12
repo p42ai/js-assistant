@@ -1,0 +1,24 @@
+{
+  "id": "convert-loop-to-for-with-index",
+  "documentation": {
+    "shortDescription": "Replace `for…of` with a regular `for` loop that has an index variable.",
+    "relatedCodeAssists": [
+      "convert-loop-to-for-each",
+      "convert-loop-to-for-of"
+    ],
+    "references": [
+      {
+        "label": "for (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for"
+      }
+    ],
+    "categories": ["collection"],
+    "title": "Convert loop to for"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.loop-to-for-with-index"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "TypeOperatorNode",
+  "syntaxKind": "TypeOperator",
+  "properties": [
+    {
+      "name": "operator",
+      "kind": "value",
+      "type": [
+        "ts.SyntaxKind.KeyOfKeyword",
+        "ts.SyntaxKind.UniqueKeyword",
+        "ts.SyntaxKind.ReadonlyKeyword"
+      ],
+      "optional": false,
+      "modifiable": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "RestTypeNode",
+  "syntaxKind": "RestType",
+  "properties": [
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

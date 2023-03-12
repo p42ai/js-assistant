@@ -1,0 +1,19 @@
+{
+  "id": "push-down-negation",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Push the not-operator (`!`) into an expression and negate it.",
+    "relatedCodeAssists": ["pull-up-negation", "remove-double-negation"],
+    "categories": ["logical-expression"],
+    "title": "Push down negation"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.push-down-negation"]
+  }
+}

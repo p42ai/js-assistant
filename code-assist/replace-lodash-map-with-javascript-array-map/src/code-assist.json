@@ -1,0 +1,32 @@
+{
+  "id": "replace-lodash-map-with-javascript-array-map",
+  "platform": {
+    "ecmaScript": "ES5",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Replace Lodash `_.map` with `array.map`.",
+    "relatedCodeAssists": [
+      "replace-lodash-filter-with-javascript-array-filter",
+      "replace-lodash-foreach",
+      "replace-lodash-every-with-javascript-array-every",
+      "replace-lodash-some-with-javascript-array-some"
+    ],
+    "references": [
+      {
+        "label": "_.map (Lodash)",
+        "href": "https://lodash.com/docs/#map"
+      },
+      {
+        "label": "Array.map (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+      }
+    ],
+    "categories": ["library-lodash"],
+    "title": "Replace _.map with array.map"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.replace.lodash-map-with-javascript-array-map"]
+  }
+}

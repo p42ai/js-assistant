@@ -1,0 +1,26 @@
+{
+  "name": "IfStatement",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "thenStatement",
+      "kind": "node",
+      "type": "Statement",
+      "optional": false
+    },
+    {
+      "name": "elseStatement",
+      "kind": "node",
+      "type": "Statement",
+      "optional": true
+    }
+  ]
+}

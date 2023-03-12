@@ -1,0 +1,29 @@
+{
+  "name": "VariableDeclaration",
+  "properties": [
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "BindingName",
+      "optional": false
+    },
+    {
+      "name": "exclamationToken",
+      "kind": "token",
+      "type": "ExclamationToken",
+      "optional": true
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "initializer",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

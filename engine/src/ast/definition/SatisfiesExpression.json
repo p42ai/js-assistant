@@ -1,0 +1,18 @@
+{
+  "name": "SatisfiesExpression",
+  "syntaxKind": "SatisfiesExpression",
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

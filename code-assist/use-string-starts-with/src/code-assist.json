@@ -1,0 +1,31 @@
+{
+  "id": "use-string-starts-with",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.use-string-starts-with"]
+  },
+  "documentation": {
+    "title": "Use string.startsWith()",
+    "shortDescription": "`string.startsWith()` checks if a string starts with another string.",
+    "relatedCodeAssists": ["use-string-ends-with"],
+    "references": [
+      {
+        "label": "String.prototype.startsWith() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith"
+      },
+      {
+        "label": "Browser Support (Can I use)",
+        "href": "https://caniuse.com/mdn-javascript_builtins_string_startswith"
+      }
+    ],
+    "categories": ["modernization", "string"]
+  }
+}

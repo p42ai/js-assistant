@@ -1,0 +1,23 @@
+{
+  "name": "JsxOpeningElement",
+  "properties": [
+    {
+      "name": "tagName",
+      "kind": "node",
+      "type": "JsxTagNameExpression",
+      "optional": false
+    },
+    {
+      "name": "typeArguments",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "attributes",
+      "kind": "node",
+      "type": "JsxAttributes",
+      "optional": false
+    }
+  ]
+}

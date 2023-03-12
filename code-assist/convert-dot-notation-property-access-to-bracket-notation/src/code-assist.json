@@ -1,0 +1,18 @@
+{
+  "id": "convert-dot-notation-property-access-to-bracket-notation",
+  "canBeSafe": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.property-access-notation"]
+  },
+  "documentation": {
+    "shortDescription": "Convert dot notation property access `o.a` into bracket notation property access `o['a']`.",
+    "relatedCodeAssists": [
+      "convert-bracket-notation-property-access-to-dot-notation"
+    ],
+    "categories": ["syntax-conversion"],
+    "title": "Convert property access to bracket notation"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  }
+}

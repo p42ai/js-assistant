@@ -1,0 +1,28 @@
+{
+  "id": "remove-braces",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.toggle.braces.if-then",
+      "refactor.rewrite.toggle.braces.if-else",
+      "refactor.rewrite.toggle.braces.while",
+      "refactor.rewrite.toggle.braces.for",
+      "refactor.rewrite.toggle.braces.do"
+    ]
+  },
+  "documentation": {
+    "title": "Remove {…} from if-else and loops",
+    "shortDescription": "Replace single statement blocks with their inner statement.",
+    "categories": ["syntax-conversion", "loops", "branching"],
+    "relatedCodeAssists": [
+      "add-braces",
+      "remove-braces-from-arrow-function",
+      "remove-braces-from-case",
+      "remove-braces-from-jsx-attribute"
+    ],
+    "references": []
+  }
+}

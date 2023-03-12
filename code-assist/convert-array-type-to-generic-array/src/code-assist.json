@@ -1,0 +1,21 @@
+{
+  "id": "convert-array-type-to-generic-array",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "off"
+  },
+  "platform": {
+    "languages": ["TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.array-type-to-generic-array"]
+  },
+  "documentation": {
+    "title": "Convert Type[] to Array<Type>",
+    "shortDescription": "Change TypeScript array types into generic types.",
+    "categories": ["typescript"],
+    "relatedCodeAssists": [],
+    "references": []
+  }
+}

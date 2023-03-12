@@ -1,0 +1,2 @@
+#### Array destructuring can have side-effects.
+Array destructuring can be invoked on any [iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol), and custom iterable implementations could have side-effects.

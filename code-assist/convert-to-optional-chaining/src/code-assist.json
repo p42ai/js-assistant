@@ -1,0 +1,29 @@
+{
+  "id": "convert-to-optional-chaining",
+  "platform": {
+    "ecmaScript": "ES2020",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace various guard expressions with the optional chaining operator (`?.`).",
+    "references": [
+      {
+        "label": "Optional Chaining (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining"
+      },
+      {
+        "label": "Browser & Engine Compatibility (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining#browser_compatibility"
+      }
+    ],
+    "categories": ["modernization", "logical-expression"],
+    "title": "Convert to optional chaining"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.to-optional-chaining"]
+  }
+}

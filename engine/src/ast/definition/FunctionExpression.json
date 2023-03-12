@@ -1,0 +1,47 @@
+{
+  "name": "FunctionExpression",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "asteriskToken",
+      "kind": "token",
+      "type": "AsteriskToken",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": true
+    },
+    {
+      "name": "typeParameters",
+      "kind": "node-array",
+      "type": "TypeParameterDeclaration",
+      "optional": true
+    },
+    {
+      "name": "parameters",
+      "kind": "node-array",
+      "type": "ParameterDeclaration",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "body",
+      "kind": "node",
+      "type": "Block",
+      "optional": false
+    }
+  ]
+}

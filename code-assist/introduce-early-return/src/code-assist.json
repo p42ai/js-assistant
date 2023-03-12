@@ -1,0 +1,29 @@
+{
+  "id": "introduce-early-return",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.introduce-early-return"]
+  },
+  "documentation": {
+    "title": "Introduce early return / continue",
+    "shortDescription": "Change an if-statement into an early return or continue statement.",
+    "relatedCodeAssists": ["remove-unnecessary-else"],
+    "references": [
+      {
+        "label": "Return (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return"
+      },
+      {
+        "label": "Continue (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue"
+      }
+    ],
+    "categories": ["branching"]
+  }
+}

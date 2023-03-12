@@ -1,0 +1,22 @@
+{
+  "id": "pull-operator-out-of-assignment",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.pull-operator-out-of-assignment"]
+  },
+  "documentation": {
+    "title": "Pull operator out of assignment",
+    "shortDescription": "Move an operator out of an assignment into a binary expression.",
+    "relatedCodeAssists": ["push-operator-into-assignment"],
+    "references": [
+      {
+        "label": "Short-Circuiting in JavaScript (P42 Blog)",
+        "href": "/blog/2021-11-25/short-circuiting-operators-and-assignments-in-javascript"
+      }
+    ],
+    "categories": ["syntax-conversion"]
+  }
+}

@@ -1,0 +1,1 @@
+Unnecessary conditional expressions can increase the complexity and obfuscate the behavior of the code. Removing them increases the readability and makes the code more straightforward.

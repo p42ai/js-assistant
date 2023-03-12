@@ -1,0 +1,23 @@
+{
+  "id": "split-variable-declaration",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.split.variable-declaration"]
+  },
+  "documentation": {
+    "title": "Split variable declaration sequence",
+    "shortDescription": "Convert declarations with multiple variables into separate declarations for each variable.",
+    "relatedCodeAssists": [
+      "replace-var-with-let-and-const",
+      "split-variable-declaration-and-initialization",
+      "merge-variable-declaration-and-initialization"
+    ],
+    "categories": ["variable"]
+  }
+}

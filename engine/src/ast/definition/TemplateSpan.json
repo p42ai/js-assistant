@@ -1,0 +1,20 @@
+{
+  "name": "TemplateSpan",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "literal",
+      "kind": "node",
+      "type": ["TemplateMiddle", "TemplateTail"],
+      "optional": false
+    }
+  ]
+}

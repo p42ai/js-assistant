@@ -1,0 +1,1 @@
+The refactoring supports converting regular `for` loops over an array with an index variable as well as `for..of` loops into `.forEach()` loops.

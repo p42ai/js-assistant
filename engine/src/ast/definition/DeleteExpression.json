@@ -1,0 +1,11 @@
+{
+  "name": "DeleteExpression",
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

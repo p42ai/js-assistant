@@ -1,0 +1,2 @@
+`String.endsWith` is an ES20215 feature. It is supported on all modern browsers, but for older browsers polyfilling might be required 
+([browser support](https://caniuse.com/mdn-javascript_builtins_string_endswith)).

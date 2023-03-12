@@ -1,0 +1,14 @@
+{
+  "name": "BreakStatement",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "label",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": true
+    }
+  ]
+}

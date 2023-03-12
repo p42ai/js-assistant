@@ -1,0 +1,22 @@
+{
+  "name": "SourceFile",
+  "generate": {
+    "factory": "none"
+  },
+  "properties": [
+    {
+      "name": "statements",
+      "kind": "node-array",
+      "type": "Statement",
+      "optional": false
+    },
+    {
+      "name": "endOfFileToken",
+      "kind": "token",
+      "type": "EndOfFileToken",
+      "optional": false,
+      "modifiable": false,
+      "copyable": false
+    }
+  ]
+}

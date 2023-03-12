@@ -1,0 +1,18 @@
+{
+  "id": "move-if-else-if-branches",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.if-else-if-branches",
+      "refactor.move.down.if-else-if-branches"
+    ]
+  },
+  "documentation": {
+    "title": "Move if-else-if branches",
+    "shortDescription": "Move an if-else branch up or down.",
+    "categories": ["branching", "move"],
+    "relatedCodeAssists": ["invert-condition", "move-nested-if"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "remove-iife",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Remove immediately-invoked function expressions (IIFEs) and immediately-invoked arrow functions (IIAFs) without parameters.",
+    "relatedCodeAssists": ["push-parameter-into-iife"],
+    "references": [
+      {
+        "label": "IIFE (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+      }
+    ],
+    "categories": ["cleanup", "function"],
+    "title": "Remove IIFE/IIAF"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.iife"]
+  }
+}

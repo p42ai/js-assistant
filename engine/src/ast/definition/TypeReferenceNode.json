@@ -1,0 +1,21 @@
+{
+  "name": "TypeReferenceNode",
+  "syntaxKind": "TypeReference",
+  "generate": {
+    "factory": "custom"
+  },
+  "properties": [
+    {
+      "name": "typeName",
+      "kind": "node",
+      "type": "EntityName",
+      "optional": false
+    },
+    {
+      "name": "typeArguments",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": true
+    }
+  ]
+}

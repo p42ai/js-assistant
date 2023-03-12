@@ -1,0 +1,7 @@
+{
+  "name": "JsxOpeningFragment",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": []
+}

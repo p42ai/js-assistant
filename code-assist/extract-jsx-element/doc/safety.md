@@ -1,0 +1,1 @@
+P42 analyzes only the file that you are currently working on. Type information might be accurate, and the parameter type signature of the extracted Function Component might contain `unknown` types.

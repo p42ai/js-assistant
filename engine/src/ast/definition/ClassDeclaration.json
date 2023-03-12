@@ -1,0 +1,38 @@
+{
+  "name": "ClassDeclaration",
+  "generate": {
+    "matcher": "true"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "ModifierLike",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": true
+    },
+    {
+      "name": "typeParameters",
+      "kind": "node-array",
+      "type": "TypeParameterDeclaration",
+      "optional": true
+    },
+    {
+      "name": "heritageClauses",
+      "kind": "node-array",
+      "type": "HeritageClause",
+      "optional": true
+    },
+    {
+      "name": "members",
+      "kind": "node-array",
+      "type": "ClassElement",
+      "optional": false
+    }
+  ]
+}

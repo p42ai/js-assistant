@@ -1,0 +1,13 @@
+{
+  "name": "ParenthesizedTypeNode",
+  "syntaxKind": "ParenthesizedType",
+  "factoryMethodName": "ParenthesizedType",
+  "properties": [
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

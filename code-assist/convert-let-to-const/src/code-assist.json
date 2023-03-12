@@ -1,0 +1,35 @@
+{
+  "id": "convert-let-to-const",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace `let` declarations that have no re-assignment with `const` declarations.",
+    "relatedCodeAssists": [
+      "replace-var-with-let-and-const",
+      "merge-variable-declaration-and-initialization",
+      "split-variable-declaration-and-initialization",
+      "split-variable-declaration"
+    ],
+    "references": [
+      {
+        "label": "Let (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+      },
+      {
+        "label": "Const (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+      }
+    ],
+    "categories": ["variable"],
+    "title": "Convert let to const"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.let-to-const"]
+  }
+}

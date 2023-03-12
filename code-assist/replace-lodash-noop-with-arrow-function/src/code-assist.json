@@ -1,0 +1,26 @@
+{
+  "id": "replace-lodash-noop-with-arrow-function",
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.replace.lodash-noop-with-arrow-function"]
+  },
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "documentation": {
+    "shortDescription": "Replace `_.noop` with `() => undefined`.",
+    "relatedCodeAssists": [
+      "replace-lodash-filter-with-javascript-array-filter",
+      "replace-lodash-map-with-javascript-array-map"
+    ],
+    "references": [
+      {
+        "label": "_.noop (Lodash)",
+        "href": "https://lodash.com/docs/#noop"
+      }
+    ],
+    "categories": ["library-lodash"],
+    "title": "Replace _.noop with arrow Function"
+  }
+}

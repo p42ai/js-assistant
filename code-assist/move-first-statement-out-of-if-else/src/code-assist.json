@@ -1,0 +1,19 @@
+{
+  "id": "move-first-statement-out-of-if-else",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Move a first statement that appears in both the if and the else block out of the if-else statement.",
+    "relatedCodeAssists": ["move-last-statement-out-of-if-else"],
+    "categories": ["branching", "move"],
+    "title": "Move duplicated first statement out of if-else"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.move.first-statement-out-of-if-else"]
+  }
+}

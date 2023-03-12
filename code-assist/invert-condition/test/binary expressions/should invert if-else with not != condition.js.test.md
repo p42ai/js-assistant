@@ -1,0 +1,36 @@
+
+Suggestion is not be provided in favor of push down negation.
+
+## Input
+```javascript input
+if (!(a != b)) {
+  f(1);
+} else {
+  f(2);
+}
+```
+
+## Configuration
+```json configuration
+{
+  "extension": "js"
+}
+```
+
+## Expected Matches
+```json expected matches
+{
+  "0-43-IfStatement": {
+    "suggestion": null
+  }
+}
+```
+
+## Expected Output
+```javascript expected output
+if (a != b) {
+  f(2);
+} else {
+  f(1);
+}
+```

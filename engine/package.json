@@ -1,0 +1,23 @@
+{
+  "name": "@p42/engine",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./build/index.js",
+  "scripts": {
+    "clean": "rimraf build node_modules tsconfig.tsbuildinfo **/*.generated.ts",
+    "generate": "ts-node codegen/generate.ts",
+    "build": "tsc --build",
+    "build-dev": "mkdir -p build && tsc --build --watch",
+    "lint": "eslint -c ../.eslintrc --no-error-on-unmatched-pattern src",
+    "format": "prettier -w \"**/*.{ts,tsx}\"",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/diff-match-patch": "1.0.32",
+    "@types/marked": "4.0.3",
+    "marked": "4.0.18"
+  },
+  "dependencies": {
+    "diff-match-patch": "1.0.5"
+  }
+}

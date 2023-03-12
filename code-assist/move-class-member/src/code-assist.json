@@ -1,0 +1,23 @@
+{
+  "id": "move-class-member",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.class-member",
+      "refactor.move.down.class-member"
+    ]
+  },
+  "documentation": {
+    "title": "Move class member",
+    "shortDescription": "Move a property, constructor, or method definition up or down.",
+    "categories": ["move"],
+    "relatedCodeAssists": [
+      "move-type-literal-member",
+      "move-interface-member",
+      "move-statement"
+    ],
+    "references": []
+  }
+}

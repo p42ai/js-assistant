@@ -1,0 +1,2 @@
+Logical Assignment Operators (`&&=`, `||=` and `??=`) are an [ES2021](https://tc39.es/ecma262/#sec-intro) feature. They are supported on all modern browsers and on Node 15+, and but for older browsers and Node versions transpilation might be required 
+([compatibility](https://kangax.github.io/compat-table/es2016plus/#test-Logical_Assignment)).

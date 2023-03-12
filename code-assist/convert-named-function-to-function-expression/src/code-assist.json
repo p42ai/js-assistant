@@ -1,0 +1,19 @@
+{
+  "id": "convert-named-function-to-function-expression",
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.named-function-to-function-expression"
+    ]
+  },
+  "documentation": {
+    "title": "Convert named function declaration to variable declaration",
+    "shortDescription": "Converts a named function to a const declaration with a function expression.",
+    "relatedCodeAssists": ["convert-function-to-arrow-function"],
+    "references": [],
+    "categories": ["function"]
+  }
+}

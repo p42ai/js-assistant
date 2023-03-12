@@ -1,0 +1,26 @@
+{
+  "name": "ForInStatement",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "initializer",
+      "kind": "node",
+      "type": "ForInitializer",
+      "optional": false
+    },
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "statement",
+      "kind": "node",
+      "type": "Statement",
+      "optional": false
+    }
+  ]
+}

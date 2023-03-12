@@ -1,0 +1,26 @@
+{
+  "name": "JsxFragment",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "openingFragment",
+      "kind": "node",
+      "type": "JsxOpeningFragment",
+      "optional": false
+    },
+    {
+      "name": "children",
+      "kind": "node-array",
+      "type": "JsxChild",
+      "optional": false
+    },
+    {
+      "name": "closingFragment",
+      "kind": "node",
+      "type": "JsxClosingFragment",
+      "optional": false
+    }
+  ]
+}

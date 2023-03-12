@@ -1,0 +1,21 @@
+{
+  "id": "remove-unused-variable",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.unused-variable"]
+  },
+  "documentation": {
+    "title": "Remove unused variable",
+    "shortDescription": "Remove a variable that is not read or written.",
+    "relatedCodeAssists": [],
+    "references": [],
+    "categories": ["cleanup", "variable"]
+  }
+}

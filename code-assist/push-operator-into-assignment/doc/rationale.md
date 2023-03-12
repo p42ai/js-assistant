@@ -1,0 +1,1 @@
+Moving an operator into the assignment is a more concise notation that emphasizes that a variable is modified with an update relative to its current value.

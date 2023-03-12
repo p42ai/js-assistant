@@ -1,0 +1,1 @@
+Unnecessary template expressions containing only a string or template literals can make templates hard to read. By inlining them, they become part of the template text, and you can read it without having to visual parse extra symbols.

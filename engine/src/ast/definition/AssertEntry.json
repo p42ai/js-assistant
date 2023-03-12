@@ -1,0 +1,17 @@
+{
+  "name": "AssertEntry",
+  "properties": [
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "AssertionKey",
+      "optional": false
+    },
+    {
+      "name": "value",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

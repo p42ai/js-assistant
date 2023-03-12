@@ -1,0 +1,19 @@
+{
+  "id": "simplify-binary-expression",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Replace binary expression with a more straightforward equivalent expression.",
+    "categories": ["cleanup", "logical-expression"],
+    "title": "Simplify binary expression"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.simplify-binary-expression"]
+  }
+}

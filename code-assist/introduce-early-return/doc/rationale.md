@@ -1,0 +1,2 @@
+If-else chains can lead to high indentation and require keeping track of many conditions, especially when there are several levels of nesting.
+Introducing early `return` statements (or `continue` statements inside loops) can reduce the nesting level and lower the cognitive load because you can entirely rule out already covered conditions.

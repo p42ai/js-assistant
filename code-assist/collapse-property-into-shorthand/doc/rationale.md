@@ -1,0 +1,1 @@
+Using the shorthand notation for object properties reduces the amount of visual elements that need to be recognized, making the code easier to read.

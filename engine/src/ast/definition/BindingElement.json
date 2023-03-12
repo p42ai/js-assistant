@@ -1,0 +1,29 @@
+{
+  "name": "BindingElement",
+  "properties": [
+    {
+      "name": "dotDotDotToken",
+      "kind": "token",
+      "type": "DotDotDotToken",
+      "optional": true
+    },
+    {
+      "name": "propertyName",
+      "kind": "node",
+      "type": "PropertyName",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "BindingName",
+      "optional": false
+    },
+    {
+      "name": "initializer",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Removing IIFEs with hoisted `var` or function declarations can lead to those declarations bleeding into the global scope or conflicting with similarly named variables from the surrounding scope.

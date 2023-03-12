@@ -1,0 +1,26 @@
+{
+  "id": "convert-math-pow-to-exponentiation",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2016",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Use the exponentiation operator `**` instead of `Math.pow()`.",
+    "references": [
+      {
+        "label": "Exponentiation Operator (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation"
+      }
+    ],
+    "categories": ["modernization"],
+    "title": "Convert Math.pow to exponentiation operator"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.math-pow-to-exponentiation"]
+  }
+}

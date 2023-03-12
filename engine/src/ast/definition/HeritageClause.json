@@ -1,0 +1,21 @@
+{
+  "name": "HeritageClause",
+  "properties": [
+    {
+      "name": "token",
+      "kind": "value",
+      "type": [
+        "ts.SyntaxKind.ExtendsKeyword",
+        "ts.SyntaxKind.ImplementsKeyword"
+      ],
+      "optional": false,
+      "modifiable": false
+    },
+    {
+      "name": "types",
+      "kind": "node-array",
+      "type": "ExpressionWithTypeArguments",
+      "optional": false
+    }
+  ]
+}

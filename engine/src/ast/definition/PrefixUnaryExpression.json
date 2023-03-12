@@ -1,0 +1,18 @@
+{
+  "name": "PrefixUnaryExpression",
+  "properties": [
+    {
+      "name": "operator",
+      "kind": "value",
+      "type": "ts.PrefixUnaryOperator",
+      "optional": false,
+      "modifiable": false
+    },
+    {
+      "name": "operand",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

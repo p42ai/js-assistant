@@ -1,0 +1,29 @@
+{
+  "id": "convert-loop-to-for-of",
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "isModernization": true,
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.loop-to-for-of"]
+  },
+  "documentation": {
+    "title": "Convert loop to for…of",
+    "shortDescription": "Replace regular `for` loops and `anArray.forEach` loops with `for…of` loops.",
+    "relatedCodeAssists": [
+      "convert-loop-to-for-each",
+      "convert-loop-to-for-with-index"
+    ],
+    "references": [
+      {
+        "label": "for..of (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+      }
+    ],
+    "categories": ["collection", "modernization"]
+  }
+}

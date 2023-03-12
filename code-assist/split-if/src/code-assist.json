@@ -1,0 +1,20 @@
+{
+  "id": "split-if",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.split-if",
+      "refactor.rewrite.split-if-and-duplicate-else"
+    ]
+  },
+  "documentation": {
+    "title": "Split if statement",
+    "shortDescription": "Split the condition of an if statement on `||` or `&&` when possible.",
+    "relatedCodeAssists": ["separate-condition-into-nested-if"],
+    "references": [],
+    "categories": ["branching"]
+  }
+}

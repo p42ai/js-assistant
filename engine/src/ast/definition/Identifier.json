@@ -1,0 +1,14 @@
+{
+  "name": "Identifier",
+  "generate": {
+    "factory": "syntheticUpdate"
+  },
+  "properties": [
+    {
+      "name": "text",
+      "kind": "value",
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

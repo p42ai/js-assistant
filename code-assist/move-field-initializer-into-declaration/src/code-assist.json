@@ -1,0 +1,16 @@
+{
+  "id": "move-field-initializer-into-declaration",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.move.field-initializer-into-declaration"]
+  },
+  "documentation": {
+    "shortDescription": "Moves the assignment of the initial field value into the field declaration.",
+    "relatedCodeAssists": ["move-field-initializer-into-constructor"],
+    "references": [],
+    "categories": ["class", "move", "variable"],
+    "title": "Move initialization into field declaration"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "convert-and-and-guard-to-if-statement",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Convert `condition && aFunction();` and similar expression statements into if statements.",
+    "relatedCodeAssists": [
+      "convert-conditional-expression-to-if-else",
+      "convert-to-optional-chaining"
+    ],
+    "references": [],
+    "categories": ["branching"],
+    "title": "Convert && to if statement"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.and-and-guard-to-if-statement"]
+  }
+}

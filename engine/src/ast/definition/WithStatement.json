@@ -1,0 +1,17 @@
+{
+  "name": "WithStatement",
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "statement",
+      "kind": "node",
+      "type": "Statement",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "move-nested-if",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.push-into-nested-if",
+      "refactor.move.pull-up-nested-if"
+    ]
+  },
+  "documentation": {
+    "title": "Move nested if",
+    "shortDescription": "Push down if statements into nested if statements and pull nested if statements up.",
+    "categories": ["branching", "move"],
+    "relatedCodeAssists": ["move-if-else-if-branches", "merge-nested-if"],
+    "references": []
+  }
+}

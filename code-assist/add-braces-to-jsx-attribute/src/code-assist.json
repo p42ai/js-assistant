@@ -1,0 +1,21 @@
+{
+  "id": "add-braces-to-jsx-attribute",
+  "canBeSafe": true,
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.braces.jsx-attribute"]
+  },
+  "documentation": {
+    "title": "Add {…} to JSX attribute",
+    "shortDescription": "Add `{…}` to JSX attribute string literal value.",
+    "relatedCodeAssists": [
+      "remove-braces-from-jsx-attribute",
+      "add-braces",
+      "add-braces-to-arrow-function",
+      "add-braces-to-case"
+    ],
+    "categories": ["syntax-conversion", "library-react"]
+  }
+}

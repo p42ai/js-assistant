@@ -1,0 +1,1 @@
+To extract a variable, you need to **select the full expression** that you would like to extract, and then invoke the refactor or extract context menu.

@@ -1,0 +1,28 @@
+{
+  "id": "use-nullish-coalescence-in-default-expression",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2020",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.use-nullish-coalescence-in-default-expression"
+    ]
+  },
+  "documentation": {
+    "title": "Use nullish coalescence in default expression",
+    "shortDescription": "Replace default value expression with nullish coalescing operator (`??`) expressions.",
+    "references": [
+      {
+        "label": "Nullish coalescing operator (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator"
+      }
+    ],
+    "categories": ["modernization", "variable"]
+  }
+}

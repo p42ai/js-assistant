@@ -1,0 +1,32 @@
+{
+  "id": "merge-into-preceding-destructuring-assignment",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.merge.into-preceding-destructuring-assignment"
+    ]
+  },
+  "documentation": {
+    "title": "Merge into preceding destructuring assignment",
+    "shortDescription": "Combine an object destructuring assignment with its preceding sibling.",
+    "relatedCodeAssists": [
+      "convert-to-destructuring-assignment",
+      "move-destructured-expression-into-separate-statement",
+      "push-into-initial-value-declaration"
+    ],
+    "references": [
+      {
+        "label": "Destructuring Assignment (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+      }
+    ],
+    "categories": ["destructuring", "variable"]
+  }
+}

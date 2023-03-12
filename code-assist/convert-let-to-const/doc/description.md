@@ -1,0 +1,2 @@
+### Why is this refactoring helpful?
+The `const` keyword prevents re-assigning the value of the variable. It makes it easier to reason about the code since re-assignment does not need to be considered.

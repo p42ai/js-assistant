@@ -1,0 +1,3 @@
+{
+  "requiredAugmentations": ["equality-check", "undefined-alias"]
+}

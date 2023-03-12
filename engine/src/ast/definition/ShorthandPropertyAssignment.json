@@ -1,0 +1,20 @@
+{
+  "name": "ShorthandPropertyAssignment",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    },
+    {
+      "name": "objectAssignmentInitializer",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Unused variables need to be read and understood, even though they have no impact on the program. Removing them makes programs easier to understand.

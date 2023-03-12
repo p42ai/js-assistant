@@ -1,0 +1,1 @@
+Setting `_.iteratee` affects how `_.filter` behaves. This can lead to differences between `_.filter` and the JavaScript `Array.filter`.

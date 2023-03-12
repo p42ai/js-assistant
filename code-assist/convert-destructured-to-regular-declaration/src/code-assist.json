@@ -1,0 +1,26 @@
+{
+  "id": "convert-destructured-to-regular-declaration",
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.destructured-to-regular-declaration"]
+  },
+  "documentation": {
+    "title": "Convert destructuring to regular variable declaration",
+    "shortDescription": "Convert all variables that are declared via destructuring into separate regular variable declarations.",
+    "relatedCodeAssists": [
+      "move-destructured-expression-into-separate-statement",
+      "convert-to-destructuring-assignment",
+      "merge-into-preceding-destructuring-assignment"
+    ],
+    "references": [
+      {
+        "label": "Destructuring Assignment (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+      }
+    ],
+    "categories": ["destructuring", "variable"]
+  }
+}

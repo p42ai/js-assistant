@@ -1,0 +1,1 @@
+Long numbers can be hard to read, especially when they are in binary or hexadecimal formats. Separators break up a long number into more readable segments.

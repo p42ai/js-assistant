@@ -1,0 +1,14 @@
+{
+  "name": "DefaultClause",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "statements",
+      "kind": "node-array",
+      "type": "Statement",
+      "optional": false
+    }
+  ]
+}

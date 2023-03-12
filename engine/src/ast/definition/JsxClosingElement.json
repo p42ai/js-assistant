@@ -1,0 +1,11 @@
+{
+  "name": "JsxClosingElement",
+  "properties": [
+    {
+      "name": "tagName",
+      "kind": "node",
+      "type": "JsxTagNameExpression",
+      "optional": false
+    }
+  ]
+}

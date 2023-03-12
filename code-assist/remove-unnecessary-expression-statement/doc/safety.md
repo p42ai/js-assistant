@@ -1,0 +1,1 @@
+In benchmarks, it is common to run expression statements without side effects in a loop. In tests for language tooling, it is common to have scenarios with side-effect-free expression statements. In those situations, you can disable the suggestions for the statement using `// p42:ignore-next-statement`.

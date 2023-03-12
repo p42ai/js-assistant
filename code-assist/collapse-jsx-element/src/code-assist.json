@@ -1,0 +1,19 @@
+{
+  "id": "collapse-jsx-element",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.collapse-expand.jsx-element"]
+  },
+  "documentation": {
+    "shortDescription": "Convert an empty JSX tag into a self-closing tag.",
+    "relatedCodeAssists": ["expand-self-closing-jsx-element"],
+    "categories": ["syntax-conversion", "library-react"],
+    "title": "Collapse JSX tag"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  }
+}

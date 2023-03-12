@@ -1,0 +1,16 @@
+{
+  "name": "@p42/app-vscode-shared",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf build node_modules tsconfig.tsbuildinfo **/*.generated.ts",
+    "build": "tsc --build",
+    "watch": "mkdir -p build && tsc --build --watch",
+    "lint": "eslint -c ../../../.eslintrc --no-error-on-unmatched-pattern src",
+    "test": "jest"
+  },
+  "dependencies": {
+    "minimatch": "5.0.1"
+  },
+  "devDependencies": {}
+}

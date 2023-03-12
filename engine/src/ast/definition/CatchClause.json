@@ -1,0 +1,17 @@
+{
+  "name": "CatchClause",
+  "properties": [
+    {
+      "name": "variableDeclaration",
+      "kind": "node",
+      "type": "VariableDeclaration",
+      "optional": true
+    },
+    {
+      "name": "block",
+      "kind": "node",
+      "type": "Block",
+      "optional": false
+    }
+  ]
+}

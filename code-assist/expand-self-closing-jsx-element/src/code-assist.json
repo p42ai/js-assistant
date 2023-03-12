@@ -1,0 +1,16 @@
+{
+  "id": "expand-self-closing-jsx-element",
+  "canBeSafe": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.toggle.collapse-expand.jsx-element"]
+  },
+  "documentation": {
+    "shortDescription": "Expand a self-closing JSX tag.",
+    "relatedCodeAssists": ["collapse-jsx-element"],
+    "categories": ["library-react", "syntax-conversion"],
+    "title": "Expand JSX tag"
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  }
+}

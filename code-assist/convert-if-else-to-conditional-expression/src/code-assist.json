@@ -1,0 +1,28 @@
+{
+  "id": "convert-if-else-to-conditional-expression",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.if-else-to-conditional-expression"]
+  },
+  "documentation": {
+    "title": "Convert if-else into conditional expression",
+    "shortDescription": "Convert an `if`-`else` return or assignment expression into a conditional expression.",
+    "relatedCodeAssists": [
+      "convert-conditional-expression-to-if-else",
+      "remove-unnecessary-else"
+    ],
+    "categories": ["branching"],
+    "references": [
+      {
+        "label": "Conditional (ternary) operator (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator"
+      }
+    ]
+  }
+}

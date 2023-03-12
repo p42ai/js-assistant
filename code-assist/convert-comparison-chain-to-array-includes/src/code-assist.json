@@ -1,0 +1,35 @@
+{
+  "id": "convert-comparison-chain-to-array-includes",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2016",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Replace `|| value === 'aString'` and `&& value !== 'aString'`  chains with `array.includes()`.",
+    "relatedCodeAssists": [
+      "convert-array-index-of-to-array-includes",
+      "extract-variable"
+    ],
+    "references": [
+      {
+        "label": "Array.prototype.includes() (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes"
+      }
+    ],
+    "categories": [
+      "modernization",
+      "logical-expression",
+      "collection",
+      "string"
+    ],
+    "title": "Convert string comparison chain to array.includes()"
+  },
+  "isModernization": true,
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.comparison-chain-to-array-includes"]
+  }
+}

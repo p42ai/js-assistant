@@ -1,0 +1,21 @@
+{
+  "name": "@p42/app-vscode-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf build node_modules tsconfig.tsbuildinfo **/*.generated.ts",
+    "build-production": "yarn build-node-production; yarn build-browser-production",
+    "build-node-production": "webpack --mode production --config webpack.node.config",
+    "build-node": "webpack --mode development --config webpack.node.config",
+    "watch-node": "webpack --mode development --config webpack.node.config --watch",
+    "build-browser-production": "webpack --mode production --config webpack.browser.config",
+    "build-browser": "webpack --mode development --config webpack.browser.config",
+    "watch-browser": "webpack --mode development --config webpack.browser.config --watch",
+    "lint": "eslint -c ../../../.eslintrc --no-error-on-unmatched-pattern src"
+  },
+  "devDependencies": {
+    "vscode-languageserver": "^7.0.0",
+    "vscode-languageserver-textdocument": "^1.0.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ArrayBindingPattern",
+  "properties": [
+    {
+      "name": "elements",
+      "kind": "node-array",
+      "type": "ArrayBindingElement",
+      "optional": false
+    }
+  ]
+}

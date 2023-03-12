@@ -1,0 +1,29 @@
+{
+  "id": "extract-variable",
+  "documentation": {
+    "shortDescription": "Extract one or more occurrences of an expression into a `const` variable.",
+    "relatedCodeAssists": [
+      "inline-variable",
+      "extract-substring-to-variable",
+      "extract-jsx-element",
+      "replace-expression-with-existing-variable",
+      "select-expression-occurrences"
+    ],
+    "categories": [
+      "core",
+      "variable"
+    ],
+    "title": "Extract variable"
+  },
+  "platform": {
+    "languages": [
+      "JAVASCRIPT",
+      "TYPESCRIPT"
+    ]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.extract.variable"
+    ]
+  }
+}

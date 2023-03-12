@@ -1,0 +1,19 @@
+{
+  "id": "move-jsx-attribute",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.jsx-attribute",
+      "refactor.move.down.jsx-attribute"
+    ]
+  },
+  "documentation": {
+    "title": "Move JSX attribute",
+    "shortDescription": "Move a JSX attribute up or down.",
+    "categories": ["library-react", "move"],
+    "relatedCodeAssists": [],
+    "references": []
+  }
+}

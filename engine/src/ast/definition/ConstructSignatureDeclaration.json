@@ -1,0 +1,27 @@
+{
+  "name": "ConstructSignatureDeclaration",
+  "syntaxKind": "ConstructSignature",
+  "factoryMethodName": "ConstructSignature",
+  "properties": [
+    {
+      "name": "typeParameters",
+      "kind": "node-array",
+      "type": "TypeParameterDeclaration",
+      "optional": true,
+      "factoryUpdateRecast": true
+    },
+    {
+      "name": "parameters",
+      "kind": "node-array",
+      "type": "ParameterDeclaration",
+      "optional": false,
+      "factoryUpdateRecast": true
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "JsxElement",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "openingElement",
+      "kind": "node",
+      "type": "JsxOpeningElement",
+      "optional": false
+    },
+    {
+      "name": "children",
+      "kind": "node-array",
+      "type": "JsxChild",
+      "optional": false
+    },
+    {
+      "name": "closingElement",
+      "kind": "node",
+      "type": "JsxClosingElement",
+      "optional": false
+    }
+  ]
+}

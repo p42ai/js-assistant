@@ -1,0 +1,17 @@
+{
+  "id": "replace-expression-with-existing-variable",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.replace.expression-with-existing-variable"
+    ]
+  },
+  "documentation": {
+    "title": "Replace with existing variable",
+    "shortDescription": "Replace an expression with an existing variable.",
+    "relatedCodeAssists": ["extract-variable", "inline-variable"],
+    "categories": ["variable"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ArrayTypeNode",
+  "syntaxKind": "ArrayType",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "elementType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "BinaryExpression",
+  "properties": [
+    {
+      "name": "left",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "operatorToken",
+      "parameterName": "operator",
+      "kind": "token",
+      "type": ["BinaryOperator", "BinaryOperatorToken"],
+      "optional": false
+    },
+    {
+      "name": "right",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

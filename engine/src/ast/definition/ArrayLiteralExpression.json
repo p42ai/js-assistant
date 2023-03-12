@@ -1,0 +1,15 @@
+{
+  "name": "ArrayLiteralExpression",
+  "generate": {
+    "factory": "custom",
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "elements",
+      "kind": "node-array",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

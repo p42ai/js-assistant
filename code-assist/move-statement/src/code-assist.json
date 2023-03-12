@@ -1,0 +1,19 @@
+{
+  "id": "move-statement",
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.move.up.statement",
+      "refactor.move.down.statement"
+    ]
+  },
+  "documentation": {
+    "title": "Move statement",
+    "shortDescription": "Move a statement up or down.",
+    "categories": ["move"],
+    "relatedCodeAssists": ["move-class-member", "move-switch-case"],
+    "references": []
+  }
+}

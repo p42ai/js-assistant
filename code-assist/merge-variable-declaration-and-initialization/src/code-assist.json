@@ -1,0 +1,26 @@
+{
+  "id": "merge-variable-declaration-and-initialization",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": [
+      "refactor.rewrite.merge.variable-declaration-and-initialization"
+    ]
+  },
+  "documentation": {
+    "shortDescription": "Convert the initial assignment of a variable into its declaration initializer.",
+    "relatedCodeAssists": [
+      "split-variable-declaration-and-initialization",
+      "split-variable-declaration",
+      "convert-let-to-const"
+    ],
+    "references": [],
+    "categories": ["variable", "syntax-conversion"],
+    "title": "Merge variable declaration and initialization"
+  }
+}

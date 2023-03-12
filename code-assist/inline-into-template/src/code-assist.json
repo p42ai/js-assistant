@@ -1,0 +1,32 @@
+{
+  "id": "inline-into-template",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Inline a string or a basic template literal into an outer template literal.",
+    "relatedCodeAssists": [
+      "extract-substring-to-variable",
+      "inline-variable",
+      "use-template-literal",
+      "convert-template-literal-to-string",
+      "remove-unnecessary-template"
+    ],
+    "references": [
+      {
+        "label": "Template Literal (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+      }
+    ],
+    "categories": ["string"],
+    "title": "Inline into template"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.inline.into-template"]
+  }
+}

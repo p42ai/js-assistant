@@ -1,0 +1,2 @@
+Shorthand property names in object initializers are an ES2015 feature. They are supported on all modern browsers, but for older browsers transpilation might be required 
+([browser support](https://caniuse.com/mdn-javascript_operators_object_initializer_shorthand_property_names)).

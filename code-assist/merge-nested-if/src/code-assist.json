@@ -1,0 +1,19 @@
+{
+  "id": "merge-nested-if",
+  "canBeSafe": true,
+  "suggestions": {
+    "available": true
+  },
+  "platform": {
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.merge.nested-if"]
+  },
+  "documentation": {
+    "title": "Merge nested if-statements",
+    "shortDescription": "Combine two nested `if` statements without additional operations into a single `if`-statement, using `&&` to combine the conditions.",
+    "relatedCodeAssists": ["merge-nested-else-if", "move-nested-if"],
+    "categories": ["branching"]
+  }
+}

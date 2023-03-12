@@ -1,0 +1,26 @@
+{
+  "id": "convert-typescript-private-to-es-private",
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "off"
+  },
+  "platform": {
+    "ecmaScript": "ES2022",
+    "languages": ["TYPESCRIPT"]
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.rewrite.typescript-private-to-es-private"]
+  },
+  "documentation": {
+    "title": "Convert TypeScript private to #-private",
+    "shortDescription": "Replace TypeScript private properties and methods with ECMAScript #-private.",
+    "categories": ["class", "typescript"],
+    "relatedCodeAssists": ["convert-es-private-to-typescript-private"],
+    "references": [
+      {
+        "label": "ECMAScript private class fields",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields"
+      }
+    ]
+  }
+}

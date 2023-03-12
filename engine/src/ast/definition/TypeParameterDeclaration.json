@@ -1,0 +1,25 @@
+{
+  "name": "TypeParameterDeclaration",
+  "syntaxKind": "TypeParameter",
+  "properties": [
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": false
+    },
+    {
+      "name": "constraint",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "default",
+      "parameterName": "defaultType",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Lodash `_.each` and `_.forEach` iterate over array-like collections (i.e., non-arrays with a `.length` property) as if they are arrays. This can lead to differences between `_.forEach` and the JavaScript `Array.forEach`.

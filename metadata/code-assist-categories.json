@@ -1,0 +1,83 @@
+[
+  {
+    "id": "core",
+    "title": "Core Refactorings",
+    "description": "Visual Study Code already contains basic refactorings such as Rename and Extract Function. The JS Assistant adds additional refactorings or extended functionality such as safety checking:"
+  },
+  {
+    "id": "logical-expression",
+    "title": "Code Assists for Logical Expressions",
+    "description": "Boolean logic can be challenging to read, especially as expressions get more complex. The JS Assistant provides several refactorings that can help you simplify and tease apart logical expressions to make them easier to understand:"
+  },
+  {
+    "id": "branching",
+    "title": "Code Assists for Branching Statements",
+    "description": "Branching statements such as if-else and switch are central elements in many programs. Restructuring them can increase the readability of your programs, often in combination with refactoring their conditions:"
+  },
+  {
+    "id": "collection",
+    "title": "Code Assists for Arrays and Loops",
+    "description": "JavaScript has several ways of defining loops and many array methods that work on the whole array. The JS Assistant provides several code actions for converting between different types of for loops and for converting to more idiomatic array methods such as array.includes()."
+  },
+  {
+    "id": "function",
+    "title": "Code Assists for Functions and Methods",
+    "description": "Functions and methods are essential building blocks of any non-trivial program. The following code actions make it easier to work with functions, methods, and their parameters:"
+  },
+  {
+    "id": "class",
+    "title": "Code Assists for Classes"
+  },
+  {
+    "id": "string",
+    "title": "Code Assists for Strings and Template Literals",
+    "description": "Text manipulation has become more powerful with the introduction of template literals in JavaScript. The JS Assistant offers several code actions to help you work with text, be it strings or template literals:"
+  },
+  {
+    "id": "variable",
+    "title": "Code Assists for Variables"
+  },
+  {
+    "id": "destructuring",
+    "title": "Code Assists for Object and Array Destructuring"
+  },
+  {
+    "id": "syntax-conversion",
+    "title": "Code Assists for Syntax Conversion",
+    "description": "It is often annoying to make small syntactical changes by editing text. Often more than one position needs to be edited, and the code is broken during the edit, leading to incorrect errors and auto-completions that get in the way. You can execute the following syntax conversions with code assists:"
+  },
+  {
+    "id": "modernization",
+    "title": "JavaScript Modernizations",
+    "description": "The Javascript ecosystem is progressing rapidly. However, it is hard to keep codebases up-to-date with the newer JavaScript features, and codemods are not always an option due to their significant churn and potential for breakages. The JS Assistant supports both codemod-like mass code refactoring and more opportunistic code modernization for the following upgrades:"
+  },
+  {
+    "id": "typescript",
+    "title": "Code Assists for TypeScript"
+  },
+  {
+    "id": "library-react",
+    "title": "Code Assists for React",
+    "description": "In React, components often contain JSX, a syntax extension for JavaScript. The JS Assistant provides code assists that make working with JSX and React easier:"
+  },
+  {
+    "id": "library-lodash",
+    "title": "Lodash Modernizations",
+    "description": "With the introduction of various collection helpers and new syntax in ES6 and more recent JavaScript versions, some Lodash functions have become somewhat redundant."
+  },
+  { "id": "move", "title": "Code Assists for Moving Semantic Blocks" },
+  {
+    "id": "cleanup",
+    "title": "Code Cleanups",
+    "description": "Code cleanups remove unnecessary code. Such code can result from code churn, e.g., by applying other refactorings, adding new features, or fixing bugs. The JS Assistant shows hints and automates the cleanup for the following situations:"
+  },
+  {
+    "id": "ai",
+    "title": "AI Actions",
+    "description": "Actions that use the P42 Cloud AI (which needs to be enabled in the settings)."
+  },
+  {
+    "id": "action",
+    "title": "Other Actions"
+  }
+]

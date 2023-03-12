@@ -1,0 +1,1 @@
+With the introduction of arrow functions in ES2015, you can express `_.noop` with similarly short standard JavaScript. This refactoring reduces the dependency on Lodash.

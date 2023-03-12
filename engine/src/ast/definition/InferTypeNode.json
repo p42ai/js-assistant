@@ -1,0 +1,12 @@
+{
+  "name": "InferTypeNode",
+  "syntaxKind": "InferType",
+  "properties": [
+    {
+      "name": "typeParameter",
+      "kind": "node",
+      "type": "TypeParameterDeclaration",
+      "optional": false
+    }
+  ]
+}

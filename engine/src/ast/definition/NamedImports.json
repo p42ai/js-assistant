@@ -1,0 +1,11 @@
+{
+  "name": "NamedImports",
+  "properties": [
+    {
+      "name": "elements",
+      "kind": "node-array",
+      "type": "ImportSpecifier",
+      "optional": false
+    }
+  ]
+}

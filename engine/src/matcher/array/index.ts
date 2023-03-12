@@ -1,0 +1,1 @@
+export { hasLength } from "./hasLength";

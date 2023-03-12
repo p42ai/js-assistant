@@ -1,0 +1,14 @@
+{
+  "name": "BigIntLiteral",
+  "generate": {
+    "factory": "custom"
+  },
+  "properties": [
+    {
+      "name": "text",
+      "kind": "value",
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

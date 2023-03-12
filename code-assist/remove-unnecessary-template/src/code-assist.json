@@ -1,0 +1,32 @@
+{
+  "id": "remove-unnecessary-template",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true,
+    "defaultLevel": "hint"
+  },
+  "documentation": {
+    "shortDescription": "Simplify a template literal with a single inner expression and no prefix or suffix.",
+    "relatedCodeAssists": [
+      "inline-into-template",
+      "use-template-literal",
+      "convert-string-to-template-literal",
+      "convert-template-literal-to-string"
+    ],
+    "references": [
+      {
+        "label": "Template Literal (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+      }
+    ],
+    "categories": ["cleanup", "string"],
+    "title": "Remove unnecessary template literal"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.remove.unnecessary-template"]
+  }
+}

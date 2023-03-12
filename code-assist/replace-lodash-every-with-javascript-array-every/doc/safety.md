@@ -1,0 +1,1 @@
+Setting `_.iteratee` affects how `_.every` behaves. This can lead to differences between `_.every` and the JavaScript `Array.every`.

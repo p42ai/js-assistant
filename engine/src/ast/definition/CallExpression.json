@@ -1,0 +1,37 @@
+{
+  "name": "CallExpression",
+  "generate": {
+    "factory": "none"
+  },
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "typeArguments",
+      "kind": "node-array",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "questionDotToken",
+      "kind": "token",
+      "type": "QuestionDotToken",
+      "optional": true,
+      "modifiable": false,
+      "copyable": false,
+      "optionalChaining": true
+    },
+    {
+      "name": "arguments",
+      "parameterName": "argumentsArray",
+      "kind": "node-array",
+      "type": "Expression",
+      "optional": true,
+      "optionalForUpdate": false
+    }
+  ]
+}

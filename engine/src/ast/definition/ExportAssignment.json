@@ -1,0 +1,24 @@
+{
+  "name": "ExportAssignment",
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "Modifier",
+      "optional": true
+    },
+    {
+      "name": "isExportEquals",
+      "kind": "value",
+      "type": "boolean",
+      "optional": true,
+      "modifiable": false
+    },
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    }
+  ]
+}

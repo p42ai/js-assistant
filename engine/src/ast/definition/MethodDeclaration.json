@@ -1,0 +1,56 @@
+{
+  "name": "MethodDeclaration",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "kind": "node-array",
+      "type": "ModifierLike",
+      "optional": true
+    },
+    {
+      "name": "asteriskToken",
+      "kind": "token",
+      "type": "AsteriskToken",
+      "optional": true
+    },
+    {
+      "name": "name",
+      "kind": "node",
+      "type": "PropertyName",
+      "optional": false
+    },
+    {
+      "name": "questionToken",
+      "kind": "token",
+      "type": "QuestionToken",
+      "optional": true
+    },
+    {
+      "name": "typeParameters",
+      "kind": "node-array",
+      "type": "TypeParameterDeclaration",
+      "optional": true
+    },
+    {
+      "name": "parameters",
+      "kind": "node-array",
+      "type": "ParameterDeclaration",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "kind": "node",
+      "type": "TypeNode",
+      "optional": true
+    },
+    {
+      "name": "body",
+      "kind": "node",
+      "type": "Block",
+      "optional": true
+    }
+  ]
+}

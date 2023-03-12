@@ -1,0 +1,11 @@
+{
+  "name": "ContinueStatement",
+  "properties": [
+    {
+      "name": "label",
+      "kind": "node",
+      "type": "Identifier",
+      "optional": true
+    }
+  ]
+}

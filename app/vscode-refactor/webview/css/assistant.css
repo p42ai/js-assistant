@@ -1,0 +1,113 @@
+body {
+  padding-top: 8px;
+}
+
+.file-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filename {
+  font-size: 120%;
+  margin-bottom: 4px;
+}
+
+.not-supported-message {
+  color: var(--vscode-disabledForeground);
+  padding: var(--container-padding);
+}
+
+.no-suggestions-message {
+  color: var(--vscode-disabledForeground);
+  padding: var(--container-padding);
+}
+
+.feedback {
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.p42 {
+  margin-top: 20px;
+}
+
+.information-element {
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.more-suggestions-indicator {
+  color: var(--vscode-disabledForeground);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.information-element.collapsed {
+  background-color: var(--vscode-sideBar-background);
+}
+
+.information-element.collapsed:hover {
+  background-color: var(--vscode-editor-background);
+}
+
+.information-element.expanded {
+  background-color: var(--vscode-editor-background);
+}
+
+.chat-input {
+  border: 1px solid var(--vscode-input-border);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
+
+  background-color: var(--vscode-sideBar-background);
+}
+
+.chat-input > textarea {
+  background-color: var(--vscode-sideBar-background);
+
+  font-style: italic;
+  resize: none;
+}
+
+.chat-input > textarea:focus {
+  outline: none;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message.ai {
+  padding-left: 10px;
+}
+
+.chat-message.user {
+  font-style: italic;
+}
+
+.chat-message.answering:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 1500ms infinite;
+  animation: ellipsis steps(4, end) 1500ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 15px;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 15px;
+  }
+}

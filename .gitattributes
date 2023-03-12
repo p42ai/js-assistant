@@ -1,0 +1,2 @@
+*.crlf.js.spec text eol=crlf
+*.crlf.vue.spec text eol=crlf

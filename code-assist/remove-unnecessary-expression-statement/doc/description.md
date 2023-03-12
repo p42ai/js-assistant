@@ -1,0 +1,2 @@
+### Why is this refactoring useful?
+An expression statement without side effects does not affect the behavior of the program. Removing it reduces the amount of code that needs to be understood and removes unnecessary computation.

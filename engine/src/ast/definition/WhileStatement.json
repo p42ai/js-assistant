@@ -1,0 +1,20 @@
+{
+  "name": "WhileStatement",
+  "generate": {
+    "matcher": true
+  },
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": false
+    },
+    {
+      "name": "statement",
+      "kind": "node",
+      "type": "Statement",
+      "optional": false
+    }
+  ]
+}

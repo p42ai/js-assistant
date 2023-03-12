@@ -1,0 +1,11 @@
+{
+  "name": "ReturnStatement",
+  "properties": [
+    {
+      "name": "expression",
+      "kind": "node",
+      "type": "Expression",
+      "optional": true
+    }
+  ]
+}

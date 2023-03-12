@@ -1,0 +1,26 @@
+{
+  "id": "push-parameter-into-iife",
+  "canBeSafe": true,
+  "platform": {
+    "ecmaScript": "ES2015",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"]
+  },
+  "suggestions": {
+    "available": true
+  },
+  "documentation": {
+    "shortDescription": "Push a parameter of an immediately-invoked function expressions (IIFEs) or an immediately-invoked arrow functions (IIAFs) into the function body.",
+    "relatedCodeAssists": ["remove-iife"],
+    "references": [
+      {
+        "label": "IIFE (MDN)",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+      }
+    ],
+    "categories": ["function", "variable"],
+    "title": "Push parameter into IIFE/IIAF"
+  },
+  "visualStudioCode": {
+    "codeActionKinds": ["refactor.push-parameter-into-iife"]
+  }
+}
