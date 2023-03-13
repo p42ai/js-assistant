@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.0 - 2023-03-12
+
+JS Assistant released as open source. The extension is now available under the MIT license.
+
+https://github.com/p42ai/js-assistant
+
 ## 2.10.0 - 2022-12-23
 
 ### Added
