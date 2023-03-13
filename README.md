@@ -5,6 +5,7 @@ The P42 JS Assistant adds **over 120 code actions** and a **suggestion panel** f
 > *[Give it a try, it's awesome!](https://twitter.com/Idered/status/1448262441335468032)*&nbsp;&nbsp;— [Kasper Mikiewicz](https://twitter.com/Idered)
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/p42ai/js-assistant/main/media/vscode/vscode-header.gif" alt="P42 JS Assistant" />
   <p align="center">
     <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
     ·

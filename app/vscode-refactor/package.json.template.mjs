@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-const version = "3.0.0";
+const version = "3.0.1";
 const name = "JS Refactoring Assistant";
 
 const whenResourceExtension =
