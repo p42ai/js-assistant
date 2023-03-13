@@ -458,14 +458,6 @@ ${keyboardShortcuts
             "media": {
               "markdown": "media/configuration.md"
             }
-          },
-          {
-            "id": "next-steps",
-            "title": "Next steps",
-            "description": "Learn more about the JS Assistant functionality.",
-            "media": {
-              "markdown": "media/next-steps.md"
-            }
           }
         ]
       }

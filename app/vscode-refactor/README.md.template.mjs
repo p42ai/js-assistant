@@ -20,6 +20,7 @@ export const generateAppVscodeReadmeMd = ({
 
 <div align="center">
   <p align="center">
+    <img src="https://raw.githubusercontent.com/p42ai/js-assistant/main/media/vscode/vscode-header.gif" alt="P42 JS Assistant" />
     <a href="https://github.com/p42ai/refactor-vscode/issues">Report Bug</a>
     ·
     <a href="https://github.com/p42ai/refactor-vscode/issues">Request Feature</a>
